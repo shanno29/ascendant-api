@@ -17,7 +17,7 @@ app.use('/public', express.static('public'));
 app.use('/coverage', express.static('coverage/lcov-report/index'));
 app.use('/api', api);
 
-app.listen(3000);
+app.listen(3001);
 
 module.exports = app;
 
