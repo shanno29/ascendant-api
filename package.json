@@ -1,10 +1,18 @@
 {
-  "name": "bookstore",
+  "name": "vibetribe-api",
   "version": "1.0.0",
-  "description": "A bookstore API",
+  "description": "VibeTribe API",
   "main": "server.js",
-  "author": "Sam",
-  "license": "ISC",
+  "author": "Matthew Shannon",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov --token=:66352b98-18ca-4457-8214-bd7fae94a717"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/shanno29/vibetribe-api"
+  },
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
     "config": "^1.20.1",
@@ -16,13 +24,10 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^2.4.5",
-	"mocha-logger": "latest",
+    "mocha-logger": "latest",
     "supertest": "^2.0.1"
-  },
-  "scripts": {
-    "start": "SET NODE_ENV=dev && node index.js",
-    "test": "istanbul --include-all-sources cover ./node_modules/mocha/bin/_mocha -- -R spec"
   }
 }
