@@ -3,6 +3,8 @@ node_js:
   - "7"
 before_script:
   - npm install
+services: 
+  - mongodb
 script:
   - node index.js &
   - npm test
