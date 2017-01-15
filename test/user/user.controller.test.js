@@ -9,39 +9,39 @@ describe('User Controller', () =>{
         mongoose.Promise = global.Promise;
         mongoose.connect(config.db, done);
     });
-    // it('Create User No ID', done =>{
-    //     controller
-    //         .make({
-    //             email: 'black@email.com',
-    //             password: 'test',
-    //             username: 'black',
-    //             fullname: 'black color',
-    //             city: 'milwaukee',
-    //             state: 'wi',
-    //             age: '23',
-    //             gender: 'male',
-    //         })
-    //         .then(response =>{
-    //             response.email.should.equal('black@email.com');
-    //             response.username.should.equal('black');
-    //             response.fullname.should.equal('black color');
-    //             response.city.should.equal('milwaukee');
-    //             response.state.should.equal('wi');
-    //             response.age.should.equal(23);
-    //             response.gender.should.equal('male');
-    //             return controller.remove(response._id);
-    //         })
-    //         .then(response => {
-    //             response.email.should.equal('black@email.com');
-    //             response.username.should.equal('black');
-    //             response.fullname.should.equal('black color');
-    //             response.city.should.equal('milwaukee');
-    //             response.state.should.equal('wi');
-    //             response.age.should.equal(23);
-    //             response.gender.should.equal('male');
-    //             done();
-    //         })
-    // });
+    it('Create User No ID', done =>{
+        controller
+            .make({
+                email: 'black@email.com',
+                password: 'test',
+                username: 'black',
+                fullname: 'black color',
+                city: 'milwaukee',
+                state: 'wi',
+                age: '23',
+                gender: 'male',
+            })
+            .then(response =>{
+                response.email.should.equal('black@email.com');
+                response.username.should.equal('black');
+                response.fullname.should.equal('black color');
+                response.city.should.equal('milwaukee');
+                response.state.should.equal('wi');
+                response.age.should.equal(23);
+                response.gender.should.equal('male');
+                return controller.remove(response._id);
+            })
+            .then(response => {
+                response.email.should.equal('black@email.com');
+                response.username.should.equal('black');
+                response.fullname.should.equal('black color');
+                response.city.should.equal('milwaukee');
+                response.state.should.equal('wi');
+                response.age.should.equal(23);
+                response.gender.should.equal('male');
+                done();
+            })
+    });
 
     it('Create User', done =>{
         controller.make({
