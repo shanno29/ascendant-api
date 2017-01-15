@@ -1,1 +1,3453 @@
-{"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.controller.js","s":{"1":1,"2":1,"3":9,"4":9,"5":4,"6":5,"7":4,"8":2,"9":5},"b":{"1":[4,5]},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":43}},"2":{"start":{"line":3,"column":0},"end":{"line":26,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":11,"column":15}},"4":{"start":{"line":9,"column":16},"end":{"line":9,"column":86}},"5":{"start":{"line":9,"column":38},"end":{"line":9,"column":86}},"6":{"start":{"line":10,"column":16},"end":{"line":10,"column":42}},"7":{"start":{"line":15,"column":8},"end":{"line":15,"column":34}},"8":{"start":{"line":19,"column":8},"end":{"line":19,"column":30}},"9":{"start":{"line":23,"column":8},"end":{"line":23,"column":43}}},"branchMap":{"1":{"line":9,"type":"if","locations":[{"start":{"line":9,"column":16},"end":{"line":9,"column":16}},{"start":{"line":9,"column":16},"end":{"line":9,"column":16}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":5,"8":1,"9":5,"10":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":24,"loc":{"start":{"line":24,"column":23},"end":{"line":24,"column":38}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":53}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":41}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":37}},"4":{"start":{"line":4,"column":0},"end":{"line":4,"column":31}},"5":{"start":{"line":6,"column":0},"end":{"line":22,"column":3}},"6":{"start":{"line":24,"column":0},"end":{"line":27,"column":3}},"7":{"start":{"line":25,"column":4},"end":{"line":25,"column":63}},"8":{"start":{"line":25,"column":26},"end":{"line":25,"column":63}},"9":{"start":{"line":26,"column":4},"end":{"line":26,"column":11}},"10":{"start":{"line":29,"column":0},"end":{"line":29,"column":57}}},"branchMap":{"1":{"line":25,"type":"if","locations":[{"start":{"line":25,"column":4},"end":{"line":25,"column":4}},{"start":{"line":25,"column":4},"end":{"line":25,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\config.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\config.js","s":{"1":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":40,"column":2}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.controller.js","s":{"1":1,"2":1,"3":5,"4":4,"5":4,"6":2,"7":5},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":45}},"2":{"start":{"line":3,"column":0},"end":{"line":25,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":6,"column":34}},"4":{"start":{"line":10,"column":8},"end":{"line":10,"column":52}},"5":{"start":{"line":14,"column":8},"end":{"line":14,"column":77}},"6":{"start":{"line":18,"column":8},"end":{"line":18,"column":68}},"7":{"start":{"line":22,"column":8},"end":{"line":22,"column":43}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":5,"8":1,"9":5,"10":5,"11":1,"12":17,"13":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":24,"loc":{"start":{"line":24,"column":24},"end":{"line":24,"column":39}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":47}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":41}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":37}},"4":{"start":{"line":4,"column":0},"end":{"line":4,"column":31}},"5":{"start":{"line":6,"column":0},"end":{"line":21,"column":3}},"6":{"start":{"line":24,"column":0},"end":{"line":28,"column":3}},"7":{"start":{"line":25,"column":4},"end":{"line":25,"column":63}},"8":{"start":{"line":25,"column":26},"end":{"line":25,"column":63}},"9":{"start":{"line":26,"column":4},"end":{"line":26,"column":30}},"10":{"start":{"line":27,"column":4},"end":{"line":27,"column":11}},"11":{"start":{"line":30,"column":0},"end":{"line":32,"column":3}},"12":{"start":{"line":31,"column":4},"end":{"line":31,"column":46}},"13":{"start":{"line":34,"column":0},"end":{"line":34,"column":60}}},"branchMap":{"1":{"line":25,"type":"if","locations":[{"start":{"line":25,"column":4},"end":{"line":25,"column":4}},{"start":{"line":25,"column":4},"end":{"line":25,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\util\\relative.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\util\\relative.js","s":{"1":1,"2":1,"3":105},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":33}},"2":{"start":{"line":3,"column":0},"end":{"line":5,"column":2}},"3":{"start":{"line":4,"column":4},"end":{"line":4,"column":51}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.controller.js","s":{"1":1,"2":1,"3":9,"4":9,"5":4,"6":5,"7":4,"8":4,"9":2,"10":5},"b":{"1":[4,5]},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":45}},"2":{"start":{"line":3,"column":0},"end":{"line":30,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":11,"column":15}},"4":{"start":{"line":9,"column":16},"end":{"line":9,"column":83}},"5":{"start":{"line":9,"column":38},"end":{"line":9,"column":83}},"6":{"start":{"line":10,"column":16},"end":{"line":10,"column":42}},"7":{"start":{"line":15,"column":8},"end":{"line":15,"column":53}},"8":{"start":{"line":19,"column":8},"end":{"line":19,"column":79}},"9":{"start":{"line":23,"column":8},"end":{"line":23,"column":69}},"10":{"start":{"line":27,"column":8},"end":{"line":27,"column":43}}},"branchMap":{"1":{"line":9,"type":"if","locations":[{"start":{"line":9,"column":16},"end":{"line":9,"column":16}},{"start":{"line":9,"column":16},"end":{"line":9,"column":16}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":5,"6":1,"7":5,"8":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":11,"loc":{"start":{"line":11,"column":24},"end":{"line":11,"column":39}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":37}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":31}},"3":{"start":{"line":4,"column":0},"end":{"line":9,"column":3}},"4":{"start":{"line":11,"column":0},"end":{"line":14,"column":3}},"5":{"start":{"line":12,"column":4},"end":{"line":12,"column":63}},"6":{"start":{"line":12,"column":26},"end":{"line":12,"column":63}},"7":{"start":{"line":13,"column":4},"end":{"line":13,"column":11}},"8":{"start":{"line":16,"column":0},"end":{"line":16,"column":60}}},"branchMap":{"1":{"line":12,"type":"if","locations":[{"start":{"line":12,"column":4},"end":{"line":12,"column":4}},{"start":{"line":12,"column":4},"end":{"line":12,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.controller.js","s":{"1":1,"2":1,"3":9,"4":9,"5":4,"6":5,"7":4,"8":4,"9":2,"10":5},"b":{"1":[4,5]},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":47}},"2":{"start":{"line":3,"column":0},"end":{"line":30,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":11,"column":15}},"4":{"start":{"line":9,"column":16},"end":{"line":9,"column":84}},"5":{"start":{"line":9,"column":38},"end":{"line":9,"column":84}},"6":{"start":{"line":10,"column":16},"end":{"line":10,"column":42}},"7":{"start":{"line":15,"column":8},"end":{"line":15,"column":53}},"8":{"start":{"line":19,"column":8},"end":{"line":19,"column":79}},"9":{"start":{"line":23,"column":8},"end":{"line":23,"column":69}},"10":{"start":{"line":27,"column":8},"end":{"line":27,"column":43}}},"branchMap":{"1":{"line":9,"type":"if","locations":[{"start":{"line":9,"column":16},"end":{"line":9,"column":16}},{"start":{"line":9,"column":16},"end":{"line":9,"column":16}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":5,"6":1,"7":5,"8":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":11,"loc":{"start":{"line":11,"column":25},"end":{"line":11,"column":40}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":37}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":31}},"3":{"start":{"line":4,"column":0},"end":{"line":9,"column":3}},"4":{"start":{"line":11,"column":0},"end":{"line":14,"column":3}},"5":{"start":{"line":12,"column":4},"end":{"line":12,"column":63}},"6":{"start":{"line":12,"column":26},"end":{"line":12,"column":63}},"7":{"start":{"line":13,"column":4},"end":{"line":13,"column":11}},"8":{"start":{"line":16,"column":0},"end":{"line":16,"column":63}}},"branchMap":{"1":{"line":12,"type":"if","locations":[{"start":{"line":12,"column":4},"end":{"line":12,"column":4}},{"start":{"line":12,"column":4},"end":{"line":12,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.controller.js","s":{"1":1,"2":1,"3":9,"4":9,"5":4,"6":5,"7":4,"8":4,"9":2,"10":5},"b":{"1":[4,5]},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":43}},"2":{"start":{"line":3,"column":0},"end":{"line":30,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":11,"column":15}},"4":{"start":{"line":9,"column":16},"end":{"line":10,"column":47}},"5":{"start":{"line":9,"column":38},"end":{"line":9,"column":82}},"6":{"start":{"line":10,"column":21},"end":{"line":10,"column":47}},"7":{"start":{"line":15,"column":8},"end":{"line":15,"column":53}},"8":{"start":{"line":19,"column":8},"end":{"line":19,"column":79}},"9":{"start":{"line":23,"column":8},"end":{"line":23,"column":69}},"10":{"start":{"line":27,"column":8},"end":{"line":27,"column":43}}},"branchMap":{"1":{"line":9,"type":"if","locations":[{"start":{"line":9,"column":16},"end":{"line":9,"column":16}},{"start":{"line":9,"column":16},"end":{"line":9,"column":16}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":5,"7":1,"8":5,"9":5,"10":5,"11":5,"12":1,"13":24,"14":24,"15":24,"16":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":23,"loc":{"start":{"line":23,"column":23},"end":{"line":23,"column":38}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":47}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":37}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":31}},"4":{"start":{"line":5,"column":0},"end":{"line":20,"column":3}},"5":{"start":{"line":23,"column":0},"end":{"line":28,"column":3}},"6":{"start":{"line":24,"column":4},"end":{"line":24,"column":63}},"7":{"start":{"line":24,"column":26},"end":{"line":24,"column":63}},"8":{"start":{"line":25,"column":4},"end":{"line":25,"column":30}},"9":{"start":{"line":26,"column":4},"end":{"line":26,"column":82}},"10":{"start":{"line":26,"column":44},"end":{"line":26,"column":82}},"11":{"start":{"line":27,"column":4},"end":{"line":27,"column":11}},"12":{"start":{"line":30,"column":0},"end":{"line":33,"column":3}},"13":{"start":{"line":31,"column":4},"end":{"line":31,"column":44}},"14":{"start":{"line":32,"column":4},"end":{"line":32,"column":95}},"15":{"start":{"line":32,"column":44},"end":{"line":32,"column":95}},"16":{"start":{"line":35,"column":0},"end":{"line":35,"column":57}}},"branchMap":{"1":{"line":24,"type":"if","locations":[{"start":{"line":24,"column":4},"end":{"line":24,"column":4}},{"start":{"line":24,"column":4},"end":{"line":24,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.controller.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.controller.js","s":{"1":1,"2":1,"3":5,"4":4,"5":4,"6":2,"7":5},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":43}},"2":{"start":{"line":3,"column":0},"end":{"line":25,"column":2}},"3":{"start":{"line":6,"column":8},"end":{"line":6,"column":34}},"4":{"start":{"line":10,"column":8},"end":{"line":10,"column":53}},"5":{"start":{"line":14,"column":8},"end":{"line":14,"column":79}},"6":{"start":{"line":18,"column":8},"end":{"line":18,"column":69}},"7":{"start":{"line":22,"column":8},"end":{"line":22,"column":43}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.model.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.model.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":5,"7":1,"8":5,"9":5,"10":5,"11":5,"12":1,"13":20,"14":20,"15":20,"16":1},"b":{"1":[1,4]},"f":{"1":5},"fnMap":{"1":{"name":"(anonymous_1)","line":22,"loc":{"start":{"line":22,"column":23},"end":{"line":22,"column":38}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":47}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":37}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":31}},"4":{"start":{"line":5,"column":0},"end":{"line":20,"column":3}},"5":{"start":{"line":22,"column":0},"end":{"line":27,"column":3}},"6":{"start":{"line":23,"column":4},"end":{"line":23,"column":63}},"7":{"start":{"line":23,"column":26},"end":{"line":23,"column":63}},"8":{"start":{"line":24,"column":4},"end":{"line":24,"column":30}},"9":{"start":{"line":25,"column":4},"end":{"line":25,"column":88}},"10":{"start":{"line":25,"column":50},"end":{"line":25,"column":88}},"11":{"start":{"line":26,"column":4},"end":{"line":26,"column":11}},"12":{"start":{"line":29,"column":0},"end":{"line":32,"column":3}},"13":{"start":{"line":30,"column":4},"end":{"line":30,"column":44}},"14":{"start":{"line":31,"column":4},"end":{"line":31,"column":101}},"15":{"start":{"line":31,"column":50},"end":{"line":31,"column":101}},"16":{"start":{"line":35,"column":0},"end":{"line":35,"column":57}}},"branchMap":{"1":{"line":23,"type":"if","locations":[{"start":{"line":23,"column":4},"end":{"line":23,"column":4}},{"start":{"line":23,"column":4},"end":{"line":23,"column":4}}]}}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\index.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\index.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"15":1,"16":1,"17":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":42}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":37}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":35}},"4":{"start":{"line":4,"column":0},"end":{"line":4,"column":35}},"5":{"start":{"line":5,"column":0},"end":{"line":5,"column":35}},"6":{"start":{"line":6,"column":0},"end":{"line":6,"column":22}},"7":{"start":{"line":8,"column":0},"end":{"line":8,"column":34}},"8":{"start":{"line":9,"column":0},"end":{"line":9,"column":28}},"9":{"start":{"line":10,"column":0},"end":{"line":10,"column":82}},"10":{"start":{"line":12,"column":0},"end":{"line":12,"column":27}},"11":{"start":{"line":13,"column":0},"end":{"line":13,"column":49}},"12":{"start":{"line":14,"column":0},"end":{"line":14,"column":54}},"13":{"start":{"line":16,"column":0},"end":{"line":16,"column":45}},"14":{"start":{"line":17,"column":0},"end":{"line":17,"column":67}},"15":{"start":{"line":18,"column":0},"end":{"line":18,"column":21}},"16":{"start":{"line":20,"column":0},"end":{"line":20,"column":17}},"17":{"start":{"line":22,"column":0},"end":{"line":22,"column":21}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\index.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\index.js","s":{"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"8":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":43}},"2":{"start":{"line":3,"column":0},"end":{"line":3,"column":51}},"3":{"start":{"line":4,"column":0},"end":{"line":4,"column":51}},"4":{"start":{"line":5,"column":0},"end":{"line":5,"column":51}},"5":{"start":{"line":6,"column":0},"end":{"line":6,"column":54}},"6":{"start":{"line":7,"column":0},"end":{"line":7,"column":55}},"7":{"start":{"line":8,"column":0},"end":{"line":8,"column":57}},"8":{"start":{"line":10,"column":0},"end":{"line":10,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\user\\user.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":6,"6":1,"7":3,"8":1,"9":1,"10":1,"11":3,"12":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":48}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":19,"column":0},"end":{"line":24,"column":3}},"9":{"start":{"line":20,"column":4},"end":{"line":23,"column":38}},"10":{"start":{"line":26,"column":0},"end":{"line":31,"column":3}},"11":{"start":{"line":27,"column":4},"end":{"line":30,"column":38}},"12":{"start":{"line":33,"column":0},"end":{"line":33,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\util\\status.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\util\\status.js","s":{"1":1,"2":87,"3":75,"4":87,"5":12},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":11,"column":2}},"2":{"start":{"line":4,"column":8},"end":{"line":4,"column":52}},"3":{"start":{"line":4,"column":25},"end":{"line":4,"column":51}},"4":{"start":{"line":8,"column":8},"end":{"line":8,"column":62}},"5":{"start":{"line":8,"column":26},"end":{"line":8,"column":61}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\post\\post.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":3,"6":1,"7":3,"8":1,"9":3,"10":1,"11":1,"12":1,"13":3,"14":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":48}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":18,"column":0},"end":{"line":23,"column":3}},"9":{"start":{"line":19,"column":4},"end":{"line":22,"column":38}},"10":{"start":{"line":24,"column":0},"end":{"line":29,"column":3}},"11":{"start":{"line":25,"column":4},"end":{"line":28,"column":38}},"12":{"start":{"line":31,"column":0},"end":{"line":36,"column":3}},"13":{"start":{"line":32,"column":4},"end":{"line":35,"column":38}},"14":{"start":{"line":37,"column":0},"end":{"line":37,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\chat\\chat.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":6,"6":1,"7":3,"8":1,"9":3,"10":1,"11":1,"12":1,"13":3,"14":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":48}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":18,"column":0},"end":{"line":23,"column":3}},"9":{"start":{"line":19,"column":4},"end":{"line":22,"column":38}},"10":{"start":{"line":24,"column":0},"end":{"line":29,"column":3}},"11":{"start":{"line":25,"column":4},"end":{"line":28,"column":38}},"12":{"start":{"line":31,"column":0},"end":{"line":36,"column":3}},"13":{"start":{"line":32,"column":4},"end":{"line":35,"column":38}},"14":{"start":{"line":38,"column":0},"end":{"line":38,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\track\\track.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":3,"6":1,"7":3,"8":1,"9":3,"10":1,"11":1,"12":1,"13":3,"14":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":49}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":18,"column":0},"end":{"line":23,"column":3}},"9":{"start":{"line":19,"column":4},"end":{"line":22,"column":38}},"10":{"start":{"line":24,"column":0},"end":{"line":29,"column":3}},"11":{"start":{"line":25,"column":4},"end":{"line":28,"column":38}},"12":{"start":{"line":31,"column":0},"end":{"line":36,"column":3}},"13":{"start":{"line":32,"column":4},"end":{"line":35,"column":38}},"14":{"start":{"line":37,"column":0},"end":{"line":37,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\match\\match.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":6,"6":1,"7":3,"8":1,"9":3,"10":1,"11":1,"12":1,"13":3,"14":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":49}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":19,"column":0},"end":{"line":24,"column":3}},"9":{"start":{"line":20,"column":4},"end":{"line":23,"column":38}},"10":{"start":{"line":26,"column":0},"end":{"line":31,"column":3}},"11":{"start":{"line":27,"column":4},"end":{"line":30,"column":38}},"12":{"start":{"line":33,"column":0},"end":{"line":38,"column":3}},"13":{"start":{"line":34,"column":4},"end":{"line":37,"column":38}},"14":{"start":{"line":40,"column":0},"end":{"line":40,"column":24}}},"branchMap":{}},"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.route.js":{"path":"C:\\Users\\shann\\Desktop\\vibetribe-api-master\\api\\friend\\friend.route.js","s":{"1":1,"2":1,"3":1,"4":1,"5":6,"6":1,"7":3,"8":1,"9":3,"10":1,"11":1,"12":1,"13":3,"14":1},"b":{},"f":{},"fnMap":{},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":50}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":43}},"3":{"start":{"line":3,"column":0},"end":{"line":3,"column":41}},"4":{"start":{"line":5,"column":0},"end":{"line":10,"column":3}},"5":{"start":{"line":6,"column":4},"end":{"line":9,"column":38}},"6":{"start":{"line":12,"column":0},"end":{"line":17,"column":3}},"7":{"start":{"line":13,"column":4},"end":{"line":16,"column":38}},"8":{"start":{"line":18,"column":0},"end":{"line":23,"column":3}},"9":{"start":{"line":19,"column":4},"end":{"line":22,"column":38}},"10":{"start":{"line":24,"column":0},"end":{"line":29,"column":3}},"11":{"start":{"line":25,"column":4},"end":{"line":28,"column":38}},"12":{"start":{"line":31,"column":0},"end":{"line":36,"column":3}},"13":{"start":{"line":32,"column":4},"end":{"line":35,"column":38}},"14":{"start":{"line":38,"column":0},"end":{"line":38,"column":24}}},"branchMap":{}}}
+{
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 9,
+      "4": 9,
+      "5": 4,
+      "6": 5,
+      "7": 4,
+      "8": 2,
+      "9": 5
+    },
+    "b": {
+      "1": [
+        4,
+        5
+      ]
+    },
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 15
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 86
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 86
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 16
+        },
+        "end": {
+          "line": 10,
+          "column": 42
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 34
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 30
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 9,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 5,
+      "8": 1,
+      "9": 5,
+      "10": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 24,
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 23
+          },
+          "end": {
+            "line": 24,
+            "column": 38
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 53
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 41
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 37
+        }
+      },
+      "4": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 31
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 63
+        }
+      },
+      "8": {
+        "start": {
+          "line": 25,
+          "column": 26
+        },
+        "end": {
+          "line": 25,
+          "column": 63
+        }
+      },
+      "9": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 11
+        }
+      },
+      "10": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 57
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 25,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 25,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 25,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\config.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\config.js",
+    "s": {
+      "1": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 2
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 5,
+      "4": 4,
+      "5": 4,
+      "6": 2,
+      "7": 5
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 45
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 34
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 52
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 77
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 68
+        }
+      },
+      "7": {
+        "start": {
+          "line": 22,
+          "column": 8
+        },
+        "end": {
+          "line": 22,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 5,
+      "8": 1,
+      "9": 5,
+      "10": 5,
+      "11": 1,
+      "12": 17,
+      "13": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 24,
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 24
+          },
+          "end": {
+            "line": 24,
+            "column": 39
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 47
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 41
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 37
+        }
+      },
+      "4": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 31
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 63
+        }
+      },
+      "8": {
+        "start": {
+          "line": 25,
+          "column": 26
+        },
+        "end": {
+          "line": 25,
+          "column": 63
+        }
+      },
+      "9": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 30
+        }
+      },
+      "10": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 11
+        }
+      },
+      "11": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 3
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 46
+        }
+      },
+      "13": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 60
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 25,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 25,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 25,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\util\\relative.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\util\\relative.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 105
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 33
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 51
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 9,
+      "4": 9,
+      "5": 4,
+      "6": 5,
+      "7": 4,
+      "8": 4,
+      "9": 2,
+      "10": 5
+    },
+    "b": {
+      "1": [
+        4,
+        5
+      ]
+    },
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 45
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 15
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 83
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 83
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 16
+        },
+        "end": {
+          "line": 10,
+          "column": 42
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 53
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 79
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 69
+        }
+      },
+      "10": {
+        "start": {
+          "line": 27,
+          "column": 8
+        },
+        "end": {
+          "line": 27,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 9,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 5,
+      "6": 1,
+      "7": 5,
+      "8": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 11,
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 24
+          },
+          "end": {
+            "line": 11,
+            "column": 39
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 37
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 31
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 63
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 26
+        },
+        "end": {
+          "line": 12,
+          "column": 63
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 11
+        }
+      },
+      "8": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 60
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 12,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 12,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 12,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 9,
+      "4": 9,
+      "5": 4,
+      "6": 5,
+      "7": 4,
+      "8": 4,
+      "9": 2,
+      "10": 5
+    },
+    "b": {
+      "1": [
+        4,
+        5
+      ]
+    },
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 47
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 15
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 84
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 84
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 16
+        },
+        "end": {
+          "line": 10,
+          "column": 42
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 53
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 79
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 69
+        }
+      },
+      "10": {
+        "start": {
+          "line": 27,
+          "column": 8
+        },
+        "end": {
+          "line": 27,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 9,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 5,
+      "6": 1,
+      "7": 5,
+      "8": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 11,
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 25
+          },
+          "end": {
+            "line": 11,
+            "column": 40
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 37
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 31
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 63
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 26
+        },
+        "end": {
+          "line": 12,
+          "column": 63
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 11
+        }
+      },
+      "8": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 63
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 12,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 12,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 12,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 9,
+      "4": 9,
+      "5": 4,
+      "6": 5,
+      "7": 4,
+      "8": 4,
+      "9": 2,
+      "10": 5
+    },
+    "b": {
+      "1": [
+        4,
+        5
+      ]
+    },
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 15
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 10,
+          "column": 47
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 82
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 21
+        },
+        "end": {
+          "line": 10,
+          "column": 47
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 53
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 19,
+          "column": 79
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 69
+        }
+      },
+      "10": {
+        "start": {
+          "line": 27,
+          "column": 8
+        },
+        "end": {
+          "line": 27,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 9,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 16
+            },
+            "end": {
+              "line": 9,
+              "column": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 5,
+      "7": 1,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 1,
+      "13": 24,
+      "14": 24,
+      "15": 24,
+      "16": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 23,
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 23
+          },
+          "end": {
+            "line": 23,
+            "column": 38
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 47
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 37
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 31
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 63
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 26
+        },
+        "end": {
+          "line": 24,
+          "column": 63
+        }
+      },
+      "8": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 30
+        }
+      },
+      "9": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 82
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 44
+        },
+        "end": {
+          "line": 26,
+          "column": 82
+        }
+      },
+      "11": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 11
+        }
+      },
+      "12": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 44
+        }
+      },
+      "14": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 95
+        }
+      },
+      "15": {
+        "start": {
+          "line": 32,
+          "column": 44
+        },
+        "end": {
+          "line": 32,
+          "column": 95
+        }
+      },
+      "16": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 57
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 24,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 4
+            },
+            "end": {
+              "line": 24,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 4
+            },
+            "end": {
+              "line": 24,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.controller.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.controller.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 5,
+      "4": 4,
+      "5": 4,
+      "6": 2,
+      "7": 5
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 34
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 53
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 79
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 69
+        }
+      },
+      "7": {
+        "start": {
+          "line": 22,
+          "column": 8
+        },
+        "end": {
+          "line": 22,
+          "column": 43
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.model.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.model.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 5,
+      "7": 1,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 1,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 1
+    },
+    "b": {
+      "1": [
+        1,
+        4
+      ]
+    },
+    "f": {
+      "1": 5
+    },
+    "fnMap": {
+      "1": {
+        "name": "(anonymous_1)",
+        "line": 22,
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 23
+          },
+          "end": {
+            "line": 22,
+            "column": 38
+          }
+        }
+      }
+    },
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 47
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 37
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 31
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 63
+        }
+      },
+      "7": {
+        "start": {
+          "line": 23,
+          "column": 26
+        },
+        "end": {
+          "line": 23,
+          "column": 63
+        }
+      },
+      "8": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 30
+        }
+      },
+      "9": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 88
+        }
+      },
+      "10": {
+        "start": {
+          "line": 25,
+          "column": 50
+        },
+        "end": {
+          "line": 25,
+          "column": 88
+        }
+      },
+      "11": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 11
+        }
+      },
+      "12": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 44
+        }
+      },
+      "14": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 101
+        }
+      },
+      "15": {
+        "start": {
+          "line": 31,
+          "column": 50
+        },
+        "end": {
+          "line": 31,
+          "column": 101
+        }
+      },
+      "16": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 57
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 23,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 23,
+              "column": 4
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 23,
+              "column": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\index.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\index.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 0,
+      "20": 1
+    },
+    "b": {
+      "1": [
+        1,
+        1,
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        0,
+        1
+      ]
+    },
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 37
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 35
+        }
+      },
+      "4": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+        }
+      },
+      "5": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 35
+        }
+      },
+      "6": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 22
+        }
+      },
+      "7": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 34
+        }
+      },
+      "8": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 28
+        }
+      },
+      "9": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 82
+        }
+      },
+      "10": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 27
+        }
+      },
+      "11": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 49
+        }
+      },
+      "12": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 54
+        }
+      },
+      "13": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 45
+        }
+      },
+      "14": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 67
+        }
+      },
+      "15": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 21
+        }
+      },
+      "16": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 57
+        }
+      },
+      "17": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 48
+        }
+      },
+      "18": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 39
+        }
+      },
+      "19": {
+        "start": {
+          "line": 23,
+          "column": 20
+        },
+        "end": {
+          "line": 23,
+          "column": 37
+        }
+      },
+      "20": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 21
+        }
+      }
+    },
+    "branchMap": {
+      "1": {
+        "line": 20,
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 20,
+              "column": 11
+            },
+            "end": {
+              "line": 20,
+              "column": 27
+            }
+          },
+          {
+            "start": {
+              "line": 20,
+              "column": 32
+            },
+            "end": {
+              "line": 20,
+              "column": 47
+            }
+          },
+          {
+            "start": {
+              "line": 20,
+              "column": 51
+            },
+            "end": {
+              "line": 20,
+              "column": 55
+            }
+          }
+        ]
+      },
+      "2": {
+        "line": 21,
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 21,
+              "column": 36
+            },
+            "end": {
+              "line": 21,
+              "column": 40
+            }
+          },
+          {
+            "start": {
+              "line": 21,
+              "column": 43
+            },
+            "end": {
+              "line": 21,
+              "column": 47
+            }
+          }
+        ]
+      },
+      "3": {
+        "line": 23,
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 0
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\index.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\index.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 51
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 51
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 51
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 54
+        }
+      },
+      "6": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 55
+        }
+      },
+      "7": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 57
+        }
+      },
+      "8": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\user\\user.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 6,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 3,
+      "12": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 20,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\util\\status.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\util\\status.js",
+    "s": {
+      "1": 1,
+      "2": 87,
+      "3": 75,
+      "4": 87,
+      "5": 12
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 8
+        },
+        "end": {
+          "line": 4,
+          "column": 52
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 25
+        },
+        "end": {
+          "line": 4,
+          "column": 51
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 62
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 26
+        },
+        "end": {
+          "line": 8,
+          "column": 61
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\post\\post.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 3,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 38
+        }
+      },
+      "14": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\chat\\chat.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 6,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 48
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 38
+        }
+      },
+      "14": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\track\\track.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 3,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 38
+        }
+      },
+      "14": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\match\\match.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 6,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 20,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 38
+        }
+      },
+      "14": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  },
+  "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.route.js": {
+    "path": "C:\\Users\\shann\\WebstormProjects\\vibetribe-api\\api\\friend\\friend.route.js",
+    "s": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 6,
+      "6": 1,
+      "7": 3,
+      "8": 1,
+      "9": 3,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 3,
+      "14": 1
+    },
+    "b": {},
+    "f": {},
+    "fnMap": {},
+    "statementMap": {
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 50
+        }
+      },
+      "2": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "13": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 38
+        }
+      },
+      "14": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 24
+        }
+      }
+    },
+    "branchMap": {}
+  }
+}
