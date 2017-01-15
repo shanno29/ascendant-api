@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('Friend Route', () =>{
 
     it('Create Friend One', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendOne,
@@ -18,7 +18,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Two', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendTwo,
@@ -31,7 +31,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Three', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendThree,
@@ -44,7 +44,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend One Fail ', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendOne,
@@ -57,7 +57,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Two Fail ', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendTwo,
@@ -70,7 +70,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Three Fail ', done =>{
-        request(app)
+        request
             .post('/api/friends')
             .send({
                 _id: config.friendThree,
@@ -84,7 +84,7 @@ describe('Friend Route', () =>{
     });
 
     it('Find Friend One', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.friendOne)
             .expect(200)
             .then(response =>{
@@ -93,7 +93,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Find Friend Two', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.friendTwo)
             .expect(200)
             .then(response =>{
@@ -102,7 +102,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Find Friend Three', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.friendThree)
             .expect(200)
             .then(response =>{
@@ -112,7 +112,7 @@ describe('Friend Route', () =>{
     });
 
     it('List All Friends', done =>{
-        request(app)
+        request
             .get('/api/friends')
             .expect(200)
             .then(response =>{
@@ -121,7 +121,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User One Friends', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.userOne + '/user' )
             .expect(200)
             .then(response =>{
@@ -130,7 +130,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User Two Friends', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.userTwo + '/user' )
             .expect(200)
             .then(response =>{
@@ -139,7 +139,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User Three Friends', done =>{
-        request(app)
+        request
             .get('/api/friends/' + config.userThree + '/user' )
             .expect(200)
             .then(response =>{

@@ -17,7 +17,10 @@ app.use('/public', express.static('public'));
 app.use('/coverage', express.static('coverage/lcov-report/index'));
 app.use('/api', api);
 
-app.listen(3002);
+var port = process.env.PORT || (process.argv[2] || 3000);
+port = (typeof port === "number") ? port : 3000;
+
+if(!module.parent){ app.listen(port); }
 
 module.exports = app;
 

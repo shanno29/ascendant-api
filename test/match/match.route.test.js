@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('Match Route', () =>{
 
     it('Create Match One', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchOne,
@@ -18,7 +18,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Two', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchTwo,
@@ -31,7 +31,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Three', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchThree,
@@ -44,7 +44,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match One Fail ', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchOne,
@@ -57,7 +57,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Two Fail ', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchTwo,
@@ -70,7 +70,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Three Fail ', done =>{
-        request(app)
+        request
             .post('/api/matches')
             .send({
                 _id: config.matchThree,
@@ -84,7 +84,7 @@ describe('Match Route', () =>{
     });
 
     it('Find Match One', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.matchOne)
             .expect(200)
             .then(response =>{
@@ -93,7 +93,7 @@ describe('Match Route', () =>{
             });
     });
     it('Find Match Two', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.matchTwo)
             .expect(200)
             .then(response =>{
@@ -102,7 +102,7 @@ describe('Match Route', () =>{
             });
     });
     it('Find Match Three', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.matchThree)
             .expect(200)
             .then(response =>{
@@ -112,7 +112,7 @@ describe('Match Route', () =>{
     });
 
     it('List All Matches', done =>{
-        request(app)
+        request
             .get('/api/matches')
             .expect(200)
             .then(response =>{
@@ -121,7 +121,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User One Matches', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.userOne + '/user' )
             .expect(200)
             .then(response =>{
@@ -130,7 +130,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User Two Matches', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.userTwo + '/user' )
             .expect(200)
             .then(response =>{
@@ -139,7 +139,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User Three Matches', done =>{
-        request(app)
+        request
             .get('/api/matches/' + config.userThree + '/user' )
             .expect(200)
             .then(response =>{

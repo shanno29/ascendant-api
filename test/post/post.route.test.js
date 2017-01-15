@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('Post Route', () =>{
 
     it('Create Post One', done =>{
-        request(app)
+        request
             .post('/api/posts')
             .send({
                 _id: config.postOne,
@@ -20,7 +20,7 @@ describe('Post Route', () =>{
             });
     });
     it('Create Post Two', done =>{
-        request(app)
+        request
             .post('/api/posts')
             .send({
                 _id: config.postTwo,
@@ -35,7 +35,7 @@ describe('Post Route', () =>{
             });
     });
     it('Create Post Three', done =>{
-        request(app)
+        request
             .post('/api/posts')
             .send({
                 _id: config.postThree,
@@ -51,7 +51,7 @@ describe('Post Route', () =>{
     });
 
     it('Find Post One', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.postOne)
             .expect(200)
             .then(response =>{
@@ -63,7 +63,7 @@ describe('Post Route', () =>{
             });
     });
     it('Find Post Two', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.postTwo)
             .expect(200)
             .then(response =>{
@@ -75,7 +75,7 @@ describe('Post Route', () =>{
             });
     });
     it('Find Post Three', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.postThree)
             .expect(200)
             .then(response =>{
@@ -88,7 +88,7 @@ describe('Post Route', () =>{
     });
 
     it('List All Posts', done =>{
-        request(app)
+        request
             .get('/api/posts')
             .expect(200)
             .then(response =>{
@@ -98,7 +98,7 @@ describe('Post Route', () =>{
     });
 
     it('List User One Posts', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.userOne + '/user' )
             .expect(200)
             .then(response => {
@@ -107,7 +107,7 @@ describe('Post Route', () =>{
             });
     });
     it('List User Two Posts', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.userTwo + '/user' )
             .expect(200)
             .then(response =>{
@@ -116,7 +116,7 @@ describe('Post Route', () =>{
             });
     });
     it('List User Three Posts', done =>{
-        request(app)
+        request
             .get('/api/posts/' + config.userThree + '/user' )
             .expect(200)
             .then(response =>{

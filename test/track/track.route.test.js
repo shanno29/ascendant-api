@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('Track Route', () =>{
 
     it('Create Track One', done =>{
-        request(app)
+        request
             .post('/api/tracks')
             .send({
                 _id: config.trackOne,
@@ -31,7 +31,7 @@ describe('Track Route', () =>{
             });
     });
     it('Create Track Two', done =>{
-        request(app)
+        request
             .post('/api/tracks')
             .send({
                 _id: config.trackTwo,
@@ -57,7 +57,7 @@ describe('Track Route', () =>{
             });
     });
     it('Create Track Three', done =>{
-        request(app)
+        request
             .post('/api/tracks')
             .send({
                 _id: config.trackThree,
@@ -84,7 +84,7 @@ describe('Track Route', () =>{
     });
 
     it('Find Track One', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.trackOne)
             .expect(200)
             .then(response =>{
@@ -100,7 +100,7 @@ describe('Track Route', () =>{
             });
     });
     it('Find Track Two', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.trackTwo)
             .expect(200)
             .then(response =>{
@@ -116,7 +116,7 @@ describe('Track Route', () =>{
             });
     });
     it('Find Track Three', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.trackThree)
             .expect(200)
             .then(response =>{
@@ -133,7 +133,7 @@ describe('Track Route', () =>{
     });
 
     it('List All Tracks', done =>{
-        request(app)
+        request
             .get('/api/tracks')
             .expect(200)
             .then(response =>{
@@ -142,7 +142,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User One Tracks', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.userOne + '/user')
             .expect(200)
             .then(response =>{
@@ -151,7 +151,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Two Tracks', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.userTwo + '/user')
             .expect(200)
             .then(response =>{
@@ -160,7 +160,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Three Tracks', done =>{
-        request(app)
+        request
             .get('/api/tracks/' + config.userThree + '/user')
             .expect(200)
             .then(response =>{

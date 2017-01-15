@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('Chat Route', () =>{
 
     it('Create Chat One', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 _id: config.chatOne,
@@ -20,7 +20,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Two', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 _id: config.chatTwo,
@@ -35,7 +35,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Three', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 _id: config.chatThree,
@@ -50,7 +50,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat One Fail ', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 owners: [config.userOne, config.userTwo],
@@ -63,7 +63,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Two Fail ', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 owners: [config.userTwo, config.userThree],
@@ -76,7 +76,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Three Fail ', done =>{
-        request(app)
+        request
             .post('/api/chats')
             .send({
                 owners: [config.userOne, config.userTwo],
@@ -90,7 +90,7 @@ describe('Chat Route', () =>{
     });
 
     it('Find Chat One', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.chatOne)
             .expect(200)
             .then(response =>{
@@ -102,7 +102,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Find Chat Two', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.chatTwo)
             .expect(200)
             .then(response =>{
@@ -114,7 +114,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Find Chat Three', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.chatThree)
             .expect(200)
             .then(response =>{
@@ -127,7 +127,7 @@ describe('Chat Route', () =>{
     });
 
     it('List All Chats', done =>{
-        request(app)
+        request
             .get('/api/chats')
             .expect(200)
             .then(response =>{
@@ -137,7 +137,7 @@ describe('Chat Route', () =>{
     });
 
     it('List User One Chats', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.userOne + '/user' )
             .expect(200)
             .then(response => {
@@ -146,7 +146,7 @@ describe('Chat Route', () =>{
             });
     });
     it('List User Two Chats', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.userTwo + '/user' )
             .expect(200)
             .then(response =>{
@@ -155,7 +155,7 @@ describe('Chat Route', () =>{
             });
     });
     it('List User Three Chats', done =>{
-        request(app)
+        request
             .get('/api/chats/' + config.userThree + '/user' )
             .expect(200)
             .then(response =>{
