@@ -4,30 +4,31 @@
   "description": "VibeTribe API",
   "main": "server.js",
   "author": "Matthew Shannon",
+  "license": "MIT",
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec",
+    "finish": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/shanno29/vibetribe-api"
   },
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "config": "^1.20.1",
-    "express": "^4.13.4",
-    "fs-writefile-promise": "^2.0.0",
-    "moment": "^2.17.1",
-    "mongoose": "^4.4.15",
-    "morgan": "^1.7.0"
+    "body-parser": "latest",
+    "config": "latest",
+    "express": "latest",
+    "fs-writefile-promise": "latest",
+    "moment": "latest",
+    "mongoose": "latest",
+    "morgan": "latest"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "codecov": "^1.0.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^2.4.5",
+    "chai": "latest",
+    "codecov": "latest",
+    "istanbul": "latest",
+    "mocha": "latest",
     "mocha-logger": "latest",
-    "supertest": "^2.0.1"
+    "supertest": "latest"
   }
 }

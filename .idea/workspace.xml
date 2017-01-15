@@ -1,13 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="">
+    <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="Closer">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/controllers/base.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/models/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/app/utils/result.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/config/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/chat/chat.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/chat/chat.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/chat/chat.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/chat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/friend/friend.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/friend/friend.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/friend/friend.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/friend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/match/match.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/match/match.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/match/match.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/post/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/post/post.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/post/post.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/post/post.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/track/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/track/track.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/track/track.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/track/track.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/user/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/user/user.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/user/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/user/user.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/util/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/util/relative.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/api/util/status.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api-master/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/chat/chat.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/chat/chat.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/chat/chat.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/chat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/friend/friend.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/friend/friend.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/friend/friend.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/friend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/match/match.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/match/match.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/match/match.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/post/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/post/post.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/post/post.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/post/post.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/track/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/track/track.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/track/track.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/track/track.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/user/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/user/user.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/user/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/user/user.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/util/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/util/relative.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/api/util/status.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/BaseController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/ChatController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/FriendController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/MatchController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/PostController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/TrackController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/UserController.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/base.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/ChatModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/FriendModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/MatchModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/PostModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/TrackModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/UserModel.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/chat.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/friend.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/match.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/post.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/track.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/models/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/ChatRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/FriendRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/IndexRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/MatchRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/PostRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/TrackRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/UserRoute.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/chat.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/friend.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/index.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/match.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/post.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/track.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/routes/user.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/util/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/util/relative.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/util/status.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/utils/cache.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/utils/fail.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/utils/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/utils/ok.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/app/utils/result.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/config/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe/server.js.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vibetribe.iml" afterPath="$PROJECT_DIR$/.idea/vibetribe.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/user/user.controller.js" afterPath="$PROJECT_DIR$/api/user/user.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/coverage.json" afterPath="$PROJECT_DIR$/coverage/coverage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="$PROJECT_DIR$/coverage/lcov.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/user/user.controller.test.js" afterPath="$PROJECT_DIR$/test/user/user.controller.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,31 +153,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="user.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/user/user.controller.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="384">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#scripts#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#repository#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#dependencies#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#devDependencies#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.controller.test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/user/user.controller.test.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.route.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/user/user.route.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3520">
-              <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,17 +182,7 @@
         <entry file="file://$PROJECT_DIR$/coverage/coverage.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/user/user.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -85,26 +198,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -114,6 +207,56 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/chat/chat.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/chat/chat.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.route.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/chat/chat.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lcov.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coverage/lcov.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14076">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,10 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/controllers/UserControllerTest.js" />
-        <option value="$PROJECT_DIR$/app/routes/ChatRoute.js" />
-        <option value="$PROJECT_DIR$/app/routes/FriendRoute.js" />
-        <option value="$PROJECT_DIR$/app/util/status.js" />
         <option value="$PROJECT_DIR$/app/controllers/FriendController.js" />
         <option value="$PROJECT_DIR$/app/controllers/MatchController.js" />
         <option value="$PROJECT_DIR$/app/controllers/PostController.js" />
@@ -222,9 +361,13 @@
         <option value="$PROJECT_DIR$/test/friend/friend.controller.test.js" />
         <option value="$PROJECT_DIR$/test/chat/chat.controller.test.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/api/user/user.controller.js" />
         <option value="$PROJECT_DIR$/test/user/user.controller.test.js" />
+        <option value="$PROJECT_DIR$/coverage/coverage.json" />
+        <option value="$PROJECT_DIR$/coverage/lcov-report/sorter.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -246,10 +389,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="3864" />
-    <option name="height" value="2114" />
+    <option name="x" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="2101" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,8 +442,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -311,28 +453,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,7 +465,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\shann\Desktop\vibetribe\node_modules\mocha" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -530,7 +650,7 @@
       <workItem from="1484296770527" duration="2324000" />
       <workItem from="1484342885561" duration="23642000" />
       <workItem from="1484428012872" duration="1218000" />
-      <workItem from="1484439278222" duration="2053000" />
+      <workItem from="1484439278222" duration="7420000" />
     </task>
     <task id="LOCAL-00001" summary="Unit Test Testing">
       <created>1484439664867</created>
@@ -539,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484439664867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Still Testing">
+      <created>1484441350499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484441350499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141180000" />
+    <option name="totallyTimeSpent" value="146547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,18 +682,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="3864" height="2114" extended-state="6" />
+    <frame x="-11" y="0" width="1942" height="2101" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12233622" sideWeight="0.43219668" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996812" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12233622" sideWeight="0.5678033" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7667375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24747206" sideWeight="0.5681275" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7667202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285179" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24747206" sideWeight="0.43187252" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24800426" sideWeight="0.49787685" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890543" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -575,8 +704,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -588,7 +715,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Unit Test Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit Test Testing" />
+    <MESSAGE value="Still Testing" />
+    <MESSAGE value="Almost done" />
+    <MESSAGE value="Closer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closer" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -599,23 +729,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/coverage/lcov.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/supertest-as-promised/node_modules/bluebird/js/release/promise.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/chai/chai.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/supertest/lib/test.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/supertest/index.js" />
@@ -626,24 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/util/relative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/match/match.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/chat/chat.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -689,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/chat/chat.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
@@ -725,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/util/purge.database.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -743,13 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/util/status.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -771,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1779">
           <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/chat/chat.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -854,12 +925,36 @@
     <entry file="file://$PROJECT_DIR$/api/user/user.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codecov.yml">
+    <entry file="file://$PROJECT_DIR$/api/user/user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/user/user.route.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3520">
+          <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/user/user.controller.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/sorter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -867,7 +962,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/friend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="62" column="162" lean-forward="false" selection-start-line="62" selection-start-column="162" selection-end-line="62" selection-end-column="162" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/util/relative.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/util/status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codecov.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -886,42 +1021,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/chat/chat.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/chat/chat.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/chat/chat.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14076">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coverage/coverage.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="92" selection-end-line="8" selection-end-column="92" />
-          <folding />
+        <state relative-caret-position="384">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#scripts#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#repository#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#dependencies#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#devDependencies#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/user/user.controller.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/user/user.route.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3520">
-          <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/user/user.controller.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

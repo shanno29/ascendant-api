@@ -8,5 +8,4 @@ before_script:
 services: 
   - mongodb
 script:
-  - node index.js &
   - npm test

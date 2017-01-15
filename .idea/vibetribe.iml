@@ -13,5 +13,6 @@
     <orderEntry type="library" name="supertest-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="should-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="express-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
   </component>
 </module>
