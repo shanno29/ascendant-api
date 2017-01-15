@@ -16,4 +16,4 @@ before_script:
 services: 
   - mongodb
 script:
-  - npm finish
+  - npm test
