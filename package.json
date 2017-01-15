@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
-    "local-test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec",
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,10 @@
   },
   "devDependencies": {
     "chai": "latest",
-    "codecov": "latest",
+    "coveralls": "latest",
     "istanbul": "latest",
     "mocha": "latest",
+    "mocha-lcov-reporter": "latest",
     "mocha-logger": "latest",
     "supertest": "latest"
   }

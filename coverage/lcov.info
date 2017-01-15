@@ -297,13 +297,13 @@ LF:19
 LH:19
 BRDA:20,1,0,1
 BRDA:20,1,1,1
-BRDA:20,1,2,0
-BRDA:21,2,0,0
-BRDA:21,2,1,1
+BRDA:20,1,2,1
+BRDA:21,2,0,1
+BRDA:21,2,1,0
 BRDA:23,3,0,0
 BRDA:23,3,1,1
 BRF:7
-BRH:4
+BRH:5
 end_of_record
 TN:
 SF:C:\Users\shann\WebstormProjects\vibetribe-api\api\index.js
