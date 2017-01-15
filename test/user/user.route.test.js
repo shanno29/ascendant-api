@@ -1,11 +1,11 @@
-const request = require('supertest');
 const app = require('../../index');
+const request = require("supertest").agent(app.listen());
 const config = require('../../config');
 
 describe('User Route', () =>{
 
     it('Create User One', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userOne,
@@ -31,7 +31,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Two', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userTwo,
@@ -57,7 +57,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Three', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userThree,
@@ -83,7 +83,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User One Fail ', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userOne,
@@ -103,7 +103,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Two Fail ', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userTwo,
@@ -123,7 +123,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Three Fail ', done =>{
-        request(app)
+        request
             .post('/api/users')
             .send({
                 _id: config.userThree,
@@ -144,7 +144,7 @@ describe('User Route', () =>{
     });
 
     it('Find User One', done =>{
-        request(app)
+        request
             .get('/api/users/' + config.userOne)
             .expect(200)
             .then(response =>{
@@ -159,7 +159,7 @@ describe('User Route', () =>{
             });
     });
     it('Find User Two', done =>{
-        request(app)
+        request
             .get('/api/users/' + config.userTwo)
             .expect(200)
             .then(response =>{
@@ -174,7 +174,7 @@ describe('User Route', () =>{
             });
     });
     it('Find User Three', done =>{
-        request(app)
+        request
             .get('/api/users/' + config.userThree)
             .expect(200)
             .then(response =>{
@@ -190,7 +190,7 @@ describe('User Route', () =>{
     });
 
     it('List All Users', done =>{
-        request(app)
+        request
             .get('/api/users')
             .expect(200)
             .then(response =>{

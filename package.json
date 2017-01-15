@@ -6,7 +6,7 @@
   "author": "Matthew Shannon",
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov --token=:66352b98-18ca-4457-8214-bd7fae94a717"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
    "repository": {
     "type": "git",
