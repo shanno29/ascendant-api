@@ -4,36 +4,36 @@ const app = require('../../index');
 
 describe('Purge Database Util', () =>{
 
-    // it('Delete Post One', done =>{
-    //     request(app)
-    //         .delete('/api/posts/' + config.postOne)
-    //         .expect(200)
-    //         .then(response =>{
-    //             response.body.should.have.property('comments');
-    //             response.body.should.have.property('owners');
-    //             done();
-    //         });
-    // });
-    // it('Delete Post Two', done =>{
-    //     request(app)
-    //         .delete('/api/posts/' + config.postTwo)
-    //         .expect(200)
-    //         .then(response =>{
-    //             response.body.should.have.property('comments');
-    //             response.body.should.have.property('owners');
-    //             done();
-    //         });
-    // });
-    // it('Delete Post Three', done =>{
-    //     request(app)
-    //         .delete('/api/posts/' + config.postThree)
-    //         .expect(200)
-    //         .then(response =>{
-    //             response.body.should.have.property('comments');
-    //             response.body.should.have.property('owners');
-    //             done();
-    //         });
-    // });
+    it('Delete Post One', done =>{
+        request(app)
+            .delete('/api/posts/' + config.postOne)
+            .expect(200)
+            .then(response =>{
+                response.body.should.have.property('comments');
+                response.body.should.have.property('owners');
+                done();
+            });
+    });
+    it('Delete Post Two', done =>{
+        request(app)
+            .delete('/api/posts/' + config.postTwo)
+            .expect(200)
+            .then(response =>{
+                response.body.should.have.property('comments');
+                response.body.should.have.property('owners');
+                done();
+            });
+    });
+    it('Delete Post Three', done =>{
+        request(app)
+            .delete('/api/posts/' + config.postThree)
+            .expect(200)
+            .then(response =>{
+                response.body.should.have.property('comments');
+                response.body.should.have.property('owners');
+                done();
+            });
+    });
 
     it('Delete Chat One', done =>{
         request(app)
