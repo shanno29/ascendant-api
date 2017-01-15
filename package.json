@@ -8,7 +8,7 @@
     "start": "SET NODE_ENV=dev && node index.js",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/shanno29/vibetribe-api"
   },

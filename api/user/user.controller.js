@@ -3,13 +3,12 @@ const model = require('./user.model').User;
 module.exports = {
 
     make: (data) => {
-        // return model
-        //     .find({email: data.email})
-        //     .then(users => {
-        //         if (users.length > 0) throw new Error('That Email Is Already In Use');
-        //         return model.create(data);
-        //     });
-        return null;
+        return model
+            .find({email: data.email})
+            .then(users => {
+                if (users.length > 0) throw new Error('That Email Is Already In Use');
+                return model.create(data);
+            });
     },
 
     lookup: (id) => {
