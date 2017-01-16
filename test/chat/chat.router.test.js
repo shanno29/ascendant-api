@@ -56,7 +56,7 @@ describe('Chat Route', () =>{
                 owners: [config.userOne, config.userTwo],
                 messages: [{author: config.userOne, text: 'Hello World'}],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Chat Already Exists');
                 done();
@@ -69,7 +69,7 @@ describe('Chat Route', () =>{
                 owners: [config.userTwo, config.userThree],
                 messages: [{author: config.userTwo, text: 'Hello World'}],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Chat Already Exists');
                 done();
@@ -82,7 +82,7 @@ describe('Chat Route', () =>{
                 owners: [config.userOne, config.userTwo],
                 messages: [{author: config.userOne, text: 'Hello World'}],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Chat Already Exists');
                 done();

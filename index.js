@@ -1,26 +1,29 @@
+const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const config = require('./config');
 const api = require('./api/index');
 const express = require('express');
+const logger = require('morgan');
+const path = require('path');
 const app = express();
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.db);
-mongoose.connection.on('error', console.error.bind(console, 'connection error:'));
+mongoose.connection.on('connected', () => console.log('Mongoose Connected: '+ config.db));
+mongoose.connection.on('error', () => console.error('Mongoose Error'));
 
+app.use(logger('dev'));
+app.use(methodOverride());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json({ type: 'application/json'}));
 
-app.use('/public', express.static('public'));
-app.use('/coverage', express.static('coverage/lcov-report/index'));
+app.use('/coverage', express.static(path.join(__dirname + config.coverage)));
+app.use('/public', express.static(path.join(__dirname + config.public)));
+app.use('/doc', express.static(path.join(__dirname + config.doc)));
 app.use('/api', api);
 
-var port = process.env.PORT || (process.argv[2] || 3000);
-port = (typeof port === "number") ? port : 3000;
-
-if(!module.parent){ app.listen(port); }
+if(!module.parent){ app.listen(config.port, () => console.log('Express Connected On Port: '+ config.port)); }
 
 module.exports = app;
-

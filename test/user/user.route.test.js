@@ -96,7 +96,7 @@ describe('User Route', () =>{
                 age: '23',
                 gender: 'male',
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Email Is Already In Use');
                 done();
@@ -116,7 +116,7 @@ describe('User Route', () =>{
                 age: '23',
                 gender: 'male',
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Email Is Already In Use');
                 done();
@@ -136,7 +136,7 @@ describe('User Route', () =>{
                 age: '23',
                 gender: 'male',
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Email Is Already In Use');
                 done();

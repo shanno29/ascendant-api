@@ -5,7 +5,7 @@ module.exports = {
     },
 
     fail: (res) => {
-        return (error) => res.status(404).json(error.message);
+        return (error) => res.status(500).json(error.message);
     },
 
 };

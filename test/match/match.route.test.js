@@ -50,7 +50,7 @@ describe('Match Route', () =>{
                 _id: config.matchOne,
                 owners: [config.userOne, config.userTwo],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Match Already Exists');
                 done();
@@ -63,7 +63,7 @@ describe('Match Route', () =>{
                 _id: config.matchTwo,
                 owners: [config.userTwo, config.userThree],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Match Already Exists');
                 done();
@@ -76,7 +76,7 @@ describe('Match Route', () =>{
                 _id: config.matchThree,
                 owners: [config.userThree, config.userOne],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Match Already Exists');
                 done();

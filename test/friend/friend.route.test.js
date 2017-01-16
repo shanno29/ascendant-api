@@ -50,7 +50,7 @@ describe('Friend Route', () =>{
                 _id: config.friendOne,
                 owners: [config.userOne, config.userTwo],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Friend Already Exists');
                 done();
@@ -63,7 +63,7 @@ describe('Friend Route', () =>{
                 _id: config.friendTwo,
                 owners: [config.userTwo, config.userThree],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Friend Already Exists');
                 done();
@@ -76,7 +76,7 @@ describe('Friend Route', () =>{
                 _id: config.friendThree,
                 owners: [config.userThree, config.userOne],
             })
-            .expect(404)
+            .expect(500)
             .then(response => {
                 response.body.should.equal('That Friend Already Exists');
                 done();
