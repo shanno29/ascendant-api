@@ -38,7 +38,19 @@ describe('Post Controller', () =>{
                 done();
             });
     });
-
+    it('Update Post', done =>{
+        controller
+            .edit(config.postOne, {
+                owners: [config.userOne, config.userTwo],
+                comments: [{author: config.userOne, text: 'Post Update Test'}],
+            })
+            .then(response => {
+                response.owners.length.should.equal(2);
+                response.comments.length.should.equal(2);
+                response.comments[1].text.should.equal('Post Update Test');
+                done();
+            })
+    });
     it('Find Post', done =>{
         controller.lookup(config.postOne)
             .then(response => {

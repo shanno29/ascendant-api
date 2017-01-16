@@ -126,6 +126,22 @@ describe('Chat Route', () =>{
             });
     });
 
+    it('Update Chat One', done =>{
+        request
+            .put('/api/chats/' + config.chatOne)
+            .expect(200)
+            .send({
+                owners: [config.userOne, config.userTwo],
+                messages: [{author: config.userOne, text: 'Chat Update Test'}],
+            })
+            .then(response =>{
+                response.body.owners.length.should.equal(2);
+                response.body.messages.length.should.equal(2);
+                response.body.messages[1].text.should.equal('Chat Update Test');
+                done();
+            });
+    });
+
     it('List All Chats', done =>{
         request
             .get('/api/chats')

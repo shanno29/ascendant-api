@@ -135,6 +135,13 @@ router.get('/:key', (req, res) => {
         .then(null, status.fail(res));
 });
 
+router.put('/:key', (req, res) => {
+    controller
+        .edit(req.params.key, req.body)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
 /**
  * @api {get} /posts/:key/user Get User Posts
  * @apiGroup Posts

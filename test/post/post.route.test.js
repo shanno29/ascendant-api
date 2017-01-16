@@ -87,6 +87,22 @@ describe('Post Route', () =>{
             });
     });
 
+    it('Update Post One', done =>{
+        request
+            .put('/api/posts/' + config.postOne)
+            .expect(200)
+            .send({
+                owners: [config.userOne, config.userTwo],
+                comments: [{author: config.userOne, text: 'Post Update Test'}],
+            })
+            .then(response =>{
+                response.body.owners.length.should.equal(2);
+                response.body.comments.length.should.equal(2);
+                response.body.comments[1].text.should.equal('Post Update Test');
+                done();
+            });
+    });
+
     it('List All Posts', done =>{
         request
             .get('/api/posts')

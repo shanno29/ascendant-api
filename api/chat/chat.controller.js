@@ -11,6 +11,15 @@ module.exports = {
             });
     },
 
+    edit: (id, data) => {
+        return model
+            .findById(id)
+            .then(chat => {
+                chat.messages.push(data.messages[data.messages.length -1]);
+                return chat.save();
+            });
+    },
+
     lookup: (id) => {
         return model.findById(id).populate('owners');
     },
