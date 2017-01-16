@@ -8,8 +8,9 @@
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
     "test": "mocha",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha && apidoc -i api/ public/apidoc",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "doc": "apidoc -i api/ public/apidoc",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
