@@ -24,7 +24,7 @@
 2. Navigate to `localhost:3000/doc`
 
 ## Changelog
-See the [release page](shanno29/vibetribe-api/releases)
+See the [release page](https://github.com/shanno29/vibetribe-api/releases)
 
 ## License
 [MIT](LICENSE)
