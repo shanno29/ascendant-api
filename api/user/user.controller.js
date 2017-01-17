@@ -12,15 +12,18 @@ module.exports = {
     },
 
     lookup: (id) => {
-        return model.findById(id);
+        return model
+            .findById(id);
     },
 
     listAll: () => {
-        return model.find({});
+        return model
+            .find({});
     },
 
     remove: (id) => {
-        return model.findByIdAndRemove(id);
+        return model
+            .findByIdAndRemove(id);
     },
 
 };

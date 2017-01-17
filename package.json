@@ -21,10 +21,12 @@
     "config": "latest",
     "express": "latest",
     "fs-writefile-promise": "latest",
+    "method-override": "latest",
     "moment": "latest",
     "mongoose": "latest",
     "morgan": "latest",
-    "method-override": "latest"
+    "q": "^1.4.1",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "chai": "latest",

@@ -94,6 +94,36 @@ describe('Track Controller', () =>{
                 done();
             })
     });
+    it('List User Friends Tracks', done =>{
+        controller.listFriends(config.userOne)
+            .then(response => {
+                response.length.should.equal(0);
+                done();
+            })
+    });
+    it('List User Matches Tracks', done =>{
+        controller.listMatches(config.userOne)
+            .then(response => {
+                response.length.should.equal(0);
+                done();
+            })
+    });
+    it('List User Nearby Tracks', done =>{
+        controller.listNearby(config.userOne)
+            .then(response => {
+                response.length.should.equal(1);
+                done();
+            })
+    });
+    it('Search Music Networks', done =>{
+        controller
+            .search('finally moving pretty lights', 10)
+            .then(response => {
+                response.length.should.equal(3);
+                done();
+            })
+    });
+
     it('Delete Track', done =>{
         controller.remove(config.trackOne)
             .then((response) => {

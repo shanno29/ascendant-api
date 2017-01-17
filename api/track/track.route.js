@@ -21,6 +21,35 @@ router.get('/:key/user', (req, res) => {
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
+
+router.get('/:key/friends', (req, res) => {
+    controller
+        .listFriends(req.params.key)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
+router.get('/:key/matches', (req, res) => {
+    controller
+        .listMatches(req.params.key)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
+router.get('/:key/nearby', (req, res) => {
+    controller
+        .listNearby(req.params.key)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
+router.get('/search/:query/:limit', (req, res) => {
+    controller
+        .listAll(req.param.query, req.param.limit)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
 router.get('/', (req, res) => {
     controller
         .listAll()

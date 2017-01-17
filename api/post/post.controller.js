@@ -16,19 +16,28 @@ module.exports = {
     },
 
     lookup: (id) => {
-        return model.findById(id).populate('owners');
+        return model
+            .findById(id)
+            .populate('owners');
     },
 
     listUser: (id) => {
-        return model.find({owners: id}).sort({updated: -1}).populate('owners');
+        return model
+            .find({owners: id})
+            .sort({updated: -1})
+            .populate('owners');
     },
 
     listAll: () => {
-        return model.find({}).sort({updated: -1}).populate('owners');
+        return model
+            .find({})
+            .sort({updated: -1})
+            .populate('owners');
     },
 
     remove: (id) => {
-        return model.findByIdAndRemove(id);
+        return model
+            .findByIdAndRemove(id);
     },
 
 };

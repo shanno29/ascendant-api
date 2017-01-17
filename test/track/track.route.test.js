@@ -141,6 +141,7 @@ describe('Track Route', () =>{
                 done();
             });
     });
+
     it('List User One Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/user')
@@ -168,6 +169,36 @@ describe('Track Route', () =>{
                 done();
             });
     });
+
+
+    it('List User Ones Friends Tracks', done =>{
+        request
+            .get('/api/tracks/' + config.userOne + '/friends')
+            .expect(200)
+            .then(response =>{
+                response.body.length.should.equal(2);
+                done();
+            });
+    });
+    it('List User Ones Matches Tracks', done =>{
+        request
+            .get('/api/tracks/' + config.userOne + '/matches')
+            .expect(200)
+            .then(response =>{
+                response.body.length.should.equal(2);
+                done();
+            });
+    });
+    it('List User Ones Nearby Tracks', done =>{
+        request
+            .get('/api/tracks/' + config.userOne + '/nearby')
+            .expect(200)
+            .then(response =>{
+                response.body.length.should.equal(3);
+                done();
+            });
+    });
+
 
 });
 
