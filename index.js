@@ -10,8 +10,8 @@ const app = express();
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.db);
-mongoose.connection.on('connected', () => console.log('Mongoose Connected: '+ config.db));
 mongoose.connection.on('error', () => console.error('Mongoose Error'));
+mongoose.connection.on('connected', () => console.log('Mongoose Connected: '+ config.db));
 
 app.use(logger('dev'));
 app.use(methodOverride());

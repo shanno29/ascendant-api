@@ -1,4 +1,7 @@
 
+// Mongoose Tests
+require('./util/mongoose.test');
+
 // Unit Tests
 require('./user/user.controller.test');
 require('./chat/chat.controller.test');
@@ -7,6 +10,8 @@ require('./friend/friend.controller.test');
 require('./match/match.controller.test');
 require('./track/track.controller.test');
 
+// Express Server Test
+require('./util/express.server.test');
 
 // Integration Tests
 require('./user/user.route.test');

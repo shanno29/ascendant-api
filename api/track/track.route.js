@@ -45,7 +45,7 @@ router.get('/:key/nearby', (req, res) => {
 
 router.get('/search/:query/:limit', (req, res) => {
     controller
-        .listAll(req.param.query, req.param.limit)
+        .search(req.param.query, req.param.limit)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });

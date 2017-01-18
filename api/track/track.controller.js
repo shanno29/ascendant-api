@@ -71,7 +71,7 @@ module.exports = {
         return combined
             .allSettled([
             request({uri: config.youtube + query + '&maxResults=' + limit, json: true}).then(response => response.items),
-            request({uri: config.soundcloud + query + '&limit=' + limit, json: true}).then(response => response),
+            request({uri: config.soundcloud + query + '&limit=' + limit, json: true}),
             request({uri: config.spotify + query + '&limit=' + limit, json: true}).then(response => response.tracks.items),
         ])
             .then(tracks => {

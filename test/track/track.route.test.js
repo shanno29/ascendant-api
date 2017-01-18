@@ -132,16 +132,6 @@ describe('Track Route', () =>{
             });
     });
 
-    it('List All Tracks', done =>{
-        request
-            .get('/api/tracks')
-            .expect(200)
-            .then(response =>{
-                response.body.length.should.equal(3);
-                done();
-            });
-    });
-
     it('List User One Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/user')
@@ -170,6 +160,15 @@ describe('Track Route', () =>{
             });
     });
 
+    it('List All Tracks', done =>{
+        request
+            .get('/api/tracks')
+            .expect(200)
+            .then(response =>{
+                response.body.length.should.equal(3);
+                done();
+            });
+    });
 
     it('List User Ones Friends Tracks', done =>{
         request
@@ -192,6 +191,16 @@ describe('Track Route', () =>{
     it('List User Ones Nearby Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/nearby')
+            .expect(200)
+            .then(response =>{
+                response.body.length.should.equal(3);
+                done();
+            });
+    });
+
+    it('Search Music Networks', done =>{
+        request
+            .get('/api/tracks/search/' + 'finally moving pretty lights/10')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);
