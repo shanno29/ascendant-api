@@ -2,6 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="Closer">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/coverage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/chat/chat.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/chat/chat.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/chat/chat.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/chat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/friend/friend.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/friend/friend.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/friend/friend.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/friend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/match/match.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/match/match.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/match/match.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/post/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/post/post.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/post/post.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/post/post.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/track/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/track/track.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/track/track.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/track/track.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/user/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/user/user.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/user/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/user/user.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/util/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/util/relative.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/api/util/status.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/asdfvibetribe-api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/chat/chat.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/chat/chat.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/chat/chat.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/chat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/friend/friend.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/friend/friend.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/friend/friend.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/friend/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/match/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/match/match.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/match/match.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/match/match.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/post/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/post/post.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/post/post.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/post/post.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/track/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/track/track.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/track/track.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/track/track.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/user/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/user/user.controller.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/user/user.model.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/user/user.route.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/util/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/util/relative.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/api/util/status.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/config.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/vibetribe-api/index.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api_data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api_data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api_project.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api_project.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/pt_br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/locales/zh_cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/utils/handlebars_helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/utils/send_sample_request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/diff_match_patch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/list.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/lodash.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/path-to-regexp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/path-to-regexp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-Splus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-aea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-agc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-apollo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-cbm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-cl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-clj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-erl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-go.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-hs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lasso.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lassoscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-latex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lgt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-ll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-llvm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-logtalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-ls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lsp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-mumps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-nemerle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-rd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-rkt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-s.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-scm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-ss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-swift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-vb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-vbs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-vhd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-wiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-xq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/lang-yml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/prettify/run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/semver.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/vendor/webfontloader.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -219,8 +392,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="150">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -409,160 +582,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="track" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="match" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="friend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdfvibetribe-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="track" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -786,7 +805,7 @@
       <workItem from="1484428012872" duration="1218000" />
       <workItem from="1484439278222" duration="41897000" />
       <workItem from="1484608260837" duration="5089000" />
-      <workItem from="1484770250716" duration="5477000" />
+      <workItem from="1484770250716" duration="5635000" />
     </task>
     <task id="LOCAL-00001" summary="Unit Test Testing">
       <created>1484439664867</created>
@@ -813,7 +832,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191590000" />
+    <option name="totallyTimeSpent" value="191748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1309,8 +1328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
