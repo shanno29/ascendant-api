@@ -42,7 +42,6 @@ describe('User Controller', () =>{
                 done();
             })
     });
-
     it('Create User', done =>{
         controller.make({
             _id: config.userOne,
@@ -66,7 +65,6 @@ describe('User Controller', () =>{
             done();
         })
     });
-
     it('Create User Fail', done =>{
         controller.make({
             _id: config.userOne,
@@ -97,6 +95,47 @@ describe('User Controller', () =>{
                 done();
             })
     });
+    it('Update User Empty', done =>{
+        controller.edit(config.userOne, {})
+            .then(response =>{
+                response.email.should.equal('red@email.com');
+                response.username.should.equal('red');
+                response.fullname.should.equal('red color');
+                response.city.should.equal('milwaukee');
+                response.state.should.equal('wi');
+                response.age.should.equal(23);
+                response.gender.should.equal('male');
+                done();
+            })
+    });
+    it('Update User', done =>{
+        controller.edit(config.userOne, {
+            email: 'red@email.com',
+            username: 'test red',
+            fullname: 'test red color',
+            city: 'test milwaukee',
+            state: 'test wi',
+            age: '30',
+            gender: 'test male',
+            client: 'test android',
+            version: 'test 1.5.0',
+            aboutme: 'test test about',
+        })
+            .then(response =>{
+                response.email.should.equal('red@email.com');
+                response.username.should.equal('test red');
+                response.fullname.should.equal('test red color');
+                response.city.should.equal('test milwaukee');
+                response.state.should.equal('test wi');
+                response.age.should.equal(30);
+                response.gender.should.equal('test male');
+                response.client.should.equal('test android');
+                response.version.should.equal('test 1.5.0');
+                response.aboutme.should.equal('test test about');
+                done();
+            })
+    });
+
     it('List Users', done =>{
         controller.listAll()
             .then(response =>{
@@ -108,12 +147,12 @@ describe('User Controller', () =>{
         controller.remove(config.userOne)
             .then(response =>{
                 response.email.should.equal('red@email.com');
-                response.username.should.equal('red');
-                response.fullname.should.equal('red color');
-                response.city.should.equal('milwaukee');
-                response.state.should.equal('wi');
-                response.age.should.equal(23);
-                response.gender.should.equal('male');
+                response.username.should.equal('test red');
+                response.fullname.should.equal('test red color');
+                response.city.should.equal('test milwaukee');
+                response.state.should.equal('test wi');
+                response.age.should.equal(30);
+                response.gender.should.equal('test male');
                 done();
             })
     });

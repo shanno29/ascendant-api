@@ -199,6 +199,53 @@ describe('User Route', () =>{
             });
     });
 
+    it('Update User One Empty', done =>{
+        request
+            .put('/api/users/' + config.userOne)
+            .send({})
+            .expect(200)
+            .then(response =>{
+                response.body.email.should.equal('red@email.com');
+                response.body.username.should.equal('red');
+                response.body.fullname.should.equal('red color');
+                response.body.city.should.equal('milwaukee');
+                response.body.state.should.equal('wi');
+                response.body.age.should.equal(23);
+                response.body.gender.should.equal('male');
+                done();
+            });
+    });
+    it('Update User One', done =>{
+        request
+            .put('/api/users/' + config.userOne)
+            .send({
+                email: 'red@email.com',
+                username: 'test red',
+                fullname: 'test red color',
+                city: 'test milwaukee',
+                state: 'test wi',
+                age: '30',
+                gender: 'test male',
+                client: 'test android',
+                version: 'test 1.5.0',
+                aboutme: 'test test about',
+            })
+            .expect(200)
+            .then(response =>{
+                response.body.email.should.equal('red@email.com');
+                response.body.username.should.equal('test red');
+                response.body.fullname.should.equal('test red color');
+                response.body.city.should.equal('test milwaukee');
+                response.body.state.should.equal('test wi');
+                response.body.age.should.equal(30);
+                response.body.gender.should.equal('test male');
+                response.body.client.should.equal('test android');
+                response.body.version.should.equal('test 1.5.0');
+                response.body.aboutme.should.equal('test test about');
+                done();
+            });
+    });
+
 });
 
 
