@@ -12,10 +12,7 @@
 3. Run`npm start` to start the server.
 4. Navigate to `localhost:3000`, you should see "Hello From VibeTribe"
 
-## Tests
-1. Run `npm test`
-
-## Coverage
+## Tests & Coverage
 1. Run `npm coverage`
 2. Navigate to `localhost:3000/coverage`
 
