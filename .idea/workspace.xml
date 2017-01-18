@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="Closer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/util/express.server.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/util/mongoose.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/track/track.controller.js" afterPath="$PROJECT_DIR$/api/track/track.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/track/track.route.js" afterPath="$PROJECT_DIR$/api/track/track.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/coverage.json" afterPath="$PROJECT_DIR$/coverage/coverage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="$PROJECT_DIR$/coverage/lcov.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.js" afterPath="$PROJECT_DIR$/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/track/track.route.test.js" afterPath="$PROJECT_DIR$/test/track/track.route.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -148,16 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="match.controller.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/match/match.controller.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="match.route.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/match/match.route.test.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -226,7 +202,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1020">
@@ -234,6 +210,19 @@
               <folding>
                 <element signature="n#!!block;n#repository#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="420">
+                <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -326,7 +315,6 @@
         <option value="$PROJECT_DIR$/test/post/post.controller.test.js" />
         <option value="$PROJECT_DIR$/api/chat/chat.route.js" />
         <option value="$PROJECT_DIR$/api/post/post.route.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/api/chat/chat.controller.js" />
         <option value="$PROJECT_DIR$/api/friend/friend.controller.js" />
         <option value="$PROJECT_DIR$/api/match/match.controller.js" />
@@ -346,6 +334,7 @@
         <option value="$PROJECT_DIR$/test/user/user.route.test.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -798,7 +787,7 @@
       <workItem from="1484428012872" duration="1218000" />
       <workItem from="1484439278222" duration="41897000" />
       <workItem from="1484608260837" duration="5089000" />
-      <workItem from="1484770250716" duration="5085000" />
+      <workItem from="1484770250716" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="Unit Test Testing">
       <created>1484439664867</created>
@@ -825,7 +814,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191198000" />
+    <option name="totallyTimeSpent" value="191255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -983,16 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="900">
-            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1323,6 +1302,17 @@
           <folding>
             <element signature="n#!!block;n#repository#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
