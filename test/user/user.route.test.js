@@ -250,7 +250,7 @@ describe('User Route', () =>{
         request
             .put('/api/users/' + config.userOne +'/avatars')
             .field('name', 'test avatar')
-            .attach('avatar', 'public/images/users/avatars/default_avatar.jpg')
+            .attach('avatar', 'public/images/default/default_avatar.jpg')
             .expect(200)
             .then(response =>{
                 response.body.avatar.length.should.equal(2);
@@ -262,7 +262,7 @@ describe('User Route', () =>{
         request
             .put('/api/users/' + config.userOne +'/banners')
             .field('name', 'test banner')
-            .attach('banner', 'public/images/users/banners/default_banner.jpg')
+            .attach('banner', 'public/images/default/default_banner.jpg')
             .expect(200)
             .then(response =>{
                 response.body.banner.length.should.equal(2);

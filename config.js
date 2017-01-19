@@ -14,9 +14,9 @@ module.exports = {
 
     images: 'http://localhost:3000/public/images',
 
-    default_avatar: 'http://localhost:3000/public/images/users/avatars/default_avatar.jpg',
-    default_banner: 'http://localhost:3000/public/images/users/banners/default_banner.jpg',
-    default_artwork: 'http://localhost:3000/public/images/tracks/default_artwork.jpg',
+    default_avatar: 'http://localhost:3000/public/images/default/default_avatar.jpg',
+    default_banner: 'http://localhost:3000/public/images/default/default_banner.jpg',
+    default_artwork: 'http://localhost:3000/public/images/default/default_artwork.jpg',
 
     coverage: '/coverage/lcov-report',
     public: '/public',
