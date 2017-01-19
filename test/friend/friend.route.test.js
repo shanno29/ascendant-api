@@ -1,11 +1,11 @@
-const app = require('../../index');
-const request = require("supertest").agent(app.listen());
 const config = require('../../config');
+const request = require("supertest");
+const app = require('../../index');
 
 describe('Friend Route', () =>{
 
     it('Create Friend One', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -21,7 +21,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Two', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -37,7 +37,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Three', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -53,7 +53,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend One Fail ', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -69,7 +69,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Two Fail ', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -85,7 +85,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Create Friend Three Fail ', done =>{
-        request
+        request(app)
             .post('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -102,7 +102,7 @@ describe('Friend Route', () =>{
     });
 
     it('Find Friend One', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.friendOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -114,7 +114,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Find Friend Two', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.friendTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -126,7 +126,7 @@ describe('Friend Route', () =>{
             });
     });
     it('Find Friend Three', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.friendThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -139,7 +139,7 @@ describe('Friend Route', () =>{
     });
 
     it('List All Friends', done =>{
-        request
+        request(app)
             .get('/api/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -151,7 +151,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User One Friends', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.userOne + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -163,7 +163,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User Two Friends', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.userTwo + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -175,7 +175,7 @@ describe('Friend Route', () =>{
             });
     });
     it('List User Three Friends', done =>{
-        request
+        request(app)
             .get('/api/friends/' + config.userThree + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)

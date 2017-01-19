@@ -1,11 +1,11 @@
-const app = require('../../index');
-const request = require("supertest").agent(app.listen());
 const config = require('../../config');
+const request = require("supertest");
+const app = require('../../index');
 
 describe('Track Route', () =>{
 
     it('Create Track One', done =>{
-        request
+        request(app)
             .post('/api/tracks')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -34,7 +34,7 @@ describe('Track Route', () =>{
             });
     });
     it('Create Track Two', done =>{
-        request
+        request(app)
             .post('/api/tracks')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -63,7 +63,7 @@ describe('Track Route', () =>{
             });
     });
     it('Create Track Three', done =>{
-        request
+        request(app)
             .post('/api/tracks')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -93,7 +93,7 @@ describe('Track Route', () =>{
     });
 
     it('Find Track One', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.trackOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -112,7 +112,7 @@ describe('Track Route', () =>{
             });
     });
     it('Find Track Two', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.trackTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -131,7 +131,7 @@ describe('Track Route', () =>{
             });
     });
     it('Find Track Three', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.trackThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -151,7 +151,7 @@ describe('Track Route', () =>{
     });
 
     it('List User One Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userOne + '/user')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -163,7 +163,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Two Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userTwo + '/user')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -175,7 +175,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Three Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userThree + '/user')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -188,7 +188,7 @@ describe('Track Route', () =>{
     });
 
     it('List All Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -201,7 +201,7 @@ describe('Track Route', () =>{
     });
 
     it('List User Ones Friends Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userOne + '/friends')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -213,7 +213,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Ones Matches Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userOne + '/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -225,7 +225,7 @@ describe('Track Route', () =>{
             });
     });
     it('List User Ones Nearby Tracks', done =>{
-        request
+        request(app)
             .get('/api/tracks/' + config.userOne + '/nearby')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -238,7 +238,7 @@ describe('Track Route', () =>{
     });
 
     it('Search Music Networks', done =>{
-        request
+        request(app)
             .get('/api/tracks/search/' + 'finally moving pretty lights/10')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)

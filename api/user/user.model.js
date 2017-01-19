@@ -1,4 +1,3 @@
-const fs = require('fs-writefile-promise/lib/node7');
 const config = require('./../../config');
 const bcrypt = require('bcrypt-nodejs');
 const mongoose = require('mongoose');

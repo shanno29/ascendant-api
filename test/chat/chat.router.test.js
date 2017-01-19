@@ -1,11 +1,11 @@
-const app = require('../../index');
-const request = require("supertest").agent(app.listen());
 const config = require('../../config');
+const request = require("supertest");
+const app = require('../../index');
 
 describe('Chat Route', () =>{
 
     it('Create Chat One', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -23,7 +23,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Two', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -41,7 +41,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Three', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -59,7 +59,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat One Fail ', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -75,7 +75,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Two Fail ', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -91,7 +91,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Create Chat Three Fail ', done =>{
-        request
+        request(app)
             .post('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -108,7 +108,7 @@ describe('Chat Route', () =>{
     });
 
     it('Find Chat One', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.chatOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -123,7 +123,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Find Chat Two', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.chatTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -138,7 +138,7 @@ describe('Chat Route', () =>{
             });
     });
     it('Find Chat Three', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.chatThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -154,7 +154,7 @@ describe('Chat Route', () =>{
     });
 
     it('Update Chat One', done =>{
-        request
+        request(app)
             .put('/api/chats/' + config.chatOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -173,7 +173,7 @@ describe('Chat Route', () =>{
     });
 
     it('List All Chats', done =>{
-        request
+        request(app)
             .get('/api/chats')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -186,7 +186,7 @@ describe('Chat Route', () =>{
     });
 
     it('List User One Chats', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.userOne + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -198,7 +198,7 @@ describe('Chat Route', () =>{
             });
     });
     it('List User Two Chats', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.userTwo + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -210,7 +210,7 @@ describe('Chat Route', () =>{
             });
     });
     it('List User Three Chats', done =>{
-        request
+        request(app)
             .get('/api/chats/' + config.userThree + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)

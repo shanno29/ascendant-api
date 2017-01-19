@@ -1,11 +1,11 @@
-const app = require('../../index');
-const request = require("supertest").agent(app.listen());
 const config = require('../../config');
+const request = require("supertest");
+const app = require('../../index');
 
 describe('User Route', () =>{
 
     it('Create User One', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userOne,
@@ -31,7 +31,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Two', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userTwo,
@@ -57,7 +57,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Three', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userThree,
@@ -83,7 +83,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User One Fail ', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userOne,
@@ -103,7 +103,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Two Fail ', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userTwo,
@@ -123,7 +123,7 @@ describe('User Route', () =>{
             });
     });
     it('Create User Three Fail ', done =>{
-        request
+        request(app)
             .post('/api/users')
             .send({
                 _id: config.userThree,
@@ -144,7 +144,7 @@ describe('User Route', () =>{
     });
 
     it('Login User One', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userOne + '/login')
             .send({
                 email: 'red@email.com',
@@ -173,7 +173,7 @@ describe('User Route', () =>{
             });
     });
     it('Login User Two', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userTwo + '/login')
             .send({
                 email: 'yellow@email.com',
@@ -203,7 +203,7 @@ describe('User Route', () =>{
 
     });
     it('Login User Three', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userThree + '/login')
             .send({
                 email: 'blue@email.com',
@@ -234,7 +234,7 @@ describe('User Route', () =>{
 
 
     it('Find User One', done =>{
-        request
+        request(app)
             .get('/api/users/' + config.userOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -252,7 +252,7 @@ describe('User Route', () =>{
             });
     });
     it('Find User Two', done =>{
-        request
+        request(app)
             .get('/api/users/' + config.userTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -270,7 +270,7 @@ describe('User Route', () =>{
             });
     });
     it('Find User Three', done =>{
-        request
+        request(app)
             .get('/api/users/' + config.userThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -289,7 +289,7 @@ describe('User Route', () =>{
     });
 
     it('List All Users', done =>{
-        request
+        request(app)
             .get('/api/users')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -302,7 +302,7 @@ describe('User Route', () =>{
     });
 
     it('Update User One Empty', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -321,7 +321,7 @@ describe('User Route', () =>{
             });
     });
     it('Update User One', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -355,7 +355,7 @@ describe('User Route', () =>{
     });
 
     it('Update User One Avatar', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userOne +'/avatars')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -369,7 +369,7 @@ describe('User Route', () =>{
             });
     });
     it('Update User One Banner', done =>{
-        request
+        request(app)
             .put('/api/users/' + config.userOne +'/banners')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)

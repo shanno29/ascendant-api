@@ -19,10 +19,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "latest",
-    "config": "latest",
     "express": "latest",
-    "fs-writefile-promise": "latest",
-    "method-override": "latest",
     "moment": "latest",
     "mongoose": "latest",
     "morgan": "latest",
@@ -37,8 +34,6 @@
     "coveralls": "latest",
     "istanbul": "latest",
     "mocha": "latest",
-    "mocha-lcov-reporter": "latest",
-    "mocha-logger": "latest",
     "supertest": "latest"
   }
 }

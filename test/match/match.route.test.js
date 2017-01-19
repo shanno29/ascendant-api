@@ -1,11 +1,11 @@
-const app = require('../../index');
-const request = require("supertest").agent(app.listen());
 const config = require('../../config');
+const request = require("supertest");
+const app = require('../../index');
 
 describe('Match Route', () =>{
 
     it('Create Match One', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -21,7 +21,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Two', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -37,7 +37,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Three', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -53,7 +53,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match One Fail ', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -69,7 +69,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Two Fail ', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -85,7 +85,7 @@ describe('Match Route', () =>{
             });
     });
     it('Create Match Three Fail ', done =>{
-        request
+        request(app)
             .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -102,7 +102,7 @@ describe('Match Route', () =>{
     });
 
     it('Find Match One', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.matchOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -114,7 +114,7 @@ describe('Match Route', () =>{
             });
     });
     it('Find Match Two', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.matchTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -126,7 +126,7 @@ describe('Match Route', () =>{
             });
     });
     it('Find Match Three', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.matchThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
@@ -139,7 +139,7 @@ describe('Match Route', () =>{
     });
 
     it('List All Matches', done =>{
-        request
+        request(app)
             .get('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -151,7 +151,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User One Matches', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.userOne + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
@@ -163,7 +163,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User Two Matches', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.userTwo + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
@@ -175,7 +175,7 @@ describe('Match Route', () =>{
             });
     });
     it('List User Three Matches', done =>{
-        request
+        request(app)
             .get('/api/matches/' + config.userThree + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
