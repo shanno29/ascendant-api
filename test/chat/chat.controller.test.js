@@ -1,7 +1,6 @@
 const controller = require('../../api/chat/chat.controller');
 const config = require('../../config');
 const mongoose = require('mongoose');
-const should = require('chai').should();
 
 describe('Chat Controller', () =>{
     before(done =>{
@@ -16,12 +15,10 @@ describe('Chat Controller', () =>{
                 messages: [{author: config.userOne, text: 'Hello World'}],
             })
             .then(response =>{
-                response.messages[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 return controller.remove(response._id);
             })
             .then(response => {
-                response.messages[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             })
@@ -34,7 +31,6 @@ describe('Chat Controller', () =>{
             messages: [{author: config.userOne, text: 'Hello World'}],
         })
             .then(response => {
-                response.messages[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             })
@@ -68,7 +64,6 @@ describe('Chat Controller', () =>{
         controller
             .lookup(config.chatOne)
             .then(response => {
-                response.messages[0].author.equals(config.userOne);
                 response.relative.should.equal('a few seconds ago');
                 for(let i = response.messages.length; i--;) response.messages[i].relative.should.equal('a few seconds ago');
                 response.owners.should.be.instanceof(Array);
@@ -95,7 +90,6 @@ describe('Chat Controller', () =>{
         controller
             .remove(config.chatOne)
             .then(response => {
-                response.messages[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             })

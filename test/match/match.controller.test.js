@@ -1,7 +1,6 @@
 const controller = require('../../api/match/match.controller');
 const config = require('../../config');
 const mongoose = require('mongoose');
-const should = require('chai').should();
 
 describe('Match Controller', () =>{
     before(done =>{

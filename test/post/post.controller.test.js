@@ -16,12 +16,10 @@ describe('Post Controller', () =>{
                 comments: [{author: config.userOne, text: 'Hello World'}],
             })
             .then(response =>{
-                response.comments[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 return controller.remove(response._id);
             })
             .then(response => {
-                response.comments[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             })
@@ -33,7 +31,6 @@ describe('Post Controller', () =>{
             comments: [{author: config.userOne, text: 'Hello World'}],
         })
             .then(response => {
-                response.comments[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             });
@@ -54,7 +51,6 @@ describe('Post Controller', () =>{
     it('Find Post', done =>{
         controller.lookup(config.postOne)
             .then(response => {
-                response.comments[0].author.equals(config.userOne);
                 response.relative.should.equal('a few seconds ago');
                 for(let i = response.comments.length; i--;) response.comments[i].relative.should.equal('a few seconds ago');
                 done();
@@ -77,7 +73,6 @@ describe('Post Controller', () =>{
     it('Delete Post', done =>{
         controller.remove(config.postOne)
             .then((response) => {
-                response.comments[0].author.equals(config.userOne);
                 response.owners.length.should.equal(2);
                 done();
             });

@@ -1,7 +1,6 @@
 const controller = require('../../api/friend/friend.controller');
 const config = require('../../config');
 const mongoose = require('mongoose');
-const should = require('chai').should();
 
 describe('Friend Controller', () =>{
     before(done =>{

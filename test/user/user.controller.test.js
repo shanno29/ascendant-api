@@ -1,7 +1,6 @@
 const controller = require('../../api/user/user.controller');
 const config = require('../../config');
 const mongoose = require('mongoose');
-const should = require('chai').should();
 
 describe('User Controller', () =>{
     before(done =>{
