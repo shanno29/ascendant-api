@@ -1,13 +1,8 @@
 const controller = require('../../api/user/user.controller');
 const config = require('../../config');
-const mongoose = require('mongoose');
+require('chai').should();
 
 describe('User Controller', () =>{
-    before(done =>{
-        if (mongoose.connection.db) return done();
-        mongoose.Promise = global.Promise;
-        mongoose.connect(config.db, done);
-    });
     it('Create User No ID', done =>{
         controller
             .make({
@@ -42,7 +37,8 @@ describe('User Controller', () =>{
             })
     });
     it('Create User', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.userOne,
             email: 'red@email.com',
             password: 'test',
@@ -53,7 +49,7 @@ describe('User Controller', () =>{
             age: '23',
             gender: 'male',
         })
-        .then(response =>{
+            .then(response =>{
             response.email.should.equal('red@email.com');
             response.username.should.equal('red');
             response.fullname.should.equal('red color');
@@ -65,7 +61,8 @@ describe('User Controller', () =>{
         })
     });
     it('Create User Fail', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.userOne,
             email: 'red@email.com',
             password: 'test',
@@ -76,13 +73,14 @@ describe('User Controller', () =>{
             age: '23',
             gender: 'male',
         })
-        .then(null, error =>{
+            .then(null, error =>{
             error.message.should.equal('That Email Is Already In Use');
             done();
         });
     });
     it('Find User', done =>{
-        controller.lookup(config.userOne)
+        controller
+            .lookup(config.userOne)
             .then(response =>{
                 response.email.should.equal('red@email.com');
                 response.username.should.equal('red');
@@ -96,7 +94,8 @@ describe('User Controller', () =>{
     });
 
     it('Update User Empty', done =>{
-        controller.edit(config.userOne, {})
+        controller
+            .edit(config.userOne, {})
             .then(response =>{
                 response.email.should.equal('red@email.com');
                 response.username.should.equal('red');
@@ -109,7 +108,8 @@ describe('User Controller', () =>{
             })
     });
     it('Update User', done =>{
-        controller.edit(config.userOne, {
+        controller
+            .edit(config.userOne, {
             email: 'red@email.com',
             username: 'test red',
             fullname: 'test red color',
@@ -136,14 +136,16 @@ describe('User Controller', () =>{
             })
     });
     it('Update User Avatar', done =>{
-        controller.editAvatar(config.userOne, {filename: 'testavatar'})
+        controller
+            .editAvatar(config.userOne, {filename: 'testavatar'})
             .then(response =>{
                 response.avatar.length.should.equal(2);
                 done();
             })
     });
     it('Update User Banner', done =>{
-        controller.editBanner(config.userOne, {filename: 'testbanner'})
+        controller
+            .editBanner(config.userOne, {filename: 'testbanner'})
             .then(response =>{
                 response.banner.length.should.equal(2);
                 done();
@@ -151,7 +153,8 @@ describe('User Controller', () =>{
     });
 
     it('Login User Android Client', done =>{
-        controller.login(config.userOne, {
+        controller
+            .login(config.userOne, {
             email: 'red@email.com',
             password: 'test',
             username: 'red',
@@ -162,7 +165,8 @@ describe('User Controller', () =>{
             type: 'android',
             version: '1.5.0',
             gender: 'male',
-        }).then(response =>{
+        })
+            .then(response =>{
             response.email.should.equal('red@email.com');
             response.username.should.equal('test red');
             response.fullname.should.equal('test red color');
@@ -177,7 +181,8 @@ describe('User Controller', () =>{
         })
     });
     it('Login User Windows Client', done =>{
-        controller.login(config.userOne, {
+        controller
+            .login(config.userOne, {
             email: 'red@email.com',
             password: 'test',
             username: 'red',
@@ -188,7 +193,8 @@ describe('User Controller', () =>{
             state: 'wi',
             age: '23',
             gender: 'male',
-        }).then(response =>{
+        })
+            .then(response =>{
             response.email.should.equal('red@email.com');
             response.username.should.equal('test red');
             response.fullname.should.equal('test red color');
@@ -203,7 +209,8 @@ describe('User Controller', () =>{
         })
     });
     it('Login User Fail Password', done =>{
-        controller.login(config.userOne, {
+        controller
+            .login(config.userOne, {
             email: 'red@email.com',
             password: 'asdfasdf',
             username: 'red',
@@ -214,13 +221,15 @@ describe('User Controller', () =>{
             state: 'wi',
             age: '23',
             gender: 'male',
-        }).then(null, error =>{
+        })
+            .then(null, error =>{
             error.message.should.equal('Incorrect Password');
             done();
         });
     });
     it('Login User Fail Client Outdated', done =>{
-        controller.login(config.userOne, {
+        controller
+            .login(config.userOne, {
             email: 'red@email.com',
             password: 'test',
             username: 'red',
@@ -231,21 +240,24 @@ describe('User Controller', () =>{
             state: 'wi',
             age: '23',
             gender: 'male',
-        }).then(null, error =>{
+        })
+            .then(null, error =>{
             error.message.should.equal('Outdated Client');
             done();
         });
     });
 
     it('List Users', done =>{
-        controller.listAll()
+        controller
+            .listAll()
             .then(response =>{
                 response.length.should.equal(1);
                 done();
             })
     });
     it('Delete User', done =>{
-        controller.remove(config.userOne)
+        controller
+            .remove(config.userOne)
             .then(response =>{
                 response.email.should.equal('red@email.com');
                 response.username.should.equal('test red');

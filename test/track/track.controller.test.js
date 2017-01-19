@@ -1,13 +1,8 @@
 const controller = require('../../api/track/track.controller');
 const config = require('../../config');
-const mongoose = require('mongoose');
+require('chai').should();
 
 describe('Track Controller', () =>{
-    before(done =>{
-        if (mongoose.connection.db) return done();
-        mongoose.Promise = global.Promise;
-        mongoose.connect(config.db, done);
-    });
     it('Create Track No ID', done =>{
         controller
             .make({
@@ -42,7 +37,8 @@ describe('Track Controller', () =>{
             })
     });
     it('Create Track', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.trackOne,
             title: 'test title',
             artist: 'test artist',
@@ -66,7 +62,8 @@ describe('Track Controller', () =>{
     });
 
     it('Find Track', done =>{
-        controller.lookup(config.trackOne)
+        controller
+            .lookup(config.trackOne)
             .then(response => {
                 response.relative.should.equal('a few seconds ago');
                 response.title.should.equal('test title');
@@ -80,35 +77,40 @@ describe('Track Controller', () =>{
             });
     });
     it('List Tracks', done =>{
-        controller.listAll()
+        controller
+            .listAll()
             .then(response => {
                 response.length.should.equal(1);
                 done();
             });
     });
     it('List User Tracks', done =>{
-        controller.listUser(config.userOne)
+        controller
+            .listUser(config.userOne)
             .then(response => {
                 response.length.should.equal(1);
                 done();
             })
     });
     it('List User Friends Tracks', done =>{
-        controller.listFriends(config.userOne)
+        controller
+            .listFriends(config.userOne)
             .then(response => {
                 response.length.should.equal(0);
                 done();
             })
     });
     it('List User Matches Tracks', done =>{
-        controller.listMatches(config.userOne)
+        controller
+            .listMatches(config.userOne)
             .then(response => {
                 response.length.should.equal(0);
                 done();
             })
     });
     it('List User Nearby Tracks', done =>{
-        controller.listNearby(config.userOne)
+        controller
+            .listNearby(config.userOne)
             .then(response => {
                 response.length.should.equal(1);
                 done();
@@ -124,7 +126,8 @@ describe('Track Controller', () =>{
     });
 
     it('Delete Track', done =>{
-        controller.remove(config.trackOne)
+        controller
+            .remove(config.trackOne)
             .then((response) => {
                 response.title.should.equal('test title');
                 response.artist.should.equal('test artist');

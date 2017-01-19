@@ -1,13 +1,8 @@
 const controller = require('../../api/friend/friend.controller');
 const config = require('../../config');
-const mongoose = require('mongoose');
+require('chai').should();
 
 describe('Friend Controller', () =>{
-    before(done =>{
-        if (mongoose.connection.db) return done();
-        mongoose.Promise = global.Promise;
-        mongoose.connect(config.db, done);
-    });
     it('Create Friend No ID', done =>{
         controller
             .make({
@@ -23,7 +18,8 @@ describe('Friend Controller', () =>{
             })
     });
     it('Create Friend', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.friendOne,
             owners: [config.userOne, config.userTwo],
         })
@@ -33,7 +29,8 @@ describe('Friend Controller', () =>{
             });
     });
     it('Create Friend Fail', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.friendOne,
             owners: [config.userOne, config.userTwo],
         })
@@ -43,28 +40,32 @@ describe('Friend Controller', () =>{
             });
     });
     it('Find Friend', done =>{
-        controller.lookup(config.friendOne)
+        controller
+            .lookup(config.friendOne)
             .then(response => {
                 response.owners.should.be.instanceof(Array);
                 done();
             });
     });
     it('List Friends', done =>{
-        controller.listAll()
+        controller
+            .listAll()
             .then(response => {
                 response.length.should.equal(1);
                 done();
             });
     });
     it('List User Friends', done =>{
-        controller.listUser(config.userOne)
+        controller
+            .listUser(config.userOne)
             .then(response => {
                 response.length.should.equal(1);
                 done();
             })
     });
     it('Delete Friend', done =>{
-        controller.remove(config.friendOne)
+        controller
+            .remove(config.friendOne)
             .then((response) => {
                 response.owners.length.should.equal(2);
                 done();

@@ -1,13 +1,8 @@
 const controller = require('../../api/match/match.controller');
 const config = require('../../config');
-const mongoose = require('mongoose');
+require('chai').should();
 
 describe('Match Controller', () =>{
-    before(done =>{
-        if (mongoose.connection.db) return done();
-        mongoose.Promise = global.Promise;
-        mongoose.connect(config.db, done);
-    });
     it('Create Match No ID', done =>{
         controller
             .make({
@@ -23,7 +18,8 @@ describe('Match Controller', () =>{
             })
     });
     it('Create Match', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.matchOne,
             owners: [config.userOne, config.userTwo],
         })
@@ -33,7 +29,8 @@ describe('Match Controller', () =>{
             });
     });
     it('Create Match Fail', done =>{
-        controller.make({
+        controller
+            .make({
             _id: config.matchOne,
             owners: [config.userOne, config.userTwo],
         })
@@ -43,28 +40,32 @@ describe('Match Controller', () =>{
             });
     });
     it('Find Match', done =>{
-        controller.lookup(config.matchOne)
+        controller
+            .lookup(config.matchOne)
             .then(response => {
                 response.owners.should.be.instanceof(Array);
                 done();
             });
     });
     it('List Matches', done =>{
-        controller.listAll()
+        controller
+            .listAll()
             .then(response => {
                 response.length.should.equal(1);
                 done();
             });
     });
     it('List User Matches', done =>{
-        controller.listUser(config.userOne)
+        controller
+            .listUser(config.userOne)
             .then(response => {
                 response.length.should.equal(1);
                 done();
             })
     });
     it('Delete Match', done =>{
-        controller.remove(config.matchOne)
+        controller
+            .remove(config.matchOne)
             .then((response) => {
                 response.owners.length.should.equal(2);
                 done();
