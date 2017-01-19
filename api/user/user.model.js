@@ -33,8 +33,7 @@ userSchema.statics.checkClient = (type, version) =>{
     return android || windows;
 };
 
-
-userSchema.statics.generateHash = password => bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+userSchema.statics.generateHash = password => bcrypt.hashSync(password, bcrypt.genSaltSync(4), null);
 
 userSchema.statics.validPassword = (one, two) => bcrypt.compareSync(one, two);
 

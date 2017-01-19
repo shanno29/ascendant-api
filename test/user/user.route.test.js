@@ -254,7 +254,6 @@ describe('User Route', () =>{
             .expect(200)
             .then(response =>{
                 response.body.avatar.length.should.equal(2);
-                console.log('response: ' + response);
                 done();
             });
     });
@@ -266,7 +265,6 @@ describe('User Route', () =>{
             .expect(200)
             .then(response =>{
                 response.body.banner.length.should.equal(2);
-                console.log('response: ' + response);
                 done();
             });
     });

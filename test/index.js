@@ -1,7 +1,4 @@
 
-// Mongoose Tests
-require('./util/mongoose.database.test.js');
-
 // Unit Tests
 require('./user/user.controller.test');
 require('./chat/chat.controller.test');
