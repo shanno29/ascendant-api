@@ -1,5 +1,6 @@
 const controller = require('./chat.controller');
 const router = require('express').Router();
+const auth = require('express-jwt-token');
 const status = require('../util/status');
 
 /**
@@ -64,7 +65,7 @@ const status = require('../util/status');
  * @apiErrorExample {json} List error
  *    HTTP/1.1 500 Internal Server Error
  */
-router.post('/', (req, res) => {
+router.post('/', auth.jwtAuthProtected, (req, res) => {
     controller
         .make(req.body)
         .then(status.pass(res))
@@ -128,14 +129,14 @@ router.post('/', (req, res) => {
  * @apiErrorExample {json} List error
  *    HTTP/1.1 500 Internal Server Error
  */
-router.get('/:key', (req, res) => {
+router.get('/:key', auth.jwtAuthProtected, (req, res) => {
     controller
         .lookup(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.put('/:key', (req, res) => {
+router.put('/:key', auth.jwtAuthProtected, (req, res) => {
     controller
         .edit(req.params.key, req.body)
         .then(status.pass(res))
@@ -297,7 +298,7 @@ router.put('/:key', (req, res) => {
  * @apiErrorExample {json} List error
  *    HTTP/1.1 500 Internal Server Error
  */
-router.get('/:key/user', (req, res) => {
+router.get('/:key/user', auth.jwtAuthProtected, (req, res) => {
     controller
         .listUser(req.params.key)
         .then(status.pass(res))
@@ -456,7 +457,7 @@ router.get('/:key/user', (req, res) => {
  * @apiErrorExample {json} List error
  *    HTTP/1.1 500 Internal Server Error
  */
-router.get('/', (req, res) => {
+router.get('/', auth.jwtAuthProtected, (req, res) => {
     controller
         .listAll()
         .then(status.pass(res))
@@ -520,7 +521,7 @@ router.get('/', (req, res) => {
  * @apiErrorExample {json} List error
  *    HTTP/1.1 500 Internal Server Error
  */
-router.delete('/:key', (req, res) => {
+router.delete('/:key', auth.jwtAuthProtected, (req, res) => {
     controller
         .remove(req.params.key)
         .then(status.pass(res))

@@ -7,6 +7,9 @@ describe('Purge Database Util', () =>{
     it('Delete Post One', done =>{
         request(app)
             .delete('/api/posts/' + config.postOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('comments');
@@ -17,6 +20,9 @@ describe('Purge Database Util', () =>{
     it('Delete Post Two', done =>{
         request(app)
             .delete('/api/posts/' + config.postTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('comments');
@@ -27,6 +33,9 @@ describe('Purge Database Util', () =>{
     it('Delete Post Three', done =>{
         request(app)
             .delete('/api/posts/' + config.postThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('comments');
@@ -38,6 +47,9 @@ describe('Purge Database Util', () =>{
     it('Delete Chat One', done =>{
         request(app)
             .delete('/api/chats/' + config.chatOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('messages');
@@ -48,6 +60,9 @@ describe('Purge Database Util', () =>{
     it('Delete Chat Two', done =>{
         request(app)
             .delete('/api/chats/' + config.chatTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('messages');
@@ -58,6 +73,9 @@ describe('Purge Database Util', () =>{
     it('Delete Chat Three', done =>{
         request(app)
             .delete('/api/chats/' + config.chatThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('messages');
@@ -69,6 +87,9 @@ describe('Purge Database Util', () =>{
     it('Delete Friend One', done =>{
         request(app)
             .delete('/api/friends/' + config.friendOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -78,6 +99,9 @@ describe('Purge Database Util', () =>{
     it('Delete Friend Two', done =>{
         request(app)
             .delete('/api/friends/' + config.friendTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -87,6 +111,9 @@ describe('Purge Database Util', () =>{
     it('Delete Friend Three', done =>{
         request(app)
             .delete('/api/friends/' + config.friendThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -97,6 +124,9 @@ describe('Purge Database Util', () =>{
     it('Delete Match One', done =>{
         request(app)
             .delete('/api/matches/' + config.matchOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -106,6 +136,9 @@ describe('Purge Database Util', () =>{
     it('Delete Match Two', done =>{
         request(app)
             .delete('/api/matches/' + config.matchTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -115,6 +148,9 @@ describe('Purge Database Util', () =>{
     it('Delete Match Three', done =>{
         request(app)
             .delete('/api/matches/' + config.matchThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('owners');
@@ -125,6 +161,9 @@ describe('Purge Database Util', () =>{
     it('Delete Track One', done =>{
         request(app)
             .delete('/api/tracks/' + config.trackOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('title');
@@ -140,6 +179,9 @@ describe('Purge Database Util', () =>{
     it('Delete Track Two', done =>{
         request(app)
             .delete('/api/tracks/' + config.trackTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('title');
@@ -155,6 +197,9 @@ describe('Purge Database Util', () =>{
     it('Delete Track Three', done =>{
         request(app)
             .delete('/api/tracks/' + config.trackThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('title');
@@ -171,6 +216,9 @@ describe('Purge Database Util', () =>{
     it('Delete User One', done =>{
         request(app)
             .delete('/api/users/' + config.userOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('email');
@@ -185,6 +233,9 @@ describe('Purge Database Util', () =>{
     it('Delete User Two', done =>{
         request(app)
             .delete('/api/users/' + config.userTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('email');
@@ -199,6 +250,9 @@ describe('Purge Database Util', () =>{
     it('Delete User Three', done =>{
         request(app)
             .delete('/api/users/' + config.userThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.should.have.property('email');

@@ -7,6 +7,9 @@ describe('Track Route', () =>{
     it('Create Track One', done =>{
         request
             .post('/api/tracks')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.trackOne,
                 title: 'test title',
@@ -33,6 +36,9 @@ describe('Track Route', () =>{
     it('Create Track Two', done =>{
         request
             .post('/api/tracks')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.trackTwo,
                 title: 'test title',
@@ -59,6 +65,9 @@ describe('Track Route', () =>{
     it('Create Track Three', done =>{
         request
             .post('/api/tracks')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.trackThree,
                 title: 'test title',
@@ -86,6 +95,9 @@ describe('Track Route', () =>{
     it('Find Track One', done =>{
         request
             .get('/api/tracks/' + config.trackOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.relative.should.equal('a few seconds ago');
@@ -102,6 +114,9 @@ describe('Track Route', () =>{
     it('Find Track Two', done =>{
         request
             .get('/api/tracks/' + config.trackTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.relative.should.equal('a few seconds ago');
@@ -118,6 +133,9 @@ describe('Track Route', () =>{
     it('Find Track Three', done =>{
         request
             .get('/api/tracks/' + config.trackThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.relative.should.equal('a few seconds ago');
@@ -135,6 +153,9 @@ describe('Track Route', () =>{
     it('List User One Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/user')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(1);
@@ -144,6 +165,9 @@ describe('Track Route', () =>{
     it('List User Two Tracks', done =>{
         request
             .get('/api/tracks/' + config.userTwo + '/user')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(1);
@@ -153,6 +177,9 @@ describe('Track Route', () =>{
     it('List User Three Tracks', done =>{
         request
             .get('/api/tracks/' + config.userThree + '/user')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(1);
@@ -163,6 +190,9 @@ describe('Track Route', () =>{
     it('List All Tracks', done =>{
         request
             .get('/api/tracks')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);
@@ -173,6 +203,9 @@ describe('Track Route', () =>{
     it('List User Ones Friends Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/friends')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);
@@ -182,6 +215,9 @@ describe('Track Route', () =>{
     it('List User Ones Matches Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/matches')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);
@@ -191,6 +227,9 @@ describe('Track Route', () =>{
     it('List User Ones Nearby Tracks', done =>{
         request
             .get('/api/tracks/' + config.userOne + '/nearby')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);
@@ -201,6 +240,9 @@ describe('Track Route', () =>{
     it('Search Music Networks', done =>{
         request
             .get('/api/tracks/search/' + 'finally moving pretty lights/10')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);

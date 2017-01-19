@@ -28,8 +28,8 @@ userSchema.pre('save', function(next) {
 });
 
 userSchema.statics.checkClient = (type, version) =>{
-    const android = type == 'android' && version == config.android;
-    const windows = type == 'windesktop' && version == config.windows;
+    const android = type === 'android' && version === config.android;
+    const windows = type === 'windesktop' && version === config.windows;
     return android || windows;
 };
 

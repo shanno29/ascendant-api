@@ -1,63 +1,64 @@
 const controller = require('./track.controller');
 const router = require('express').Router();
+const auth = require('express-jwt-token');
 const status = require('../util/status');
 
-router.post('/', (req, res) => {
+router.post('/', auth.jwtAuthProtected, (req, res) => {
     controller
         .make(req.body)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/:key', (req, res) => {
+router.get('/:key', auth.jwtAuthProtected, (req, res) => {
     controller
         .lookup(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
-router.get('/:key/user', (req, res) => {
+router.get('/:key/user', auth.jwtAuthProtected, (req, res) => {
     controller
         .listUser(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/:key/friends', (req, res) => {
+router.get('/:key/friends', auth.jwtAuthProtected, (req, res) => {
     controller
         .listFriends(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/:key/matches', (req, res) => {
+router.get('/:key/matches', auth.jwtAuthProtected, (req, res) => {
     controller
         .listMatches(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/:key/nearby', (req, res) => {
+router.get('/:key/nearby', auth.jwtAuthProtected, (req, res) => {
     controller
         .listNearby(req.params.key)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/search/:query/:limit', (req, res) => {
+router.get('/search/:query/:limit', auth.jwtAuthProtected, (req, res) => {
     controller
         .search(req.param.query, req.param.limit)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.get('/', (req, res) => {
+router.get('/', auth.jwtAuthProtected, (req, res) => {
     controller
         .listAll()
         .then(status.pass(res))
         .then(null, status.fail(res));
 });
 
-router.delete('/:key', (req, res) => {
+router.delete('/:key', auth.jwtAuthProtected, (req, res) => {
     controller
         .remove(req.params.key)
         .then(status.pass(res))

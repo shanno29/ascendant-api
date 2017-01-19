@@ -7,6 +7,9 @@ describe('Chat Route', () =>{
     it('Create Chat One', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.chatOne,
                 owners: [config.userOne, config.userTwo],
@@ -22,6 +25,9 @@ describe('Chat Route', () =>{
     it('Create Chat Two', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.chatTwo,
                 owners: [config.userTwo, config.userThree],
@@ -37,6 +43,9 @@ describe('Chat Route', () =>{
     it('Create Chat Three', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.chatThree,
                 owners: [config.userThree, config.userOne],
@@ -52,6 +61,9 @@ describe('Chat Route', () =>{
     it('Create Chat One Fail ', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 owners: [config.userOne, config.userTwo],
                 messages: [{author: config.userOne, text: 'Hello World'}],
@@ -65,6 +77,9 @@ describe('Chat Route', () =>{
     it('Create Chat Two Fail ', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 owners: [config.userTwo, config.userThree],
                 messages: [{author: config.userTwo, text: 'Hello World'}],
@@ -78,6 +93,9 @@ describe('Chat Route', () =>{
     it('Create Chat Three Fail ', done =>{
         request
             .post('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 owners: [config.userOne, config.userTwo],
                 messages: [{author: config.userOne, text: 'Hello World'}],
@@ -92,6 +110,9 @@ describe('Chat Route', () =>{
     it('Find Chat One', done =>{
         request
             .get('/api/chats/' + config.chatOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.messages[0].author.should.equal(config.userOne);
@@ -104,6 +125,9 @@ describe('Chat Route', () =>{
     it('Find Chat Two', done =>{
         request
             .get('/api/chats/' + config.chatTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.messages[0].author.should.equal(config.userTwo);
@@ -116,6 +140,9 @@ describe('Chat Route', () =>{
     it('Find Chat Three', done =>{
         request
             .get('/api/chats/' + config.chatThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.messages[0].author.should.equal(config.userThree);
@@ -129,6 +156,9 @@ describe('Chat Route', () =>{
     it('Update Chat One', done =>{
         request
             .put('/api/chats/' + config.chatOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .send({
                 owners: [config.userOne, config.userTwo],
@@ -145,6 +175,9 @@ describe('Chat Route', () =>{
     it('List All Chats', done =>{
         request
             .get('/api/chats')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);
@@ -155,6 +188,9 @@ describe('Chat Route', () =>{
     it('List User One Chats', done =>{
         request
             .get('/api/chats/' + config.userOne + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response => {
                 response.body.length.should.equal(2);
@@ -164,6 +200,9 @@ describe('Chat Route', () =>{
     it('List User Two Chats', done =>{
         request
             .get('/api/chats/' + config.userTwo + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);
@@ -173,6 +212,9 @@ describe('Chat Route', () =>{
     it('List User Three Chats', done =>{
         request
             .get('/api/chats/' + config.userThree + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);

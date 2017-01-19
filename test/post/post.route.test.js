@@ -7,6 +7,9 @@ describe('Post Route', () =>{
     it('Create Post One', done =>{
         request
             .post('/api/posts')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.postOne,
                 owners: [config.userOne, config.userTwo],
@@ -22,6 +25,9 @@ describe('Post Route', () =>{
     it('Create Post Two', done =>{
         request
             .post('/api/posts')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.postTwo,
                 owners: [config.userTwo, config.userThree],
@@ -37,6 +43,9 @@ describe('Post Route', () =>{
     it('Create Post Three', done =>{
         request
             .post('/api/posts')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
                 _id: config.postThree,
                 owners: [config.userThree, config.userOne],
@@ -53,6 +62,9 @@ describe('Post Route', () =>{
     it('Find Post One', done =>{
         request
             .get('/api/posts/' + config.postOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.comments[0].author.should.equal(config.userOne);
@@ -65,6 +77,9 @@ describe('Post Route', () =>{
     it('Find Post Two', done =>{
         request
             .get('/api/posts/' + config.postTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.comments[0].author.should.equal(config.userTwo);
@@ -77,6 +92,9 @@ describe('Post Route', () =>{
     it('Find Post Three', done =>{
         request
             .get('/api/posts/' + config.postThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.comments[0].author.should.equal(config.userThree);
@@ -90,6 +108,9 @@ describe('Post Route', () =>{
     it('Update Post One', done =>{
         request
             .put('/api/posts/' + config.postOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .send({
                 owners: [config.userOne, config.userTwo],
@@ -106,6 +127,9 @@ describe('Post Route', () =>{
     it('List All Posts', done =>{
         request
             .get('/api/posts')
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(3);
@@ -116,6 +140,9 @@ describe('Post Route', () =>{
     it('List User One Posts', done =>{
         request
             .get('/api/posts/' + config.userOne + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response => {
                 response.body.length.should.equal(2);
@@ -125,6 +152,9 @@ describe('Post Route', () =>{
     it('List User Two Posts', done =>{
         request
             .get('/api/posts/' + config.userTwo + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);
@@ -134,6 +164,9 @@ describe('Post Route', () =>{
     it('List User Three Posts', done =>{
         request
             .get('/api/posts/' + config.userThree + '/user' )
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
             .then(response =>{
                 response.body.length.should.equal(2);

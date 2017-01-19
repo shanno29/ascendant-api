@@ -2,7 +2,7 @@ module.exports = {
 
     env: 'development',
     MONGOOSE_DEBUG: true,
-    jwtSecret: '0a6b944d-d2fb-46fc-a85e-0295c986cd9f',
+    jwtSecret: 'secret',
     db: 'mongodb://localhost:27017/vibetribe-debug',
     port: process.env.PORT || (process.argv[2] || 3000),
     windows: '1.0.0.1',

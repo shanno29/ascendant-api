@@ -1,3 +1,6 @@
+global.userOneJwt = '';
+global.userTwoJwt = '';
+global.userThreeJwt = '';
 
 // Unit Tests
 require('./user/user.controller.test');

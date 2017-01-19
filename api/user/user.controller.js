@@ -1,6 +1,6 @@
 const model = require('./user.model').User;
 const config = require('../../config');
-
+const jwt = require('jsonwebtoken');
 
 module.exports = {
 
@@ -20,6 +20,7 @@ module.exports = {
             .then(user => {
                 if(!model.validPassword(data.password, user.password)) throw new Error('Incorrect Password');
                 if(!model.checkClient(data.type, data.version)) throw new Error('Outdated Client');
+                user.token = jwt.sign(user, config.jwtSecret, {expiresIn: 10080});
                 return user;
             });
     },
