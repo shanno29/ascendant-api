@@ -17,8 +17,8 @@ const userSchema = new Schema({
     age: Number,
     gender: String,
     aboutme: {type: String, default: 'Tap to edit your about info'},
-    banner: {type: String, default: config.default_banner},
-    picture: {type: String, default: config.default_picture},
+    avatar: {type: Array, default: [config.default_avatar]},
+    banner: {type: Array, default: [config.default_banner]},
 });
 
 userSchema.pre('save', function(next) {
@@ -34,12 +34,3 @@ module.exports.User = mongoose.model('User', userSchema);
 //   if (!android && !windows) return next(new Error('Outdated Client'));
 // };
 //
-// userSchema.static.convertPicture = (picture, id) => {
-//     return fs.write(config.path_picture + id + '.png', picture.replace(/^data:image\/png;base64,/, ''), 'base64')
-//       .next(filename => {return filename;});
-// };
-//
-// userSchema.static.convertBanner = (banner, id) => {
-//     return fs.write(config.path_banner + id + '.png', banner.replace(/^data:image\/png;base64,/, ''), 'base64')
-//       .next(filename => {return filename;});
-// };

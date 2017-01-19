@@ -1,6 +1,8 @@
 const controller = require('./user.controller');
 const router = require('express').Router();
 const status = require('../util/status');
+const multer = require('multer');
+
 
 router.post('/', (req, res) => {
     controller
@@ -23,6 +25,19 @@ router.put('/:key', (req, res) => {
         .then(null, status.fail(res));
 });
 
+router.put('/:key/avatars', multer({dest: 'public/images/users/avatars'}).single('avatar'),  (req, res) => {
+    controller
+        .editAvatar(req.params.key, req.file)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
+router.put('/:key/banners', multer({dest: 'public/images/users/banners'}).single('banner'), (req, res) => {
+    controller
+        .editBanner(req.params.key, req.file)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
 
 router.get('/', (req, res) => {
     controller

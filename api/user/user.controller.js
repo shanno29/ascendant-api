@@ -1,4 +1,6 @@
 const model = require('./user.model').User;
+const config = require('../../config');
+
 
 module.exports = {
 
@@ -24,6 +26,24 @@ module.exports = {
                 user.state = data.state ? data.state : user.state;
                 user.city = data.city ? data.city : user.city;
                 user.age = data.age ? data.age : user.age;
+                return user.save();
+            });
+    },
+
+    editAvatar: (id, data) => {
+        return model
+            .findById(id)
+            .then(user => {
+                user.avatar.push(config.images + '/users/avatars/' + data.filename);
+                return user.save();
+            });
+    },
+
+    editBanner: (id, data) => {
+        return model
+            .findById(id)
+            .then(user => {
+                user.banner.push(config.images + '/users/banners/' + data.filename);
                 return user.save();
             });
     },

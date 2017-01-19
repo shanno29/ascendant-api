@@ -25,6 +25,6 @@ app.use('/public', express.static(path.join(__dirname + config.public)));
 app.use('/doc', express.static(path.join(__dirname + config.doc)));
 app.use('/api', api);
 
-if(!module.parent){ app.listen(config.port, () => console.log('Express Connected On Port: '+ config.port)); }
+if(!module.parent) app.listen(config.port, () => console.log('Express Connected On Port: '+ config.port));
 
 module.exports = app;

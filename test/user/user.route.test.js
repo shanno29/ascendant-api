@@ -246,6 +246,32 @@ describe('User Route', () =>{
             });
     });
 
+    it('Update User One Avatar', done =>{
+        request
+            .put('/api/users/' + config.userOne +'/avatars')
+            .field('name', 'test avatar')
+            .attach('avatar', 'public/images/users/avatars/default_avatar.jpg')
+            .expect(200)
+            .then(response =>{
+                response.body.avatar.length.should.equal(2);
+                console.log('response: ' + response);
+                done();
+            });
+    });
+    it('Update User One Banner', done =>{
+        request
+            .put('/api/users/' + config.userOne +'/banners')
+            .field('name', 'test banner')
+            .attach('banner', 'public/images/users/banners/default_banner.jpg')
+            .expect(200)
+            .then(response =>{
+                response.body.banner.length.should.equal(2);
+                console.log('response: ' + response);
+                done();
+            });
+    });
+
+
 });
 
 

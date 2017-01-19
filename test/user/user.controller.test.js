@@ -136,6 +136,23 @@ describe('User Controller', () =>{
             })
     });
 
+    it('Update User Avatar', done =>{
+        controller.editAvatar(config.userOne, {filename: 'testavatar'})
+            .then(response =>{
+                response.avatar.length.should.equal(2);
+                done();
+            })
+    });
+
+    it('Update User Banner', done =>{
+        controller.editBanner(config.userOne, {filename: 'testbanner'})
+            .then(response =>{
+                response.banner.length.should.equal(2);
+                done();
+            })
+    });
+
+
     it('List Users', done =>{
         controller.listAll()
             .then(response =>{

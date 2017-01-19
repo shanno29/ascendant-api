@@ -25,6 +25,7 @@
     "moment": "latest",
     "mongoose": "latest",
     "morgan": "latest",
+    "multer": "^1.2.1",
     "q": "^1.4.1",
     "request-promise": "^4.1.1"
   },

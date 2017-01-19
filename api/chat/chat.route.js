@@ -40,7 +40,7 @@ const status = require('../util/status');
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -55,7 +55,7 @@ const status = require('../util/status');
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -105,7 +105,7 @@ router.post('/', (req, res) => {
         "age": 23,
         "gender": "male",
         "__v": 0,
-        "picture": "http://.../default_picture.jpg",
+        "avatar": "http://.../default_picture.jpg",
         "banner": "http://.../default_banner.jpg",
         "aboutme": "Tap to edit your about info"
     },
@@ -120,7 +120,7 @@ router.post('/', (req, res) => {
         "age": 23,
         "gender": "male",
         "__v": 0,
-        "picture": "http://.../default_picture.jpg",
+        "avatar": "http://.../default_picture.jpg",
         "banner": "http://.../default_banner.jpg",
         "aboutme": "Tap to edit your about info"
     }
@@ -178,7 +178,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -193,7 +193,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -225,7 +225,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -240,7 +240,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -272,7 +272,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -287,7 +287,7 @@ router.put('/:key', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -337,7 +337,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -352,7 +352,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -384,7 +384,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -399,7 +399,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -431,7 +431,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          },
@@ -446,7 +446,7 @@ router.get('/:key/user', (req, res) => {
              "age": 23,
              "gender": "male",
              "__v": 0,
-             "picture": "http://.../default_picture.jpg",
+             "avatar": "http://.../default_picture.jpg",
              "banner": "http://.../default_banner.jpg",
              "aboutme": "Tap to edit your about info"
          }
@@ -497,7 +497,7 @@ router.get('/', (req, res) => {
         "age": 23,
         "gender": "male",
         "__v": 0,
-        "picture": "http://.../default_picture.jpg",
+        "avatar": "http://.../default_picture.jpg",
         "banner": "http://.../default_banner.jpg",
         "aboutme": "Tap to edit your about info"
     },
@@ -512,7 +512,7 @@ router.get('/', (req, res) => {
         "age": 23,
         "gender": "male",
         "__v": 0,
-        "picture": "http://.../default_picture.jpg",
+        "avatar": "http://.../default_picture.jpg",
         "banner": "http://.../default_banner.jpg",
         "aboutme": "Tap to edit your about info"
     }
