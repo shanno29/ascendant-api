@@ -1,5 +1,6 @@
 const fs = require('fs-writefile-promise/lib/node7');
 const config = require('./../../config');
+const bcrypt = require('bcrypt-nodejs');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
@@ -8,7 +9,7 @@ const userSchema = new Schema({
     email: String,
     username: String,
     password: String,
-    client: String,
+    type: String,
     version: String,
     fullname: String,
     token: String,
@@ -26,11 +27,17 @@ userSchema.pre('save', function(next) {
     next();
 });
 
+userSchema.statics.checkClient = (type, version) =>{
+    const android = type == 'android' && version == config.android;
+    const windows = type == 'windesktop' && version == config.windows;
+    return android || windows;
+};
+
+
+userSchema.statics.generateHash = password => bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+
+userSchema.statics.validPassword = (one, two) => bcrypt.compareSync(one, two);
+
 module.exports.User = mongoose.model('User', userSchema);
 
-// userSchema.static.checkClient = (user) =>{
-//   const android = user.client == 'android' && user.version == config.android_version;
-//   const windows = user.client == 'windesktop' && user.version == config.windows_version;
-//   if (!android && !windows) return next(new Error('Outdated Client'));
-// };
-//
+

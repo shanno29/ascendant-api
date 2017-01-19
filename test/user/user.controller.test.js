@@ -95,6 +95,7 @@ describe('User Controller', () =>{
                 done();
             })
     });
+
     it('Update User Empty', done =>{
         controller.edit(config.userOne, {})
             .then(response =>{
@@ -117,7 +118,7 @@ describe('User Controller', () =>{
             state: 'test wi',
             age: '30',
             gender: 'test male',
-            client: 'test android',
+            type: 'test android',
             version: 'test 1.5.0',
             aboutme: 'test test about',
         })
@@ -129,13 +130,12 @@ describe('User Controller', () =>{
                 response.state.should.equal('test wi');
                 response.age.should.equal(30);
                 response.gender.should.equal('test male');
-                response.client.should.equal('test android');
+                response.type.should.equal('test android');
                 response.version.should.equal('test 1.5.0');
                 response.aboutme.should.equal('test test about');
                 done();
             })
     });
-
     it('Update User Avatar', done =>{
         controller.editAvatar(config.userOne, {filename: 'testavatar'})
             .then(response =>{
@@ -143,7 +143,6 @@ describe('User Controller', () =>{
                 done();
             })
     });
-
     it('Update User Banner', done =>{
         controller.editBanner(config.userOne, {filename: 'testbanner'})
             .then(response =>{
@@ -152,6 +151,92 @@ describe('User Controller', () =>{
             })
     });
 
+    it('Login User Android Client', done =>{
+        controller.login(config.userOne, {
+            email: 'red@email.com',
+            password: 'test',
+            username: 'red',
+            fullname: 'red color',
+            city: 'milwaukee',
+            state: 'wi',
+            age: '23',
+            type: 'android',
+            version: '1.5.0',
+            gender: 'male',
+        }).then(response =>{
+            response.email.should.equal('red@email.com');
+            response.username.should.equal('test red');
+            response.fullname.should.equal('test red color');
+            response.city.should.equal('test milwaukee');
+            response.state.should.equal('test wi');
+            response.age.should.equal(30);
+            response.gender.should.equal('test male');
+            response.type.should.equal('test android');
+            response.version.should.equal('test 1.5.0');
+            response.aboutme.should.equal('test test about');
+            done();
+        })
+    });
+    it('Login User Windows Client', done =>{
+        controller.login(config.userOne, {
+            email: 'red@email.com',
+            password: 'test',
+            username: 'red',
+            fullname: 'red color',
+            city: 'milwaukee',
+            type: 'windesktop',
+            version: '1.0.0.1',
+            state: 'wi',
+            age: '23',
+            gender: 'male',
+        }).then(response =>{
+            response.email.should.equal('red@email.com');
+            response.username.should.equal('test red');
+            response.fullname.should.equal('test red color');
+            response.city.should.equal('test milwaukee');
+            response.state.should.equal('test wi');
+            response.age.should.equal(30);
+            response.gender.should.equal('test male');
+            response.type.should.equal('test android');
+            response.version.should.equal('test 1.5.0');
+            response.aboutme.should.equal('test test about');
+            done();
+        })
+    });
+    it('Login User Fail Password', done =>{
+        controller.login(config.userOne, {
+            email: 'red@email.com',
+            password: 'asdfasdf',
+            username: 'red',
+            fullname: 'red color',
+            city: 'milwaukee',
+            type: 'android',
+            version: '1.5.0',
+            state: 'wi',
+            age: '23',
+            gender: 'male',
+        }).then(null, error =>{
+            error.message.should.equal('Incorrect Password');
+            done();
+        });
+    });
+    it('Login User Fail Client Outdated', done =>{
+        controller.login(config.userOne, {
+            email: 'red@email.com',
+            password: 'test',
+            username: 'red',
+            fullname: 'red color',
+            city: 'milwaukee',
+            type: 'asdf',
+            version: 'asdf',
+            state: 'wi',
+            age: '23',
+            gender: 'male',
+        }).then(null, error =>{
+            error.message.should.equal('Outdated Client');
+            done();
+        });
+    });
 
     it('List Users', done =>{
         controller.listAll()

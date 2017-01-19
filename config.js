@@ -5,8 +5,8 @@ module.exports = {
     jwtSecret: '0a6b944d-d2fb-46fc-a85e-0295c986cd9f',
     db: 'mongodb://localhost:27017/vibetribe-debug',
     port: process.env.PORT || (process.argv[2] || 3000),
-    windows_version: '1.0.0.1',
-    android_version: '1.5.0',
+    windows: '1.0.0.1',
+    android: '1.5.0',
 
     youtube: 'https://www.googleapis.com/youtube/v3/search?type=video&part=snippet&key=AIzaSyACt--2aitJjRv_dtbwr0d2evAW-CUx3aU&q=',
     soundcloud: 'https://api.soundcloud.com/router?client_id=b450757614dc39d455e9c145a88d128f&type=track&q=',

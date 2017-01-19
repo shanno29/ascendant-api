@@ -17,6 +17,7 @@
     "url": "https://github.com/shanno29/vibetribe-api"
   },
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "latest",
     "config": "latest",
     "express": "latest",

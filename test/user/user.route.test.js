@@ -226,7 +226,7 @@ describe('User Route', () =>{
                 state: 'test wi',
                 age: '30',
                 gender: 'test male',
-                client: 'test android',
+                type: 'test android',
                 version: 'test 1.5.0',
                 aboutme: 'test test about',
             })
@@ -239,7 +239,7 @@ describe('User Route', () =>{
                 response.body.state.should.equal('test wi');
                 response.body.age.should.equal(30);
                 response.body.gender.should.equal('test male');
-                response.body.client.should.equal('test android');
+                response.body.type.should.equal('test android');
                 response.body.version.should.equal('test 1.5.0');
                 response.body.aboutme.should.equal('test test about');
                 done();
@@ -271,6 +271,36 @@ describe('User Route', () =>{
             });
     });
 
+    it('Login User One', done =>{
+        request
+            .put('/api/users/' + config.userOne + '/login')
+            .send({
+                email: 'red@email.com',
+                password: 'test',
+                username: 'red',
+                fullname: 'red color',
+                city: 'milwaukee',
+                state: 'wi',
+                age: '23',
+                type: 'android',
+                version: '1.5.0',
+                gender: 'male',
+            })
+            .expect(200)
+            .then(response =>{
+                response.body.email.should.equal('red@email.com');
+                response.body.username.should.equal('test red');
+                response.body.fullname.should.equal('test red color');
+                response.body.city.should.equal('test milwaukee');
+                response.body.state.should.equal('test wi');
+                response.body.age.should.equal(30);
+                response.body.gender.should.equal('test male');
+                response.body.type.should.equal('test android');
+                response.body.version.should.equal('test 1.5.0');
+                response.body.aboutme.should.equal('test test about');
+                done();
+            });
+    });
 
 });
 

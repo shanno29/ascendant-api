@@ -18,6 +18,13 @@ router.get('/:key', (req, res) => {
         .then(null, status.fail(res));
 });
 
+router.put('/:key/login', (req, res) => {
+    controller
+        .login(req.params.key, req.body)
+        .then(status.pass(res))
+        .then(null, status.fail(res));
+});
+
 router.put('/:key', (req, res) => {
     controller
         .edit(req.params.key, req.body)
