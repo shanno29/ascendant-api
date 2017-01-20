@@ -20,7 +20,7 @@ module.exports = {
 
     coverage: '/coverage/lcov-report',
     public: '/public',
-    doc: '/doc',
+    doc: '/documentation',
 
     userOne: '58797cdd4d1e021ce864845f',
     userTwo:'58797cdd4d1e021ce8648460',

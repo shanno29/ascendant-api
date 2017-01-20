@@ -7,10 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
-    "test": "mocha",
-    "doc": "apidoc -i api/ public/apidoc",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
-    "coveralls": "npm run coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha test/index.js",
+    "documentation": "mocha --reporter supersamples test/integration/index.js",
+    "coveralls": "npm run test -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -34,6 +33,7 @@
     "coveralls": "latest",
     "istanbul": "latest",
     "mocha": "latest",
+    "supersamples": "^1.2.0",
     "supertest": "latest"
   }
 }

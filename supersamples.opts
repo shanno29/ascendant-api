@@ -1,0 +1,19 @@
+{
+
+  "baseUrl": "http://wiscosoft.co",
+
+  "reporter": "spec",
+
+   "renderers": {
+
+      "html": {
+
+        "outputFolder": "documentation",
+
+        "title": "VibeTribe API Docs"
+
+      }
+
+    }
+
+}

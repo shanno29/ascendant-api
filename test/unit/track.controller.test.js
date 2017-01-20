@@ -1,4 +1,4 @@
-const controller = require('../../api/track/track.controller');
+const controller = require('../../api/track/track.controller.js');
 const config = require('../../config');
 require('chai').should();
 

@@ -1,4 +1,4 @@
-const controller = require('../../api/match/match.controller');
+const controller = require('../../api/match/match.controller.js');
 const config = require('../../config');
 require('chai').should();
 

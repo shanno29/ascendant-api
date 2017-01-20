@@ -1,4 +1,4 @@
-const controller = require('../../api/post/post.controller');
+const controller = require('../../api/post/post.controller.js');
 const config = require('../../config');
 require('chai').should();
 

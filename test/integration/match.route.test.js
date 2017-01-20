@@ -1,17 +1,18 @@
 const config = require('../../config');
 const request = require("supertest");
 const app = require('../../index');
+require('chai').should();
 
-describe('Friend Route', () =>{
+describe('Match Route', () =>{
 
-    it('Create Friend One', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match One', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendOne,
+                _id: config.matchOne,
                 owners: [config.userOne, config.userTwo],
             })
             .expect(200)
@@ -20,14 +21,14 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('Create Friend Two', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match Two', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendTwo,
+                _id: config.matchTwo,
                 owners: [config.userTwo, config.userThree],
             })
             .expect(200)
@@ -36,14 +37,14 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('Create Friend Three', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match Three', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendThree,
+                _id: config.matchThree,
                 owners: [config.userThree, config.userOne],
             })
             .expect(200)
@@ -52,58 +53,58 @@ describe('Friend Route', () =>{
                 done()
             });
     });
-    it('Create Friend One Fail ', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match One Fail ', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendOne,
+                _id: config.matchOne,
                 owners: [config.userOne, config.userTwo],
             })
             .expect(500)
             .then(response => {
-                response.body.should.equal('That Friend Already Exists');
+                response.body.should.equal('That Match Already Exists');
                 done();
             });
     });
-    it('Create Friend Two Fail ', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match Two Fail ', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendTwo,
+                _id: config.matchTwo,
                 owners: [config.userTwo, config.userThree],
             })
             .expect(500)
             .then(response => {
-                response.body.should.equal('That Friend Already Exists');
+                response.body.should.equal('That Match Already Exists');
                 done();
             });
     });
-    it('Create Friend Three Fail ', done =>{
-        request(app)
-            .post('/api/friends')
+    it('Create Match Three Fail ', done =>{
+        request(app.listen())
+            .post('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.friendThree,
+                _id: config.matchThree,
                 owners: [config.userThree, config.userOne],
             })
             .expect(500)
             .then(response => {
-                response.body.should.equal('That Friend Already Exists');
+                response.body.should.equal('That Match Already Exists');
                 done();
             });
     });
 
-    it('Find Friend One', done =>{
-        request(app)
-            .get('/api/friends/' + config.friendOne)
+    it('Find Match One', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.matchOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -113,9 +114,9 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('Find Friend Two', done =>{
-        request(app)
-            .get('/api/friends/' + config.friendTwo)
+    it('Find Match Two', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.matchTwo)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -125,9 +126,9 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('Find Friend Three', done =>{
-        request(app)
-            .get('/api/friends/' + config.friendThree)
+    it('Find Match Three', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.matchThree)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -138,9 +139,9 @@ describe('Friend Route', () =>{
             });
     });
 
-    it('List All Friends', done =>{
-        request(app)
-            .get('/api/friends')
+    it('List All Matches', done =>{
+        request(app.listen())
+            .get('/api/matches')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -150,9 +151,9 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('List User One Friends', done =>{
-        request(app)
-            .get('/api/friends/' + config.userOne + '/user' )
+    it('List User One Matches', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.userOne + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -162,9 +163,9 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('List User Two Friends', done =>{
-        request(app)
-            .get('/api/friends/' + config.userTwo + '/user' )
+    it('List User Two Matches', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.userTwo + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -174,9 +175,9 @@ describe('Friend Route', () =>{
                 done();
             });
     });
-    it('List User Three Friends', done =>{
-        request(app)
-            .get('/api/friends/' + config.userThree + '/user' )
+    it('List User Three Matches', done =>{
+        request(app.listen())
+            .get('/api/matches/' + config.userThree + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

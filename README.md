@@ -13,15 +13,15 @@
 4. Navigate to `localhost:3000`, you should see "Hello From VibeTribe"
 
 ## Tests & Coverage
-1. Run `npm coverage`
+1. Run `npm test`
 2. Navigate to `localhost:3000/coverage`
 
 ## Documentation
-1. Run `npm doc`
-2. Navigate to `localhost:3000/doc`
+1. Run `npm documentation`
+2. Navigate to `localhost:3000/documentation`
 
 ## Changelog
-See the [release page](https://github.com/shanno29/vibetribe-api/releases)
+See the [commit page](https://github.com/shanno29/vibetribe-api/commits/master)
 
 ## License
 [MIT](LICENSE)

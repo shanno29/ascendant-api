@@ -1,4 +1,4 @@
-const controller = require('../../api/chat/chat.controller');
+const controller = require('../../api/chat/chat.controller.js');
 const config = require('../../config');
 require('chai').should();
 

@@ -1,146 +1,133 @@
 const config = require('../../config');
 const request = require("supertest");
 const app = require('../../index');
+require('chai').should();
 
-describe('Match Route', () =>{
+describe('Post Route', () =>{
 
-    it('Create Match One', done =>{
-        request(app)
-            .post('/api/matches')
+    it('Create Post One', done =>{
+        request(app.listen())
+            .post('/api/posts')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.matchOne,
+                _id: config.postOne,
                 owners: [config.userOne, config.userTwo],
+                comments: [{author: config.userOne, text: 'Hello World'}],
             })
             .expect(200)
             .then(response =>{
+                response.body.comments[0].author.should.equal(config.userOne);
                 response.body.owners.length.should.equal(2);
                 done();
             });
     });
-    it('Create Match Two', done =>{
-        request(app)
-            .post('/api/matches')
+    it('Create Post Two', done =>{
+        request(app.listen())
+            .post('/api/posts')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.matchTwo,
+                _id: config.postTwo,
                 owners: [config.userTwo, config.userThree],
+                comments: [{author: config.userTwo, text: 'Hello World'}],
             })
             .expect(200)
             .then(response =>{
+                response.body.comments[0].author.should.equal(config.userTwo);
                 response.body.owners.length.should.equal(2);
                 done();
             });
     });
-    it('Create Match Three', done =>{
-        request(app)
-            .post('/api/matches')
+    it('Create Post Three', done =>{
+        request(app.listen())
+            .post('/api/posts')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
-                _id: config.matchThree,
+                _id: config.postThree,
                 owners: [config.userThree, config.userOne],
+                comments: [{author: config.userThree, text: 'Hello World'}],
             })
             .expect(200)
             .then(response =>{
+                response.body.comments[0].author.should.equal(config.userThree);
                 response.body.owners.length.should.equal(2);
                 done()
             });
     });
-    it('Create Match One Fail ', done =>{
-        request(app)
-            .post('/api/matches')
+
+    it('Find Post One', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.postOne)
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
+            .expect(200)
+            .then(response =>{
+                response.body.comments[0].author.should.equal(config.userOne);
+                response.body.relative.should.equal('a few seconds ago');
+                for(let i = response.body.comments.length; i--;) response.body.comments[i].relative.should.equal('a few seconds ago');
+                response.body.owners.should.be.instanceof(Array);
+                done();
+            });
+    });
+    it('Find Post Two', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.postTwo)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userTwoJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
+            .expect(200)
+            .then(response =>{
+                response.body.comments[0].author.should.equal(config.userTwo);
+                response.body.relative.should.equal('a few seconds ago');
+                for(let i = response.body.comments.length; i--;) response.body.comments[i].relative.should.equal('a few seconds ago');
+                response.body.owners.should.be.instanceof(Array);
+                done();
+            });
+    });
+    it('Find Post Three', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.postThree)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userThreeJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
+            .expect(200)
+            .then(response =>{
+                response.body.comments[0].author.should.equal(config.userThree);
+                response.body.relative.should.equal('a few seconds ago');
+                for(let i = response.body.comments.length; i--;) response.body.comments[i].relative.should.equal('a few seconds ago');
+                response.body.owners.should.be.instanceof(Array);
+                done();
+            });
+    });
+
+    it('Update Post One', done =>{
+        request(app.listen())
+            .put('/api/posts/' + config.postOne)
+            .set('Accept', 'application/json')
+            .set('Authorization', 'JWT ' + global.userOneJwt)
+            .set('Content-Type', 'application/x-www-form-urlencoded')
+            .expect(200)
             .send({
-                _id: config.matchOne,
                 owners: [config.userOne, config.userTwo],
+                comments: [{author: config.userOne, text: 'Post Update Test'}],
             })
-            .expect(500)
-            .then(response => {
-                response.body.should.equal('That Match Already Exists');
-                done();
-            });
-    });
-    it('Create Match Two Fail ', done =>{
-        request(app)
-            .post('/api/matches')
-            .set('Accept', 'application/json')
-            .set('Authorization', 'JWT ' + global.userTwoJwt)
-            .set('Content-Type', 'application/x-www-form-urlencoded')
-            .send({
-                _id: config.matchTwo,
-                owners: [config.userTwo, config.userThree],
-            })
-            .expect(500)
-            .then(response => {
-                response.body.should.equal('That Match Already Exists');
-                done();
-            });
-    });
-    it('Create Match Three Fail ', done =>{
-        request(app)
-            .post('/api/matches')
-            .set('Accept', 'application/json')
-            .set('Authorization', 'JWT ' + global.userThreeJwt)
-            .set('Content-Type', 'application/x-www-form-urlencoded')
-            .send({
-                _id: config.matchThree,
-                owners: [config.userThree, config.userOne],
-            })
-            .expect(500)
-            .then(response => {
-                response.body.should.equal('That Match Already Exists');
+            .then(response =>{
+                response.body.owners.length.should.equal(2);
+                response.body.comments.length.should.equal(2);
+                response.body.comments[1].text.should.equal('Post Update Test');
                 done();
             });
     });
 
-    it('Find Match One', done =>{
-        request(app)
-            .get('/api/matches/' + config.matchOne)
-            .set('Accept', 'application/json')
-            .set('Authorization', 'JWT ' + global.userOneJwt)
-            .set('Content-Type', 'application/x-www-form-urlencoded')
-            .expect(200)
-            .then(response =>{
-                response.body.owners.should.be.instanceof(Array);
-                done();
-            });
-    });
-    it('Find Match Two', done =>{
-        request(app)
-            .get('/api/matches/' + config.matchTwo)
-            .set('Accept', 'application/json')
-            .set('Authorization', 'JWT ' + global.userTwoJwt)
-            .set('Content-Type', 'application/x-www-form-urlencoded')
-            .expect(200)
-            .then(response =>{
-                response.body.owners.should.be.instanceof(Array);
-                done();
-            });
-    });
-    it('Find Match Three', done =>{
-        request(app)
-            .get('/api/matches/' + config.matchThree)
-            .set('Accept', 'application/json')
-            .set('Authorization', 'JWT ' + global.userThreeJwt)
-            .set('Content-Type', 'application/x-www-form-urlencoded')
-            .expect(200)
-            .then(response =>{
-                response.body.owners.should.be.instanceof(Array);
-                done();
-            });
-    });
-
-    it('List All Matches', done =>{
-        request(app)
-            .get('/api/matches')
+    it('List All Posts', done =>{
+        request(app.listen())
+            .get('/api/posts')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -150,21 +137,22 @@ describe('Match Route', () =>{
                 done();
             });
     });
-    it('List User One Matches', done =>{
-        request(app)
-            .get('/api/matches/' + config.userOne + '/user' )
+
+    it('List User One Posts', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.userOne + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .expect(200)
-            .then(response =>{
+            .then(response => {
                 response.body.length.should.equal(2);
                 done();
             });
     });
-    it('List User Two Matches', done =>{
-        request(app)
-            .get('/api/matches/' + config.userTwo + '/user' )
+    it('List User Two Posts', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.userTwo + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -174,9 +162,9 @@ describe('Match Route', () =>{
                 done();
             });
     });
-    it('List User Three Matches', done =>{
-        request(app)
-            .get('/api/matches/' + config.userThree + '/user' )
+    it('List User Three Posts', done =>{
+        request(app.listen())
+            .get('/api/posts/' + config.userThree + '/user' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

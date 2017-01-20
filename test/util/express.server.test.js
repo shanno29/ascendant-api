@@ -1,12 +1,13 @@
 const config = require('../../config');
 const request = require('supertest');
 const app = require('../../index');
+require('chai').should();
 
 describe('Express Server Test', () =>{
 
-    it('Not Module Parent', done =>{
-        done();
-    });
+    // it('Not Module Parent', done =>{
+    //     done();
+    // });
 
 
     it('Check Server Status', done =>{
