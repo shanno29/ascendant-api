@@ -8,7 +8,7 @@
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",
     "test": "istanbul cover node_modules/mocha/bin/_mocha test/index.js",
-    "documentation": "mocha --reporter supersamples test/integration/index.js",
+    "documentation": "mocha --reporter supersamples test/integration/index.js",git
     "coveralls": "npm run test -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
