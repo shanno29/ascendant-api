@@ -1,0 +1,2784 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>VibeTribe API Docs</title>
+      <link rel="stylesheet" href="css/foundation.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <link rel="stylesheet" type="text/css" href="css/highlight.github.css" />
+      
+  </head>
+
+
+  <body class="antialiased hide-extras">
+
+    <div class="sidebar-top">
+  <div class="logo"></div>
+  VibeTribe API Docs
+</div>
+
+<div class="sidebar">
+  
+  <form>
+    <input tabindex="1" id="autocomplete" type="search"
+          placeholder="search" autocomplete="off" />
+  </form>
+
+  <nav>
+    <ul class="side-nav">
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="chat-route.html">Chat Route</a>
+          </li>
+
+          
+            <li>
+              <a href="chat-route.html#create-chat-one" data-search="Create Chat One">
+                Create Chat One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#create-chat-one-fail-" data-search="Create Chat One Fail ">
+                Create Chat One Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#create-chat-three" data-search="Create Chat Three">
+                Create Chat Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#create-chat-three-fail-" data-search="Create Chat Three Fail ">
+                Create Chat Three Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#create-chat-two" data-search="Create Chat Two">
+                Create Chat Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#create-chat-two-fail-" data-search="Create Chat Two Fail ">
+                Create Chat Two Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#find-chat-one" data-search="Find Chat One">
+                Find Chat One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#find-chat-three" data-search="Find Chat Three">
+                Find Chat Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#find-chat-two" data-search="Find Chat Two">
+                Find Chat Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#list-all-chats" data-search="List All Chats">
+                List All Chats
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#list-user-one-chats" data-search="List User One Chats">
+                List User One Chats
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#list-user-three-chats" data-search="List User Three Chats">
+                List User Three Chats
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#list-user-two-chats" data-search="List User Two Chats">
+                List User Two Chats
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="chat-route.html#update-chat-one" data-search="Update Chat One">
+                Update Chat One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="express-server-test.html">Express Server Test</a>
+          </li>
+
+          
+            <li>
+              <a href="express-server-test.html#check-server-status" data-search="Check Server Status">
+                Check Server Status
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="friend-route.html">Friend Route</a>
+          </li>
+
+          
+            <li>
+              <a href="friend-route.html#create-friend-one" data-search="Create Friend One">
+                Create Friend One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#create-friend-one-fail-" data-search="Create Friend One Fail ">
+                Create Friend One Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#create-friend-three" data-search="Create Friend Three">
+                Create Friend Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#create-friend-three-fail-" data-search="Create Friend Three Fail ">
+                Create Friend Three Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#create-friend-two" data-search="Create Friend Two">
+                Create Friend Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#create-friend-two-fail-" data-search="Create Friend Two Fail ">
+                Create Friend Two Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#find-friend-one" data-search="Find Friend One">
+                Find Friend One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#find-friend-three" data-search="Find Friend Three">
+                Find Friend Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#find-friend-two" data-search="Find Friend Two">
+                Find Friend Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#list-all-friends" data-search="List All Friends">
+                List All Friends
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#list-user-one-friends" data-search="List User One Friends">
+                List User One Friends
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#list-user-three-friends" data-search="List User Three Friends">
+                List User Three Friends
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="friend-route.html#list-user-two-friends" data-search="List User Two Friends">
+                List User Two Friends
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="match-route.html">Match Route</a>
+          </li>
+
+          
+            <li>
+              <a href="match-route.html#create-match-one" data-search="Create Match One">
+                Create Match One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#create-match-one-fail-" data-search="Create Match One Fail ">
+                Create Match One Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#create-match-three" data-search="Create Match Three">
+                Create Match Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#create-match-three-fail-" data-search="Create Match Three Fail ">
+                Create Match Three Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#create-match-two" data-search="Create Match Two">
+                Create Match Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#create-match-two-fail-" data-search="Create Match Two Fail ">
+                Create Match Two Fail 
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#find-match-one" data-search="Find Match One">
+                Find Match One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#find-match-three" data-search="Find Match Three">
+                Find Match Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#find-match-two" data-search="Find Match Two">
+                Find Match Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#list-all-matches" data-search="List All Matches">
+                List All Matches
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#list-user-one-matches" data-search="List User One Matches">
+                List User One Matches
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#list-user-three-matches" data-search="List User Three Matches">
+                List User Three Matches
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="match-route.html#list-user-two-matches" data-search="List User Two Matches">
+                List User Two Matches
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="post-route.html">Post Route</a>
+          </li>
+
+          
+            <li>
+              <a href="post-route.html#create-post-one" data-search="Create Post One">
+                Create Post One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#create-post-three" data-search="Create Post Three">
+                Create Post Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#create-post-two" data-search="Create Post Two">
+                Create Post Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#find-post-one" data-search="Find Post One">
+                Find Post One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#find-post-three" data-search="Find Post Three">
+                Find Post Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#find-post-two" data-search="Find Post Two">
+                Find Post Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#list-all-posts" data-search="List All Posts">
+                List All Posts
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#list-user-one-posts" data-search="List User One Posts">
+                List User One Posts
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#list-user-three-posts" data-search="List User Three Posts">
+                List User Three Posts
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#list-user-two-posts" data-search="List User Two Posts">
+                List User Two Posts
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="post-route.html#update-post-one" data-search="Update Post One">
+                Update Post One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="purge-database-util.html">Purge Database Util</a>
+          </li>
+
+          
+            <li>
+              <a href="purge-database-util.html#delete-chat-one" data-search="Delete Chat One">
+                Delete Chat One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-chat-three" data-search="Delete Chat Three">
+                Delete Chat Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-chat-two" data-search="Delete Chat Two">
+                Delete Chat Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-friend-one" data-search="Delete Friend One">
+                Delete Friend One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-friend-three" data-search="Delete Friend Three">
+                Delete Friend Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-friend-two" data-search="Delete Friend Two">
+                Delete Friend Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-match-one" data-search="Delete Match One">
+                Delete Match One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-match-three" data-search="Delete Match Three">
+                Delete Match Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-match-two" data-search="Delete Match Two">
+                Delete Match Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-post-one" data-search="Delete Post One">
+                Delete Post One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-post-three" data-search="Delete Post Three">
+                Delete Post Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-post-two" data-search="Delete Post Two">
+                Delete Post Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-track-one" data-search="Delete Track One">
+                Delete Track One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-track-three" data-search="Delete Track Three">
+                Delete Track Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-track-two" data-search="Delete Track Two">
+                Delete Track Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-user-one" data-search="Delete User One">
+                Delete User One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-user-three" data-search="Delete User Three">
+                Delete User Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="purge-database-util.html#delete-user-two" data-search="Delete User Two">
+                Delete User Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="track-route.html">Track Route</a>
+          </li>
+
+          
+            <li>
+              <a href="track-route.html#create-track-one" data-search="Create Track One">
+                Create Track One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#create-track-three" data-search="Create Track Three">
+                Create Track Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#create-track-two" data-search="Create Track Two">
+                Create Track Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#find-track-one" data-search="Find Track One">
+                Find Track One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#find-track-three" data-search="Find Track Three">
+                Find Track Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#find-track-two" data-search="Find Track Two">
+                Find Track Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-all-tracks" data-search="List All Tracks">
+                List All Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-one-tracks" data-search="List User One Tracks">
+                List User One Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-ones-friends-tracks" data-search="List User Ones Friends Tracks">
+                List User Ones Friends Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-ones-matches-tracks" data-search="List User Ones Matches Tracks">
+                List User Ones Matches Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-ones-nearby-tracks" data-search="List User Ones Nearby Tracks">
+                List User Ones Nearby Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-three-tracks" data-search="List User Three Tracks">
+                List User Three Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#list-user-two-tracks" data-search="List User Two Tracks">
+                List User Two Tracks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="track-route.html#search-music-networks" data-search="Search Music Networks">
+                Search Music Networks
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+          <li class="divider"></li>
+
+          <li class="heading">
+            <a href="user-route.html">User Route</a>
+          </li>
+
+          
+            <li>
+              <a href="user-route.html#create-user-one" data-search="Create User One">
+                Create User One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#create-user-one-fail" data-search="Create User One Fail">
+                Create User One Fail
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#create-user-three" data-search="Create User Three">
+                Create User Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#create-user-three-fail" data-search="Create User Three Fail">
+                Create User Three Fail
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#create-user-two" data-search="Create User Two">
+                Create User Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#create-user-two-fail" data-search="Create User Two Fail">
+                Create User Two Fail
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#find-user-one" data-search="Find User One">
+                Find User One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#find-user-three" data-search="Find User Three">
+                Find User Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#find-user-two" data-search="Find User Two">
+                Find User Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#list-all-users" data-search="List All Users">
+                List All Users
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#login-user-one" data-search="Login User One">
+                Login User One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#login-user-three" data-search="Login User Three">
+                Login User Three
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#login-user-two" data-search="Login User Two">
+                Login User Two
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#update-user-one" data-search="Update User One">
+                Update User One
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#update-user-one-avatar" data-search="Update User One Avatar">
+                Update User One Avatar
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#update-user-one-banner" data-search="Update User One Banner">
+                Update User One Banner
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="user-route.html#update-user-one-empty" data-search="Update User One Empty">
+                Update User One Empty
+                
+                  <span class="label">1</span>
+                
+              </a>
+            </li>
+          
+
+      
+
+    </ul>
+  </nav>
+
+</div>
+
+
+    <div class="content-top"></div>
+    <div class="content">
+
+      <h1>Track Route</h1>
+
+      
+        <div class="group">
+          <a name="create-track-one"></a>
+          <h2>Create Track One</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Create Track One</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-POST">
+    POST
+  </div>
+
+  <div class="request">
+    <div class="url">
+      POST
+      
+        <pre><code>/api/tracks</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample69-request-headers">headers</a><span>
+      
+      
+        <a href="#sample69-request-payload">payload</a>
+      
+      
+      <a href="#sample69-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample69-url" class="collapsible">
+    <pre><code>/api/tracks</code></pre>
+  </div>
+  <div id="sample69-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+<span class="hljs-attribute">content-length</span>: <span class="hljs-string">216</span>
+</code></pre>
+  </div>
+  <div id="sample69-request-payload" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span>
+</span>}</code></pre>
+  </div>
+  <div id="sample69-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample69-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X POST -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> -H <span class="hljs-string">"content-length: 216"</span> -d <span class="hljs-string">'{"</span>_id<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce8648462<span class="hljs-string">","</span>title<span class="hljs-string">":"</span>test title<span class="hljs-string">","</span>artist<span class="hljs-string">":"</span>test artist<span class="hljs-string">","</span>album<span class="hljs-string">":"</span>test album<span class="hljs-string">","</span>artwork<span class="hljs-string">":"</span>test artwork<span class="hljs-string">","</span>spotify<span class="hljs-string">":"</span>test spotify<span class="hljs-string">","</span>soundcloud<span class="hljs-string">":"</span>test soundcloud<span class="hljs-string">","</span>youtube<span class="hljs-string">":"</span>test youtube<span class="hljs-string">","</span>owner<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce864845f<span class="hljs-string">"}'</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample69-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample69-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample69-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.426Z"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="create-track-three"></a>
+          <h2>Create Track Three</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Create Track Three</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-POST">
+    POST
+  </div>
+
+  <div class="request">
+    <div class="url">
+      POST
+      
+        <pre><code>/api/tracks</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample71-request-headers">headers</a><span>
+      
+      
+        <a href="#sample71-request-payload">payload</a>
+      
+      
+      <a href="#sample71-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample71-url" class="collapsible">
+    <pre><code>/api/tracks</code></pre>
+  </div>
+  <div id="sample71-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+<span class="hljs-attribute">content-length</span>: <span class="hljs-string">216</span>
+</code></pre>
+  </div>
+  <div id="sample71-request-payload" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span>
+</span>}</code></pre>
+  </div>
+  <div id="sample71-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample71-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X POST -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> -H <span class="hljs-string">"content-length: 216"</span> -d <span class="hljs-string">'{"</span>_id<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce8648464<span class="hljs-string">","</span>title<span class="hljs-string">":"</span>test title<span class="hljs-string">","</span>artist<span class="hljs-string">":"</span>test artist<span class="hljs-string">","</span>album<span class="hljs-string">":"</span>test album<span class="hljs-string">","</span>artwork<span class="hljs-string">":"</span>test artwork<span class="hljs-string">","</span>spotify<span class="hljs-string">":"</span>test spotify<span class="hljs-string">","</span>soundcloud<span class="hljs-string">":"</span>test soundcloud<span class="hljs-string">","</span>youtube<span class="hljs-string">":"</span>test youtube<span class="hljs-string">","</span>owner<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce8648461<span class="hljs-string">"}'</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample71-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample71-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample71-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="create-track-two"></a>
+          <h2>Create Track Two</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Create Track Two</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-POST">
+    POST
+  </div>
+
+  <div class="request">
+    <div class="url">
+      POST
+      
+        <pre><code>/api/tracks</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample70-request-headers">headers</a><span>
+      
+      
+        <a href="#sample70-request-payload">payload</a>
+      
+      
+      <a href="#sample70-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample70-url" class="collapsible">
+    <pre><code>/api/tracks</code></pre>
+  </div>
+  <div id="sample70-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+<span class="hljs-attribute">content-length</span>: <span class="hljs-string">216</span>
+</code></pre>
+  </div>
+  <div id="sample70-request-payload" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span>
+</span>}</code></pre>
+  </div>
+  <div id="sample70-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample70-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X POST -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> -H <span class="hljs-string">"content-length: 216"</span> -d <span class="hljs-string">'{"</span>_id<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce8648463<span class="hljs-string">","</span>title<span class="hljs-string">":"</span>test title<span class="hljs-string">","</span>artist<span class="hljs-string">":"</span>test artist<span class="hljs-string">","</span>album<span class="hljs-string">":"</span>test album<span class="hljs-string">","</span>artwork<span class="hljs-string">":"</span>test artwork<span class="hljs-string">","</span>spotify<span class="hljs-string">":"</span>test spotify<span class="hljs-string">","</span>soundcloud<span class="hljs-string">":"</span>test soundcloud<span class="hljs-string">","</span>youtube<span class="hljs-string">":"</span>test youtube<span class="hljs-string">","</span>owner<span class="hljs-string">":"</span><span class="hljs-number">58797</span>cdd4d1e021ce8648460<span class="hljs-string">"}'</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample70-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample70-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample70-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="find-track-one"></a>
+          <h2>Find Track One</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Find Track One</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce8648462</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample72-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample72-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample72-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce8648462</code></pre>
+  </div>
+  <div id="sample72-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample72-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample72-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample72-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce8648462"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample72-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample72-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample72-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.426Z"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span></span>,
+    "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"red@email.com"</span></span>,
+    "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$yz4oW49MyfJL5CF6TGwe0.dR7Yqf0GuXPqlKyhZ0eD6EAewF1r.TC"</span></span>,
+    "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"test red"</span></span>,
+    "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"test red color"</span></span>,
+    "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"test milwaukee"</span></span>,
+    "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"test wi"</span></span>,
+    "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">30</span></span>,
+    "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"test male"</span></span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
+    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"test android"</span></span>,
+    "<span class="hljs-attribute">version</span>": <span class="hljs-value"><span class="hljs-string">"test 1.5.0"</span></span>,
+    "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>,
+      <span class="hljs-string">"http://localhost:3000/public/images/users/banners/2fd984a79d741286aa2ce2c7c2a68707"</span>
+    ]</span>,
+    "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>,
+      <span class="hljs-string">"http://localhost:3000/public/images/users/avatars/ab34324562b632c5683860797d0d5a46"</span>
+    ]</span>,
+    "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"test test about"</span>
+  </span>}</span>,
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="find-track-three"></a>
+          <h2>Find Track Three</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Find Track Three</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce8648464</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample74-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample74-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample74-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce8648464</code></pre>
+  </div>
+  <div id="sample74-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample74-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample74-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample74-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce8648464"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample74-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample74-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample74-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+    "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+    "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+    "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+    "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+    "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+    "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+    "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+    "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+    ]</span>,
+    "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+    ]</span>,
+    "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+  </span>}</span>,
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="find-track-two"></a>
+          <h2>Find Track Two</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Find Track Two</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce8648463</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample73-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample73-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample73-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce8648463</code></pre>
+  </div>
+  <div id="sample73-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample73-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample73-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample73-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce8648463"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample73-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample73-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample73-response-body" class="collapsible">
+    <pre><code>{
+  "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+  "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+  "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+  "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+  "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+  "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+  "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+  "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+  "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+  "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+    "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+    "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+    "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+    "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+    "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+    "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+    "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+    "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+    ]</span>,
+    "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+      <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+    ]</span>,
+    "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+  </span>}</span>,
+  "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+  "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+</span>}</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-all-tracks"></a>
+          <h2>List All Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List All Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample78-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample78-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample78-url" class="collapsible">
+    <pre><code>/api/tracks</code></pre>
+  </div>
+  <div id="sample78-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample78-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample78-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample78-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample78-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample78-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample78-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.426Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"red@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$yz4oW49MyfJL5CF6TGwe0.dR7Yqf0GuXPqlKyhZ0eD6EAewF1r.TC"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"test red"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"test red color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"test milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"test wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">30</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"test male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
+      "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"test android"</span></span>,
+      "<span class="hljs-attribute">version</span>": <span class="hljs-value"><span class="hljs-string">"test 1.5.0"</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/banners/2fd984a79d741286aa2ce2c7c2a68707"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/avatars/ab34324562b632c5683860797d0d5a46"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"test test about"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-one-tracks"></a>
+          <h2>List User One Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User One Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce864845f/user</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample75-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample75-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample75-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce864845f/user</code></pre>
+  </div>
+  <div id="sample75-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample75-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample75-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample75-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce864845f/user"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample75-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample75-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample75-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.426Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"red@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$yz4oW49MyfJL5CF6TGwe0.dR7Yqf0GuXPqlKyhZ0eD6EAewF1r.TC"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"test red"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"test red color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"test milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"test wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">30</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"test male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
+      "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"test android"</span></span>,
+      "<span class="hljs-attribute">version</span>": <span class="hljs-value"><span class="hljs-string">"test 1.5.0"</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/banners/2fd984a79d741286aa2ce2c7c2a68707"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/avatars/ab34324562b632c5683860797d0d5a46"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"test test about"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-ones-friends-tracks"></a>
+          <h2>List User Ones Friends Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User Ones Friends Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce864845f/friends</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample79-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample79-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample79-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce864845f/friends</code></pre>
+  </div>
+  <div id="sample79-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample79-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample79-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample79-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce864845f/friends"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample79-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample79-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample79-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-ones-matches-tracks"></a>
+          <h2>List User Ones Matches Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User Ones Matches Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce864845f/matches</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample80-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample80-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample80-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce864845f/matches</code></pre>
+  </div>
+  <div id="sample80-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample80-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample80-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample80-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce864845f/matches"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample80-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample80-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample80-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-ones-nearby-tracks"></a>
+          <h2>List User Ones Nearby Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User Ones Nearby Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce864845f/nearby</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample81-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample81-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample81-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce864845f/nearby</code></pre>
+  </div>
+  <div id="sample81-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample81-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample81-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample81-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce864845f/nearby"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample81-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample81-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample81-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>},
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648462"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.426Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce864845f"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"red@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$yz4oW49MyfJL5CF6TGwe0.dR7Yqf0GuXPqlKyhZ0eD6EAewF1r.TC"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"test red"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"test red color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"test milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"test wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">30</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"test male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
+      "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"test android"</span></span>,
+      "<span class="hljs-attribute">version</span>": <span class="hljs-value"><span class="hljs-string">"test 1.5.0"</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/banners/2fd984a79d741286aa2ce2c7c2a68707"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>,
+        <span class="hljs-string">"http://localhost:3000/public/images/users/avatars/ab34324562b632c5683860797d0d5a46"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"test test about"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-three-tracks"></a>
+          <h2>List User Three Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User Three Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce8648461/user</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample77-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample77-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample77-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce8648461/user</code></pre>
+  </div>
+  <div id="sample77-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample77-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample77-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample77-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoieWVsbG93IGNvbG9yIiwidXNlcm5hbWUiOiJ5ZWxsb3ciLCJwYXNzd29yZCI6IiQyYSQwNCRQbE9tU0NTVTdCV2NoU01tRERoMXBlak15Skc1R25oa1ZHLmdRNTliNnBzNzhQeVdFdjByeSIsImVtYWlsIjoieWVsbG93QGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MCJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.5Ea15ek130HWWkqQMYhLVFAgoEI-fswEEXVd-2sRavM"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce8648461/user"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample77-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample77-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample77-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648464"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.438Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648461"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"blue@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$mgE02Bp5Kou8PDJ.SaMKTeNXdlxqmTzWYiB8JEiXCGmx3QOiTdpTu"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"blue"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"blue color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="list-user-two-tracks"></a>
+          <h2>List User Two Tracks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>List User Two Tracks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/58797cdd4d1e021ce8648460/user</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample76-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample76-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample76-url" class="collapsible">
+    <pre><code>/api/tracks/58797cdd4d1e021ce8648460/user</code></pre>
+  </div>
+  <div id="sample76-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample76-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample76-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample76-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoiYmx1ZSBjb2xvciIsInVzZXJuYW1lIjoiYmx1ZSIsInBhc3N3b3JkIjoiJDJhJDA0JG1nRTAyQnA1S291OFBESi5TYU1LVGVOWGRseHFtVHpXWWlCOEpFaVhDR214M1FPaVRkcFR1IiwiZW1haWwiOiJibHVlQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ2MSJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.1Ccy5nz_V4K0mOGPMSBw-1D798erNtg7HxvHTu3UdxE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/58797cdd4d1e021ce8648460/user"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample76-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample76-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample76-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">relative</span>": <span class="hljs-value"><span class="hljs-string">"a few seconds ago"</span></span>,
+    "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648463"</span></span>,
+    "<span class="hljs-attribute">updated</span>": <span class="hljs-value"><span class="hljs-string">"2017-01-20T21:26:14.433Z"</span></span>,
+    "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"test title"</span></span>,
+    "<span class="hljs-attribute">artist</span>": <span class="hljs-value"><span class="hljs-string">"test artist"</span></span>,
+    "<span class="hljs-attribute">album</span>": <span class="hljs-value"><span class="hljs-string">"test album"</span></span>,
+    "<span class="hljs-attribute">spotify</span>": <span class="hljs-value"><span class="hljs-string">"test spotify"</span></span>,
+    "<span class="hljs-attribute">soundcloud</span>": <span class="hljs-value"><span class="hljs-string">"test soundcloud"</span></span>,
+    "<span class="hljs-attribute">youtube</span>": <span class="hljs-value"><span class="hljs-string">"test youtube"</span></span>,
+    "<span class="hljs-attribute">owner</span>": <span class="hljs-value">{
+      "<span class="hljs-attribute">_id</span>": <span class="hljs-value"><span class="hljs-string">"58797cdd4d1e021ce8648460"</span></span>,
+      "<span class="hljs-attribute">email</span>": <span class="hljs-value"><span class="hljs-string">"yellow@email.com"</span></span>,
+      "<span class="hljs-attribute">password</span>": <span class="hljs-value"><span class="hljs-string">"$2a$04$PlOmSCSU7BWchSMmDDh1pejMyJG5GnhkVG.gQ59b6ps78PyWEv0ry"</span></span>,
+      "<span class="hljs-attribute">username</span>": <span class="hljs-value"><span class="hljs-string">"yellow"</span></span>,
+      "<span class="hljs-attribute">fullname</span>": <span class="hljs-value"><span class="hljs-string">"yellow color"</span></span>,
+      "<span class="hljs-attribute">city</span>": <span class="hljs-value"><span class="hljs-string">"milwaukee"</span></span>,
+      "<span class="hljs-attribute">state</span>": <span class="hljs-value"><span class="hljs-string">"wi"</span></span>,
+      "<span class="hljs-attribute">age</span>": <span class="hljs-value"><span class="hljs-number">23</span></span>,
+      "<span class="hljs-attribute">gender</span>": <span class="hljs-value"><span class="hljs-string">"male"</span></span>,
+      "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+      "<span class="hljs-attribute">banner</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_banner.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">avatar</span>": <span class="hljs-value">[
+        <span class="hljs-string">"http://localhost:3000/public/images/default/default_avatar.jpg"</span>
+      ]</span>,
+      "<span class="hljs-attribute">aboutme</span>": <span class="hljs-value"><span class="hljs-string">"Tap to edit your about info"</span>
+    </span>}</span>,
+    "<span class="hljs-attribute">__v</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,
+    "<span class="hljs-attribute">artwork</span>": <span class="hljs-value"><span class="hljs-string">"test artwork"</span>
+  </span>}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="group">
+          <a name="search-music-networks"></a>
+          <h2>Search Music Networks</h2>
+          <ul class="samples">
+            
+              <li>
+                <div class="summary">
+  <p>Search Music Networks</p>
+
+</div>
+
+<div class="operation">
+
+  <div class="method color-GET">
+    GET
+  </div>
+
+  <div class="request">
+    <div class="url">
+      GET
+      
+        <pre><code>/api/tracks/search/finally%20moving%20pretty%20lights/10</code></pre>
+      
+    </div>
+    Sample request
+    <div class="expanders">
+      
+      
+        <a href="#sample82-request-headers">headers</a><span>
+      
+      
+      
+      <a href="#sample82-request-curl">curl</a><span>
+    </div>
+  </div>
+
+  <div id="sample82-url" class="collapsible">
+    <pre><code>/api/tracks/search/finally%20moving%20pretty%20lights/10</code></pre>
+  </div>
+  <div id="sample82-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">authorization</span>: <span class="hljs-string">JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
+  </div>
+  <div id="sample82-request-payload" class="collapsible">
+    
+  </div>
+  <div id="sample82-request-attachments" class="collapsible">
+    
+  </div>
+  <div id="sample82-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X GET -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyIkX18iOnsic3RyaWN0TW9kZSI6dHJ1ZSwiZ2V0dGVycyI6e30sIndhc1BvcHVsYXRlZCI6ZmFsc2UsImFjdGl2ZVBhdGhzIjp7InBhdGhzIjp7ImFib3V0bWUiOiJpbml0IiwiYXZhdGFyIjoiaW5pdCIsImJhbm5lciI6ImluaXQiLCJfX3YiOiJpbml0IiwiZ2VuZGVyIjoiaW5pdCIsImFnZSI6ImluaXQiLCJzdGF0ZSI6ImluaXQiLCJjaXR5IjoiaW5pdCIsImZ1bGxuYW1lIjoiaW5pdCIsInVzZXJuYW1lIjoiaW5pdCIsInBhc3N3b3JkIjoiaW5pdCIsImVtYWlsIjoiaW5pdCIsIl9pZCI6ImluaXQifSwic3RhdGVzIjp7Imlnbm9yZSI6e30sImRlZmF1bHQiOnt9LCJpbml0Ijp7Il9fdiI6dHJ1ZSwiYWJvdXRtZSI6dHJ1ZSwiYXZhdGFyIjp0cnVlLCJiYW5uZXIiOnRydWUsImdlbmRlciI6dHJ1ZSwiYWdlIjp0cnVlLCJzdGF0ZSI6dHJ1ZSwiY2l0eSI6dHJ1ZSwiZnVsbG5hbWUiOnRydWUsInVzZXJuYW1lIjp0cnVlLCJwYXNzd29yZCI6dHJ1ZSwiZW1haWwiOnRydWUsIl9pZCI6dHJ1ZX0sIm1vZGlmeSI6e30sInJlcXVpcmUiOnt9fSwic3RhdGVOYW1lcyI6WyJyZXF1aXJlIiwibW9kaWZ5IiwiaW5pdCIsImRlZmF1bHQiLCJpZ25vcmUiXX0sImVtaXR0ZXIiOnsiZG9tYWluIjpudWxsLCJfZXZlbnRzIjp7fSwiX2V2ZW50c0NvdW50IjowLCJfbWF4TGlzdGVuZXJzIjowfX0sImlzTmV3IjpmYWxzZSwiX2RvYyI6eyJhYm91dG1lIjoiVGFwIHRvIGVkaXQgeW91ciBhYm91dCBpbmZvIiwiYXZhdGFyIjpbImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9wdWJsaWMvaW1hZ2VzL2RlZmF1bHQvZGVmYXVsdF9hdmF0YXIuanBnIl0sImJhbm5lciI6WyJodHRwOi8vbG9jYWxob3N0OjMwMDAvcHVibGljL2ltYWdlcy9kZWZhdWx0L2RlZmF1bHRfYmFubmVyLmpwZyJdLCJfX3YiOjAsImdlbmRlciI6Im1hbGUiLCJhZ2UiOjIzLCJzdGF0ZSI6IndpIiwiY2l0eSI6Im1pbHdhdWtlZSIsImZ1bGxuYW1lIjoicmVkIGNvbG9yIiwidXNlcm5hbWUiOiJyZWQiLCJwYXNzd29yZCI6IiQyYSQwNCR5ejRvVzQ5TXlmSkw1Q0Y2VEd3ZTAuZFI3WXFmMEd1WFBxbEt5aFowZUQ2RUFld0Yxci5UQyIsImVtYWlsIjoicmVkQGVtYWlsLmNvbSIsIl9pZCI6IjU4Nzk3Y2RkNGQxZTAyMWNlODY0ODQ1ZiJ9LCJfcHJlcyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbbnVsbCxudWxsLG51bGxdLCIkX19vcmlnaW5hbF92YWxpZGF0ZSI6W251bGxdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltudWxsXX0sIl9wb3N0cyI6eyIkX19vcmlnaW5hbF9zYXZlIjpbXSwiJF9fb3JpZ2luYWxfdmFsaWRhdGUiOltdLCIkX19vcmlnaW5hbF9yZW1vdmUiOltdfSwiaWF0IjoxNDg0OTQ3NTczLCJleHAiOjE0ODQ5NTc2NTN9.fLas8mU5C2pCMe5NqtdgLwk27A0mQSI-BnQGcjwKfOE"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/tracks/search/finally<span class="hljs-variable">%20moving</span><span class="hljs-variable">%20pretty</span><span class="hljs-variable">%20lights</span>/10"</span></code></pre>
+  </div>
+
+  <div class="response">
+    Response 200 OK
+    <div class="expanders">
+      
+      
+        <a href="#sample82-response-body">body</a>
+      
+    </div>
+  </div>
+
+  <div id="sample82-response-headers" class="collapsible">
+    <pre><code></code></pre>
+  </div>
+  <div id="sample82-response-body" class="collapsible">
+    <pre><code>[
+  {},
+  {},
+  {}
+]</code></pre>
+  </div>
+
+</div>
+
+              </li>
+            
+          </ul>
+        </div>
+      
+      
+    </div>
+
+    <footer>
+  <div class="row">
+    <div class="medium-8 columns">
+      <ul class="no-bullet">
+        <li>
+          Documentation generated on January 20th 2017, 3:26 pm
+        </li>
+        <li>
+          <a href="http://github.com/rprieto/supersamples">
+            Powered by supersamples
+            <div class="logo">
+              <div class="swatch color-GET"></div>
+              <div class="swatch color-POST"></div>
+              <div class="swatch color-PUT"></div>
+              <div class="swatch color-DELETE"></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="scripts/zepto.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+  </body>
+
+</html>
