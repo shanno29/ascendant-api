@@ -14,9 +14,9 @@ module.exports = {
             });
     },
 
-    login: (id, data) => {
+    login: (data) => {
         return model
-            .findById(id)
+            .findOne({email: data.email})
             .then(user => {
                 if(!model.validPassword(data.password, user.password)) throw new Error('Incorrect Password');
                 if(!model.checkClient(data.type, data.version)) throw new Error('Outdated Client');

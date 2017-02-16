@@ -154,7 +154,7 @@ describe('User Controller', () =>{
 
     it('Login User Android Client', done =>{
         controller
-            .login(config.userOne, {
+            .login({
             email: 'red@email.com',
             password: 'test',
             username: 'red',
@@ -182,7 +182,7 @@ describe('User Controller', () =>{
     });
     it('Login User Windows Client', done =>{
         controller
-            .login(config.userOne, {
+            .login({
             email: 'red@email.com',
             password: 'test',
             username: 'red',
@@ -210,7 +210,7 @@ describe('User Controller', () =>{
     });
     it('Login User Fail Password', done =>{
         controller
-            .login(config.userOne, {
+            .login({
             email: 'red@email.com',
             password: 'asdfasdf',
             username: 'red',
@@ -229,7 +229,7 @@ describe('User Controller', () =>{
     });
     it('Login User Fail Client Outdated', done =>{
         controller
-            .login(config.userOne, {
+            .login({
             email: 'red@email.com',
             password: 'test',
             username: 'red',

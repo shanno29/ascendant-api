@@ -12,9 +12,9 @@ router.post('/', (req, res) => {
         .then(null, status.fail(res));
 });
 
-router.put('/:key/login', (req, res) => {
+router.put('/login', (req, res) => {
     controller
-        .login(req.params.key, req.body)
+        .login(req.body)
         .then(status.pass(res))
         .then(null, status.fail(res));
 });

@@ -158,7 +158,7 @@ describe('User Route', () =>{
 
     it('Login User One', done =>{
         request(app.listen())
-            .put('/api/users/' + config.userOne + '/login')
+            .put('/api/users/login')
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
@@ -189,7 +189,7 @@ describe('User Route', () =>{
     });
     it('Login User Two', done =>{
         request(app.listen())
-            .put('/api/users/' + config.userTwo + '/login')
+            .put('/api/users/login')
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
@@ -221,7 +221,7 @@ describe('User Route', () =>{
     });
     it('Login User Three', done =>{
         request(app.listen())
-            .put('/api/users/' + config.userThree + '/login')
+            .put('/api/users/login')
             .set('Accept', 'application/json')
             .set('Content-Type', 'application/x-www-form-urlencoded')
             .send({
