@@ -3,7 +3,6 @@
 ## Prerequisites
 * Node.js
 * NPM
-* MongoDB
 
 ## Setup
 1. Run `npm install`.
