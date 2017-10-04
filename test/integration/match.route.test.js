@@ -153,7 +153,7 @@ describe('Match Route', () =>{
     });
     it('List User One Matches', done =>{
         request(app.listen())
-            .get('/api/matches/' + config.userOne + '/user' )
+            .get('/api/matches/' + config.userOne + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -165,7 +165,7 @@ describe('Match Route', () =>{
     });
     it('List User Two Matches', done =>{
         request(app.listen())
-            .get('/api/matches/' + config.userTwo + '/user' )
+            .get('/api/matches/' + config.userTwo + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -177,7 +177,7 @@ describe('Match Route', () =>{
     });
     it('List User Three Matches', done =>{
         request(app.listen())
-            .get('/api/matches/' + config.userThree + '/user' )
+            .get('/api/matches/' + config.userThree + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

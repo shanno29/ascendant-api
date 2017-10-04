@@ -1,4 +1,4 @@
-const controller = require('../../api/user/user.controller.js');
+const controller = require('../../api/course/course.controller.js');
 const config = require('../../config');
 require('chai').should();
 

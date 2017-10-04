@@ -140,7 +140,7 @@ describe('Post Route', () =>{
 
     it('List User One Posts', done =>{
         request(app.listen())
-            .get('/api/posts/' + config.userOne + '/user' )
+            .get('/api/posts/' + config.userOne + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -152,7 +152,7 @@ describe('Post Route', () =>{
     });
     it('List User Two Posts', done =>{
         request(app.listen())
-            .get('/api/posts/' + config.userTwo + '/user' )
+            .get('/api/posts/' + config.userTwo + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -164,7 +164,7 @@ describe('Post Route', () =>{
     });
     it('List User Three Posts', done =>{
         request(app.listen())
-            .get('/api/posts/' + config.userThree + '/user' )
+            .get('/api/posts/' + config.userThree + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

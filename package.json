@@ -1,19 +1,15 @@
 {
-  "name": "vibetribe-api",
+  "name": "universyl-api",
   "version": "1.0.0",
-  "description": "VibeTribe API",
+  "description": "Universyl API",
   "main": "server.js",
   "author": "Matthew Shannon",
   "license": "MIT",
   "scripts": {
-    "start": "SET NODE_ENV=dev && node index.js",
+    "start": "NODE_ENV=dev && node index.js",
     "test": "istanbul cover node_modules/mocha/bin/_mocha test/index.js",
     "documentation": "mocha --reporter supersamples test/integration/index.js",
     "coveralls": "npm run test -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shanno29/vibetribe-api"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -26,7 +22,8 @@
     "q": "^1.4.1",
     "request-promise": "^4.1.1",
     "express-jwt-token": "latest",
-    "jsonwebtoken": "latest"
+    "jsonwebtoken": "latest",
+    "sqlite-async": "latest"
   },
   "devDependencies": {
     "chai": "latest",

@@ -153,7 +153,7 @@ describe('Track Route', () =>{
 
     it('List User One Tracks', done =>{
         request(app.listen())
-            .get('/api/tracks/' + config.userOne + '/user')
+            .get('/api/tracks/' + config.userOne + '/course')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -165,7 +165,7 @@ describe('Track Route', () =>{
     });
     it('List User Two Tracks', done =>{
         request(app.listen())
-            .get('/api/tracks/' + config.userTwo + '/user')
+            .get('/api/tracks/' + config.userTwo + '/course')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -177,7 +177,7 @@ describe('Track Route', () =>{
     });
     it('List User Three Tracks', done =>{
         request(app.listen())
-            .get('/api/tracks/' + config.userThree + '/user')
+            .get('/api/tracks/' + config.userThree + '/course')
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

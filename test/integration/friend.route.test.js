@@ -153,7 +153,7 @@ describe('Friend Route', () =>{
     });
     it('List User One Friends', done =>{
         request(app.listen())
-            .get('/api/friends/' + config.userOne + '/user' )
+            .get('/api/friends/' + config.userOne + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -165,7 +165,7 @@ describe('Friend Route', () =>{
     });
     it('List User Two Friends', done =>{
         request(app.listen())
-            .get('/api/friends/' + config.userTwo + '/user' )
+            .get('/api/friends/' + config.userTwo + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -177,7 +177,7 @@ describe('Friend Route', () =>{
     });
     it('List User Three Friends', done =>{
         request(app.listen())
-            .get('/api/friends/' + config.userThree + '/user' )
+            .get('/api/friends/' + config.userThree + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

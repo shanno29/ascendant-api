@@ -188,7 +188,7 @@ describe('Chat Route', () =>{
 
     it('List User One Chats', done =>{
         request(app.listen())
-            .get('/api/chats/' + config.userOne + '/user' )
+            .get('/api/chats/' + config.userOne + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userOneJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -200,7 +200,7 @@ describe('Chat Route', () =>{
     });
     it('List User Two Chats', done =>{
         request(app.listen())
-            .get('/api/chats/' + config.userTwo + '/user' )
+            .get('/api/chats/' + config.userTwo + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userTwoJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')
@@ -212,7 +212,7 @@ describe('Chat Route', () =>{
     });
     it('List User Three Chats', done =>{
         request(app.listen())
-            .get('/api/chats/' + config.userThree + '/user' )
+            .get('/api/chats/' + config.userThree + '/course' )
             .set('Accept', 'application/json')
             .set('Authorization', 'JWT ' + global.userThreeJwt)
             .set('Content-Type', 'application/x-www-form-urlencoded')

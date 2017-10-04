@@ -1,11 +1,7 @@
 const router = require('express').Router();
 
-router.use('/users', require('./user/user.route'));
-router.use('/posts', require('./post/post.route'));
-router.use('/chats', require('./chat/chat.route'));
-router.use('/tracks', require('./track/track.route'));
-router.use('/matches', require('./match/match.route'));
-router.use('/friends', require('./friend/friend.route'));
+router.use('/courses', require('./course/course.route'));
+router.use('/groups', require('./group/group.route'));
+router.use('/orgs', require('./org/org.route'));
 
 module.exports = router;
-
