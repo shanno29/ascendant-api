@@ -6,7 +6,6 @@
 
 ## Setup
 1. Run `npm install`.
-2. Ensure `db` in `config.js` is correct for your instance
 3. Run`npm start` to start the server.
 4. Navigate to `localhost:3000`, you should see "Hello From Universyl"
 
