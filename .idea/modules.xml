@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vibetribe.iml" filepath="$PROJECT_DIR$/.idea/vibetribe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/universyl.iml" filepath="$PROJECT_DIR$/.idea/universyl.iml" />
     </modules>
   </component>
 </project>

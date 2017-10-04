@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="Closer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/matthewshannon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/core/relative.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/core/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/course/course.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/course/course.route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/group/group.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/group/group.route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/org/org.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/org/org.route.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/chat/chat.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/chat/chat.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/chat/chat.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/friend/friend.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/friend/friend.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/friend/friend.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/match/match.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/match/match.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/match/match.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/post/post.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/post/post.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/post/post.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/track/track.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/track/track.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/track/track.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/user/user.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/user/user.model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/user/user.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/util/relative.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/util/status.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/vibetribe.iml" afterPath="$PROJECT_DIR$/.idea/universyl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.js" afterPath="$PROJECT_DIR$/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/chat.router.test.js" afterPath="$PROJECT_DIR$/test/integration/chat.router.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/friend.route.test.js" afterPath="$PROJECT_DIR$/test/integration/friend.route.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/match.route.test.js" afterPath="$PROJECT_DIR$/test/integration/match.route.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/post.route.test.js" afterPath="$PROJECT_DIR$/test/integration/post.route.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/track.route.test.js" afterPath="$PROJECT_DIR$/test/integration/track.route.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/user.controller.test.js" afterPath="$PROJECT_DIR$/test/unit/user.controller.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,16 +25,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -81,11 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="org.controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="org.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/org/org.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -145,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/api/course/course.route.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -339,19 +312,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="universal-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="universyl" type="b2602c69:ProjectViewProjectNode" />
               <item name="universal-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="universal-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="universal-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="universal-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="universal-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -585,7 +547,7 @@
       <workItem from="1507018266311" duration="20000" />
       <workItem from="1507089745573" duration="613000" />
       <workItem from="1507095868790" duration="6715000" />
-      <workItem from="1507139903320" duration="1171000" />
+      <workItem from="1507139903320" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="Unit Test Testing">
       <created>1484439664867</created>
@@ -612,7 +574,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256700000" />
+    <option name="totallyTimeSpent" value="256977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,10 +587,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16788767" sideWeight="0.59090906" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16788767" sideWeight="0.59090906" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -813,13 +774,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/chat/chat.route.js" />
     <entry file="file://$PROJECT_DIR$/api/match/match.route.js" />
     <entry file="file://$PROJECT_DIR$/test/integration/user.route.test.js">
@@ -852,13 +806,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/course/user.model.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/friend/friend.controller.js" />
     <entry file="file://$PROJECT_DIR$/api/friend/friend.model.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/sqlite-async/sqlite-async.js">
@@ -966,7 +913,7 @@
     <entry file="file://$PROJECT_DIR$/api/course/course.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -981,8 +928,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/org/org.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding />
         </state>
       </provider>
