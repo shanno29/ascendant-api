@@ -1,34 +1,45 @@
 {
-  "name": "universyl-api",
+  "name": "ascendant-api",
   "version": "1.0.0",
-  "description": "Universyl API",
-  "main": "server.js",
+  "description": "Ascendant API",
+  "main": "index.js",
   "author": "Matthew Shannon",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=dev && node index.js",
     "test": "istanbul cover node_modules/mocha/bin/_mocha test/index.js",
     "documentation": "mocha --reporter supersamples test/integration/index.js",
-    "coveralls": "npm run test -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "npm run test -- --report lcovonly"
   },
   "dependencies": {
+    "ajv": "^5.0.0",
+    "babel-eslint": "^8.2.1",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "latest",
     "express": "latest",
-    "moment": "latest",
-    "morgan": "latest",
-    "multer": "^1.2.1",
-    "request-promise": "^4.1.1",
     "express-jwt-token": "latest",
     "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "multer": "^1.2.1",
+    "q": "^1.4.1",
+    "really-need": "^1.9.2",
+    "request-promise": "^4.1.1",
     "sqlite-async": "latest"
   },
   "devDependencies": {
     "chai": "latest",
     "coveralls": "latest",
+    "install-peers": "^1.0.2",
     "istanbul": "latest",
-    "mocha": "latest",
+    "mocha": "^3.5.3",
+    "standard": "^10.0.3",
     "supersamples": "^1.2.0",
-    "supertest": "latest"
+    "supertest": "latest",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
   }
 }

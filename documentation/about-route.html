@@ -201,17 +201,17 @@
     <div class="content-top"></div>
     <div class="content">
 
-      <h1>Express Server Test</h1>
+      <h1>About Route</h1>
 
       
         <div class="group">
-          <a name="check-server-status"></a>
-          <h2>Check Server Status</h2>
+          <a name="list-all-about-sections"></a>
+          <h2>List All About Sections</h2>
           <ul class="samples">
             
               <li>
                 <div class="summary">
-  <p>Check Server Status</p>
+  <p>List All About Sections</p>
 
 </div>
 
@@ -231,29 +231,33 @@
     Sample request
     <div class="expanders">
       
-        <a href="#sample0-url">url</a><span>
+        <a href="#sample1-url">url</a><span>
+      
+      
+        <a href="#sample1-request-headers">headers</a><span>
       
       
       
-      
-      <a href="#sample0-request-curl">curl</a><span>
+      <a href="#sample1-request-curl">curl</a><span>
     </div>
   </div>
 
-  <div id="sample0-url" class="collapsible">
-    <pre><code>/</code></pre>
+  <div id="sample1-url" class="collapsible">
+    <pre><code>/api/about</code></pre>
   </div>
-  <div id="sample0-request-headers" class="collapsible">
-    <pre><code></code></pre>
+  <div id="sample1-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
   </div>
-  <div id="sample0-request-payload" class="collapsible">
+  <div id="sample1-request-payload" class="collapsible">
     
   </div>
-  <div id="sample0-request-attachments" class="collapsible">
+  <div id="sample1-request-attachments" class="collapsible">
     
   </div>
-  <div id="sample0-request-curl" class="collapsible">
-    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> <span class="hljs-string">"http://wiscosoft.co/"</span></code></pre>
+  <div id="sample1-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/about"</span></code></pre>
   </div>
 
   <div class="response">
@@ -261,16 +265,47 @@
     <div class="expanders">
       
       
-        <a href="#sample0-response-body">body</a>
+        <a href="#sample1-response-body">body</a>
       
     </div>
   </div>
 
-  <div id="sample0-response-headers" class="collapsible">
+  <div id="sample1-response-headers" class="collapsible">
     <pre><code></code></pre>
   </div>
-  <div id="sample0-response-body" class="collapsible">
-    <pre><code><span class="hljs-string">"Hello From Ascendant"</span></code></pre>
+  <div id="sample1-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
+    "<span class="hljs-attribute">titles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Services Offered"</span>
+    ]</span>,
+    "<span class="hljs-attribute">subtitles</span>": <span class="hljs-value">[]</span>,
+    "<span class="hljs-attribute">texts</span>": <span class="hljs-value">[
+      <span class="hljs-string">"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,as opposed to using Content here, content here, making it look like readable English."</span>
+    ]
+  </span>},
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,
+    "<span class="hljs-attribute">titles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Bios"</span>
+    ]</span>,
+    "<span class="hljs-attribute">subtitles</span>": <span class="hljs-value">[]</span>,
+    "<span class="hljs-attribute">texts</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Contrary to popular belief, Lorem Ipsum is not simply random bodyText. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."</span>
+    ]
+  </span>},
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">3</span></span>,
+    "<span class="hljs-attribute">titles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Ambulatory Surgical Consultants"</span>
+    ]</span>,
+    "<span class="hljs-attribute">subtitles</span>": <span class="hljs-value">[]</span>,
+    "<span class="hljs-attribute">texts</span>": <span class="hljs-value">[
+      <span class="hljs-string">"ASCendant Pharmacy Consultants provides North Texas ambulatory surgical hospitals with efficient systems to improve patient outcomes, operational efficiency and survey success with accrediting health care organizations. With a combined 75 years of pharmacy experience, we are considered by many to be expert consultants in the ambulatory surgical setting."</span>
+    ]
+  </span>}
+]</code></pre>
   </div>
 
 </div>

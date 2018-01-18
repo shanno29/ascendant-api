@@ -7,10 +7,6 @@ module.exports = {
 
     SQL_DB: 'Universyl.db',
 
-    COURSE_CATALOG: 'ps_crse_catalog',
-    ACADEMIC_GROUP: 'ps_acad_group_tbl',
-    ACADEMIC_ORGANIZATION: 'ps_acad_org_tbl',
-
     port: process.env.PORT || (process.argv[2] || 3000),
     windows: '1.0.0.1',
     android: '1.5.0',

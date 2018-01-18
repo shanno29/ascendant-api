@@ -201,17 +201,17 @@
     <div class="content-top"></div>
     <div class="content">
 
-      <h1>Express Server Test</h1>
+      <h1>Home Route</h1>
 
       
         <div class="group">
-          <a name="check-server-status"></a>
-          <h2>Check Server Status</h2>
+          <a name="list-all-home-sections"></a>
+          <h2>List All Home Sections</h2>
           <ul class="samples">
             
               <li>
                 <div class="summary">
-  <p>Check Server Status</p>
+  <p>List All Home Sections</p>
 
 </div>
 
@@ -231,29 +231,33 @@
     Sample request
     <div class="expanders">
       
-        <a href="#sample0-url">url</a><span>
+        <a href="#sample2-url">url</a><span>
+      
+      
+        <a href="#sample2-request-headers">headers</a><span>
       
       
       
-      
-      <a href="#sample0-request-curl">curl</a><span>
+      <a href="#sample2-request-curl">curl</a><span>
     </div>
   </div>
 
-  <div id="sample0-url" class="collapsible">
-    <pre><code>/</code></pre>
+  <div id="sample2-url" class="collapsible">
+    <pre><code>/api/home</code></pre>
   </div>
-  <div id="sample0-request-headers" class="collapsible">
-    <pre><code></code></pre>
+  <div id="sample2-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
   </div>
-  <div id="sample0-request-payload" class="collapsible">
+  <div id="sample2-request-payload" class="collapsible">
     
   </div>
-  <div id="sample0-request-attachments" class="collapsible">
+  <div id="sample2-request-attachments" class="collapsible">
     
   </div>
-  <div id="sample0-request-curl" class="collapsible">
-    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> <span class="hljs-string">"http://wiscosoft.co/"</span></code></pre>
+  <div id="sample2-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/home"</span></code></pre>
   </div>
 
   <div class="response">
@@ -261,16 +265,33 @@
     <div class="expanders">
       
       
-        <a href="#sample0-response-body">body</a>
+        <a href="#sample2-response-body">body</a>
       
     </div>
   </div>
 
-  <div id="sample0-response-headers" class="collapsible">
+  <div id="sample2-response-headers" class="collapsible">
     <pre><code></code></pre>
   </div>
-  <div id="sample0-response-body" class="collapsible">
-    <pre><code><span class="hljs-string">"Hello From Ascendant"</span></code></pre>
+  <div id="sample2-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
+    "<span class="hljs-attribute">titles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Welcome to"</span>,
+      <span class="hljs-string">"Ascendant Pharmacy Consultants"</span>
+    ]</span>,
+    "<span class="hljs-attribute">subtitles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"“Higher Standards, Exceptional Consulting”"</span>
+    ]</span>,
+    "<span class="hljs-attribute">texts</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Our desire is to tailor our services to meet your needs."</span>,
+      <span class="hljs-string">"Our standard is to exceed your expectations."</span>,
+      <span class="hljs-string">"Let us show you the benefits of working with a company that"</span>,
+      <span class="hljs-string">"puts the Care in HealthCare."</span>
+    ]
+  </span>}
+]</code></pre>
   </div>
 
 </div>

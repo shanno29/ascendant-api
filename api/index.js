@@ -1,7 +1,11 @@
 const router = require('express').Router();
 
-router.use('/courses', require('./course/course.route'));
-router.use('/groups', require('./group/group.route'));
-router.use('/orgs', require('./org/org.route'));
+router.use('/about', require('./about/about.route'));
+router.use('/home', require('./home/home.route'));
+router.use('/contact', require('./contact/contact.route'));
+router.use('/forms', require('./forms/forms.route'));
+router.use('/consulting', require('./consulting/consulting.route'));
+router.use('/footer', require('./footer/footer.route'));
+router.use('/toolbar', require('./toolbar/toolbar.route'));
 
 module.exports = router;

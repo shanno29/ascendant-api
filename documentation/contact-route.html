@@ -201,17 +201,17 @@
     <div class="content-top"></div>
     <div class="content">
 
-      <h1>Express Server Test</h1>
+      <h1>Contact Route</h1>
 
       
         <div class="group">
-          <a name="check-server-status"></a>
-          <h2>Check Server Status</h2>
+          <a name="list-all-contact-sections"></a>
+          <h2>List All Contact Sections</h2>
           <ul class="samples">
             
               <li>
                 <div class="summary">
-  <p>Check Server Status</p>
+  <p>List All Contact Sections</p>
 
 </div>
 
@@ -231,29 +231,33 @@
     Sample request
     <div class="expanders">
       
-        <a href="#sample0-url">url</a><span>
+        <a href="#sample3-url">url</a><span>
+      
+      
+        <a href="#sample3-request-headers">headers</a><span>
       
       
       
-      
-      <a href="#sample0-request-curl">curl</a><span>
+      <a href="#sample3-request-curl">curl</a><span>
     </div>
   </div>
 
-  <div id="sample0-url" class="collapsible">
-    <pre><code>/</code></pre>
+  <div id="sample3-url" class="collapsible">
+    <pre><code>/api/contact</code></pre>
   </div>
-  <div id="sample0-request-headers" class="collapsible">
-    <pre><code></code></pre>
+  <div id="sample3-request-headers" class="collapsible">
+    <pre><code><span class="hljs-attribute">accept</span>: <span class="hljs-string">application/json</span>
+<span class="hljs-attribute">content-type</span>: <span class="hljs-string">application/x-www-form-urlencoded</span>
+</code></pre>
   </div>
-  <div id="sample0-request-payload" class="collapsible">
+  <div id="sample3-request-payload" class="collapsible">
     
   </div>
-  <div id="sample0-request-attachments" class="collapsible">
+  <div id="sample3-request-attachments" class="collapsible">
     
   </div>
-  <div id="sample0-request-curl" class="collapsible">
-    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> <span class="hljs-string">"http://wiscosoft.co/"</span></code></pre>
+  <div id="sample3-request-curl" class="collapsible">
+    <pre><code class="wrap">curl -X <span class="hljs-keyword">GET</span> -H <span class="hljs-string">"accept: application/json"</span> -H <span class="hljs-string">"content-type: application/x-www-form-urlencoded"</span> <span class="hljs-string">"http://wiscosoft.co/api/contact"</span></code></pre>
   </div>
 
   <div class="response">
@@ -261,16 +265,29 @@
     <div class="expanders">
       
       
-        <a href="#sample0-response-body">body</a>
+        <a href="#sample3-response-body">body</a>
       
     </div>
   </div>
 
-  <div id="sample0-response-headers" class="collapsible">
+  <div id="sample3-response-headers" class="collapsible">
     <pre><code></code></pre>
   </div>
-  <div id="sample0-response-body" class="collapsible">
-    <pre><code><span class="hljs-string">"Hello From Ascendant"</span></code></pre>
+  <div id="sample3-response-body" class="collapsible">
+    <pre><code>[
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
+    "<span class="hljs-attribute">titles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Contact"</span>
+    ]</span>,
+    "<span class="hljs-attribute">subtitles</span>": <span class="hljs-value">[
+      <span class="hljs-string">"TODO"</span>
+    ]</span>,
+    "<span class="hljs-attribute">texts</span>": <span class="hljs-value">[
+      <span class="hljs-string">"Contrary to popular belief, Lorem Ipsum is not simply random bodyText. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."</span>
+    ]
+  </span>}
+]</code></pre>
   </div>
 
 </div>
