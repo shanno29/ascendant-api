@@ -21,11 +21,8 @@ addons:
 before_script:
   - npm install
 
-#services:
-#  - mongodb
-
 script:
   - npm test
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - npm coverage
