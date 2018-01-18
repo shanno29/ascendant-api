@@ -18,7 +18,7 @@
 2. Navigate to `localhost:3000/documentation`
 
 ## Changelog
-See the [commit page](https://github.com/shanno29/universyl-api/commits/master)
+See the [commit page](https://github.com/shanno29/ascendant-api/commits/master)
 
 ## License
 [MIT](LICENSE)
