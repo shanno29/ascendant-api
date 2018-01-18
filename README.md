@@ -1,4 +1,4 @@
-# ascendant-api [![Build Status](https://travis-ci.org/shanno29/ascendant-api.svg?branch=master)](https://travis-ci.org/shanno29/ascendant-api)
+# ascendant-api [![Build Status](https://travis-ci.org/shanno29/ascendant-api.svg?branch=master)](https://travis-ci.org/shanno29/ascendant-api) [![Coverage Status](https://coveralls.io/repos/github/shanno29/ascendant-api/badge.svg?branch=master)](https://coveralls.io/github/shanno29/ascendant-api?branch=master)
 
 ## Prerequisites
 * Node.js
@@ -7,7 +7,7 @@
 ## Setup
 1. Run `npm install`.
 3. Run`npm start` to start the server.
-4. Navigate to `localhost:3000`, you should see "Hello From Universyl"
+4. Navigate to `localhost:3000`, you should see "Hello From Ascendant"
 
 ## Tests & Coverage
 1. Run `npm test`
