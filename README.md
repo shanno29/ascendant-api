@@ -5,17 +5,18 @@
 * NPM
 
 ## Setup
-1. Run `npm install`.
-3. Run`npm start` to start the server.
-4. Navigate to `http://www.ascrxconsultants.com:3000/`, you should see "Hello From Ascendant"
+1. Run `git clone -b master https://github.com/shanno29/ascendant-api.git`
+2. Run `npm install`
+3. Run `npm start` to start the server
+4. Navigate to `http://www.ascrxconsultants.com:10000/`, you should see "Hello From Ascendant"
 
 ## Tests & Coverage
 1. Run `npm test`
-2. Navigate to `http://www.ascrxconsultants.com:3000/coverage`
+2. Navigate to `http://www.ascrxconsultants.com:10000/coverage`
 
 ## Documentation
 1. Run `npm documentation`
-2. Navigate to `http://www.ascrxconsultants.com:3000/documentation`
+2. Navigate to `http://www.ascrxconsultants.com:10000/documentation`
 
 ## Changelog
 See the [commit page](https://github.com/shanno29/ascendant-api/commits/master)
