@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32c77e9-32a9-45e0-90ad-1222c2af9e8e" name="Default" comment="Closer">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_core/config.js" afterPath="$PROJECT_DIR$/src/_core/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/consulting/consulting.route.js" afterPath="$PROJECT_DIR$/src/consulting/consulting.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/footer/footer.route.js" afterPath="$PROJECT_DIR$/src/footer/footer.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toolbar/toolbar.controller.js" afterPath="$PROJECT_DIR$/src/toolbar/toolbar.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/about.route.js" afterPath="$PROJECT_DIR$/test/integration/about.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/consulting.route.js" afterPath="$PROJECT_DIR$/test/integration/consulting.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/contact.route.js" afterPath="$PROJECT_DIR$/test/integration/contact.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/footer.route.js" afterPath="$PROJECT_DIR$/test/integration/footer.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/forms.route.js" afterPath="$PROJECT_DIR$/test/integration/forms.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/home.route.js" afterPath="$PROJECT_DIR$/test/integration/home.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/toolbar.route.js" afterPath="$PROJECT_DIR$/test/integration/toolbar.route.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +36,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="494">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -640,7 +629,7 @@
       <workItem from="1516313364881" duration="6015000" />
       <workItem from="1516323914711" duration="110000" />
       <workItem from="1516324204874" duration="4078000" />
-      <workItem from="1516332237349" duration="2581000" />
+      <workItem from="1516332237349" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="Unit Test Testing">
       <created>1484439664867</created>
@@ -667,7 +656,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344807000" />
+    <option name="totallyTimeSpent" value="344909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,6 +669,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -687,7 +677,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5525998" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="-211" y="279" width="1638" height="692" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2039072" sideWeight="0.444217" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.94204545" sideWeight="0.495116" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.94204545" sideWeight="0.495116" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070818" sideWeight="0.51704544" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Storybook" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18070818" sideWeight="0.48295453" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1036,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
