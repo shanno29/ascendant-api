@@ -1,9 +1,11 @@
+const config = require('../_core/config');
+
 module.exports = {
 
   getAllToolbarSections: () => new Promise((resolve) => {
     resolve({
       link: '/',
-      logo: 'http://localhost:3000/public/images/logo.jpg',
+      logo:  config.baseUrl + config.public + '/images/logo.jpg',
       items: [
         {
           id: 1, nav: '/', image: '', text: 'Home',

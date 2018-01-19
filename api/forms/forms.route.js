@@ -2,7 +2,7 @@ const controller = require('./forms.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// http://localhost:3000/api/forms/
+// config.baseUrl/api/forms/
 router.get('/', (req, res) =>
   controller
     .getAllFormsSections()

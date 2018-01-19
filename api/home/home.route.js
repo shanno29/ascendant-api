@@ -2,7 +2,7 @@ const controller = require('./home.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// http://localhost:3000/api/home/
+// config.baseUrl/api/home/
 router.get('/', (req, res) =>
   controller
     .getAllHomeSections()

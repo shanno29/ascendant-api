@@ -1,5 +1,5 @@
 const bodyParser = require('body-parser');
-const config = require('./config');
+const config = require('./api/_core/config');
 const express = require('express');
 const logger = require('morgan');
 const path = require('path');
@@ -19,9 +19,9 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => res.send('Hello From Ascendant'));
-app.use('/coverage', express.static(path.join(`${__dirname}${config.coverage}`)));
-app.use('/documentation', express.static(path.join(`${__dirname}${config.doc}`)));
-app.use('/public', express.static(path.join(`${__dirname}${config.public}`)));
+app.use('/coverage', express.static(path.join(__dirname, config.coverage)));
+app.use('/documentation', express.static(path.join(__dirname, config.doc)));
+app.use('/public', express.static(path.join(__dirname, config.public)));
 app.use('/api', require('./api/index'));
 
 if (!module.parent) app.listen(config.port);
