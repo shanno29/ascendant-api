@@ -9,8 +9,8 @@
 2. Run `npm install`
 
 ## Running
-1a. Run `npm start --host http://www.example.com --port 4200`
-1b. Run `npm start` defaults to `http://localhost:3000`
+1. Run `npm start` defaults to `http://localhost:3000`
+1. Run `npm start --host http://www.example.com --port 4200`
 2. Navigate to `http://host:port/`, you should see "Hello From Ascendant"
 
 ## Tests & Coverage
