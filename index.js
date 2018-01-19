@@ -20,11 +20,11 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => res.send('Hello From Ascendant'));
 app.use('/public', express.static(path.join(__dirname, '/public')));
-app.use('/coverage', express.static(path.join(__dirname, '/coverage/lcov-report')));
+app.use('/coverage', express.static(path.join(__dirname, '/coverage')));
 app.use('/documentation', express.static(path.join(__dirname, '/documentation')));
 
 app.use('/api', require('./src/index'));
 
-if (!module.parent) app.listen(config.port, () => console.log(`Listening for ${config.root}:${config.port}`));
+if (!module.parent) app.listen(config.port, () => console.log(`Listening on ${config.host}:${config.port}`));
 
 module.exports = app;
