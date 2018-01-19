@@ -1,7 +1,7 @@
 # ascendant-api [![Build Status](https://travis-ci.org/shanno29/ascendant-api.svg?branch=master)](https://travis-ci.org/shanno29/ascendant-api) [![codecov](https://codecov.io/gh/shanno29/ascendant-api/branch/master/graph/badge.svg)](https://codecov.io/gh/shanno29/ascendant-api)
 
 ## Prerequisites
-* Node.js
+* Node.js 9
 * NPM
 
 ## Setup
@@ -9,6 +9,10 @@
 2. Run `npm install`
 3. Run `npm start` to start the server
 4. Navigate to `http://www.ascrxconsultants.com:10000/`, you should see "Hello From Ascendant"
+
+`npm start` http://localhost:300
+`npm start` -root http://www.example.com -port 420
+
 
 ## Tests & Coverage
 1. Run `npm test`

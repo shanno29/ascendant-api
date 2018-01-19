@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Consulting Route', () => {
   mocha.it('List All Consulting Sections', (done) => {
     request(app.listen())
-      .get('/api/consulting')
+      .get('/src/consulting')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)
@@ -18,7 +18,7 @@ mocha.describe('Consulting Route', () => {
 
   mocha.it('Get Consulting Section By id', (done) => {
     request(app.listen())
-      .get('/api/consulting/licensing')
+      .get('/src/consulting/licensing')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)

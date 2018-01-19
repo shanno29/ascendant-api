@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Home Route', () => {
   mocha.it('List All Home Sections', (done) => {
     request(app.listen())
-      .get('/api/home')
+      .get('/src/home')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)

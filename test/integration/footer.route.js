@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Footer Route', () => {
   mocha.it('List All Footer Sections', (done) => {
     request(app.listen())
-      .get('/api/footer')
+      .get('/src/footer')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)

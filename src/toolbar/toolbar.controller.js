@@ -5,7 +5,7 @@ module.exports = {
   getAllToolbarSections: () => new Promise((resolve) => {
     resolve({
       link: '/',
-      logo: `${config.url + config.public}/images/logo.jpg`,
+      logo: `${config.root}:${config.port}/public/images/logo.jpg`,
       items: [
         {
           id: 1, nav: '/', image: '', text: 'Home',

@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Contact Route', () => {
   mocha.it('List All Contact Sections', (done) => {
     request(app.listen())
-      .get('/api/contact')
+      .get('/src/contact')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)

@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Toolbar Route', () => {
   mocha.it('List All Toolbar Sections', (done) => {
     request(app.listen())
-      .get('/api/toolbar')
+      .get('/src/toolbar')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)
