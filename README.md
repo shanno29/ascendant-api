@@ -7,7 +7,7 @@
 ## Setup
 1. Run `git clone -b master https://github.com/shanno29/ascendant-api.git`
 2. Run `npm install`
-3. Run `npm start` to start the server on `http://localhost:300`
+3. Run `npm start` to start the server on `http://localhost:3000`
 4. Run `npm start -root http://www.example.com -port 420`
 4. Navigate to `http://www.ascrxconsultants.com:10000/`, you should see "Hello From Ascendant"
 
