@@ -7,15 +7,15 @@
 ## Setup
 1. Run `npm install`.
 3. Run`npm start` to start the server.
-4. Navigate to `localhost:3000`, you should see "Hello From Ascendant"
+4. Navigate to `http://www.ascrxconsultants.com:3000/`, you should see "Hello From Ascendant"
 
 ## Tests & Coverage
 1. Run `npm test`
-2. Navigate to `localhost:3000/coverage`
+2. Navigate to `http://www.ascrxconsultants.com:3000/coverage`
 
 ## Documentation
 1. Run `npm documentation`
-2. Navigate to `localhost:3000/documentation`
+2. Navigate to `http://www.ascrxconsultants.com:3000/documentation`
 
 ## Changelog
 See the [commit page](https://github.com/shanno29/ascendant-api/commits/master)
