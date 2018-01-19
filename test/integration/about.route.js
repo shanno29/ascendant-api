@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('About Route', () => {
   mocha.it('List All About Sections', (done) => {
     request(app.listen())
-      .get('/src/about')
+      .get('/api/about')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)

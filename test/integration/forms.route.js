@@ -6,7 +6,7 @@ require('chai').should();
 mocha.describe('Forms Route', () => {
   mocha.it('List All Forms Sections', (done) => {
     request(app.listen())
-      .get('/src/forms')
+      .get('/api/forms')
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)
