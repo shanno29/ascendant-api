@@ -1,2 +1,2 @@
-// require('./unit/index');
+require('./unit/index');
 require('./integration/index');

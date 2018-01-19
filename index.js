@@ -25,10 +25,6 @@ app.use('/documentation', express.static(path.join(__dirname, '/documentation'))
 
 app.use('/api', require('./src/index'));
 
-if (!module.parent) {
-  app.listen(config.port, () => {
-    console.log(`Listening for ${config.root}:${config.port}`);
-  });
-}
+if (!module.parent) app.listen(config.port, () => console.log(`Listening for ${config.root}:${config.port}`));
 
 module.exports = app;

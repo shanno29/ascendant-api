@@ -1,19 +1,10 @@
 {
-
   "baseUrl": "http://wiscosoft.co",
-
   "reporter": "spec",
-
    "renderers": {
-
       "html": {
-
         "outputFolder": "documentation",
-
         "title": "Universyl API Docs"
-
       }
-
     }
-
 }
