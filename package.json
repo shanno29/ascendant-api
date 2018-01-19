@@ -18,26 +18,21 @@
     "express": "latest",
     "express-jwt-token": "latest",
     "jsonwebtoken": "latest",
-    "mongoose": "latest",
     "morgan": "latest",
     "multer": "^1.2.1",
     "q": "^1.4.1",
-    "really-need": "^1.9.2",
-    "request-promise": "^4.1.1",
-    "sqlite-async": "latest"
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "chai": "latest",
     "nyc": "^11.4.1",
     "codecov": "^3.0.0",
-    "coveralls": "latest",
     "eslint": "^4.15.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "install-peers": "^1.0.2",
-    "istanbul": "latest",
     "mocha": "^3.5.3",
     "standard": "^10.0.3",
     "supertest": "latest"
