@@ -4,8 +4,6 @@ module.exports = {
   MONGOOSE_DEBUG: true,
   jwtSecret: 'secret',
 
-  SQL_DB: 'Universyl.db',
-
   port: process.env.PORT || (process.argv[2] || 3000),
   windows: '1.0.0.1',
   android: '1.5.0',

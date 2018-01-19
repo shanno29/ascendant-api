@@ -1,4 +1,4 @@
-# ascendant-api [![Build Status](https://travis-ci.org/shanno29/ascendant-api.svg?branch=master)](https://travis-ci.org/shanno29/ascendant-api) [![Coverage Status](https://coveralls.io/repos/github/shanno29/ascendant-api/badge.svg?branch=master)](https://coveralls.io/github/shanno29/ascendant-api?branch=master)
+# ascendant-api [![Build Status](https://travis-ci.org/shanno29/ascendant-api.svg?branch=master)](https://travis-ci.org/shanno29/ascendant-api) [![codecov](https://codecov.io/gh/shanno29/ascendant-api/branch/master/graph/badge.svg)](https://codecov.io/gh/shanno29/ascendant-api)
 
 ## Prerequisites
 * Node.js
