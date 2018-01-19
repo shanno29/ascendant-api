@@ -17,6 +17,7 @@
     "body-parser": "latest",
     "express": "latest",
     "express-jwt-token": "latest",
+    "express-router": "0.0.1",
     "jsonwebtoken": "latest",
     "morgan": "latest",
     "multer": "^1.2.1",

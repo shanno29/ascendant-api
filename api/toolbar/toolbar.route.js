@@ -2,7 +2,7 @@ const controller = require('./toolbar.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// config.baseUrl/api/toolbar/
+// config.url/api/toolbar/
 router.get('/', (req, res) =>
   controller
     .getAllToolbarSections()

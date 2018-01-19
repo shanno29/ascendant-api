@@ -2,7 +2,7 @@ const controller = require('./footer.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// config.baseUrl/api/footer/
+// config.url/api/footer/
 router.get('/', (req, res) =>
   controller
     .getAllFooterSections()
