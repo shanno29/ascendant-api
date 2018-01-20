@@ -1,15 +1,16 @@
+const sections = [
+  {
+    id: '1',
+    titles: ['Contact'],
+    subtitles: ['TODO'],
+    texts: ['TODO'],
+  },
+];
+
 module.exports = {
 
-  getAllContactSections: () => new Promise((resolve) => {
-    resolve([
-      {
-        id: 1,
-        titles: ['Contact'],
-        subtitles: ['TODO'],
-        texts: ['TODO'],
-      },
-    ]);
-  }),
+  all: () => new Promise(callback => callback(sections)),
+
+  get: id => new Promise(callback => callback(sections.filter(it => it.id === id)[0])),
 
 };
-

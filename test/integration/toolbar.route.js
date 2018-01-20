@@ -3,15 +3,31 @@ const app = require('../../index');
 const mocha = require('mocha');
 require('chai').should();
 
-mocha.describe('Toolbar Route', () => {
-  mocha.it('List All Toolbar Sections', (done) => {
+const label = 'Toolbar';
+const path = 'toolbar';
+const id = 'about';
+
+mocha.describe(`${label} Route`, () => {
+  mocha.it('List All Sections', (done) => {
     request(app.listen())
-      .get('/api/toolbar')
+      .get(`/api/${path}`)
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .expect(200)
       .then((response) => {
-        response.body.should.not.equal(0);
+        response.body.length.should.not.equal(0);
+        done();
+      });
+  });
+
+  mocha.it('Get Section By ID', (done) => {
+    request(app.listen())
+      .get(`/api/${path}/${id}`)
+      .set('Accept', 'application/json')
+      .set('Content-Type', 'application/x-www-form-urlencoded')
+      .expect(200)
+      .then((res) => {
+        res.body.should.not.equal(0);
         done();
       });
   });

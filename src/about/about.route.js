@@ -2,10 +2,13 @@ const controller = require('./about.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// config.url/api/about
-router.get('/', (req, res) =>
-  controller
-    .getAllAboutSections()
+router.all('/', (req, res) =>
+  controller.all()
+    .then(status.check(res))
+    .catch(console.log));
+
+router.get('/:id', (req, res) =>
+  controller.get(req.params.id)
     .then(status.check(res))
     .catch(console.log));
 

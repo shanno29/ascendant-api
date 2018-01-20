@@ -1,5 +1,6 @@
 const router = require('express').Router();
 
+router.use('/', require('./_core/hello'));
 router.use('/about', require('./about/about.route'));
 router.use('/home', require('./home/home.route'));
 router.use('/contact', require('./contact/contact.route'));

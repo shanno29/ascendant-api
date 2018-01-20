@@ -2,10 +2,13 @@ const controller = require('./forms.controller');
 const router = require('express').Router();
 const status = require('../_core/status');
 
-// config.url/api/forms/
-router.get('/', (req, res) =>
-  controller
-    .getAllFormsSections()
+router.all('/', (req, res) =>
+  controller.all()
+    .then(status.check(res))
+    .catch(console.log));
+
+router.get('/:id', (req, res) =>
+  controller.get(req.params.id)
     .then(status.check(res))
     .catch(console.log));
 

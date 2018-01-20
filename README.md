@@ -9,19 +9,19 @@
 2. Run `npm install`
 
 ## Running
-1. Run `npm start` defaults to `http://localhost:3000`
-1. Run `npm start --host http://www.example.com --port 4200`
-2. Navigate to `http://host:port/`, you should see "Hello From Ascendant"
-
-## Tests & Coverage
-1. Run `npm test`
-2. Run `npm start --host http://www.example.com --port 4200`
-3. Navigate to `http://host:port/coverage`
+1. Run `npm start` defaults to `http://localhost:4200`
+1. Run `npm start --host http://www.exampleApi.com --port 1234`
+2. Navigate to `http://host:port/api`, you should see "Hello From Ascendant"
 
 ## Documentation
 1. Run `npm documentation`
-2. Run `npm start --host http://www.example.com --port 4200`
+1. Run `npm start --host http://www.exampleApi.com --port 1234`
 3. Navigate to `http://host:port/documentation`
+
+## Tests & Coverage
+1. Run `npm test`
+1. Run `npm start --host http://www.exampleApi.com --port 1234`
+3. Navigate to `http://host:port/coverage`
 
 ## Changelog
 See the [commit page](https://github.com/shanno29/ascendant-api/commits/master)
