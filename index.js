@@ -19,6 +19,7 @@ app.use((req, res, next) => {
 
 app.use('/documentation', express.static('./documentation'));
 app.use('/coverage', express.static('./coverage'));
+app.use('/public', express.static('./public'));
 app.use('/api', require('./src/index'));
 
 app.listen(config.port, () => console.log(`Listening on ${config.host}:${config.port}`));

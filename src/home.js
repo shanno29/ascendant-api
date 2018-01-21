@@ -1,6 +1,8 @@
-const sections = [
+const router = require('express').Router();
+const status = require('./_core/status');
+
+const data = [
   {
-    id: '1',
     titles: [
       'Welcome to',
       'Ascendant Pharmacy Consultants',
@@ -17,10 +19,9 @@ const sections = [
   },
 ];
 
-module.exports = {
+router.all('/', (req, res) =>
+  new Promise(it => it(data))
+    .then(status.check(res))
+    .catch(console.log));
 
-  all: () => new Promise(callback => callback(sections)),
-
-  get: id => new Promise(callback => callback(sections.filter(it => it.id === id)[0])),
-
-};
+module.exports = router;

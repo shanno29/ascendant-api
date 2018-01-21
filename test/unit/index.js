@@ -1,2 +1,0 @@
-// Unit Tests
-require('./status');

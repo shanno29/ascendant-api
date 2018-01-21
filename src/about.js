@@ -1,8 +1,9 @@
-const sections = [
+const router = require('express').Router();
+const status = require('./_core/status');
+
+const data = [
   {
-    id: '1',
     titles: ['Services Offered'],
-    subtitles: [],
     texts: [
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' +
       'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,' +
@@ -10,9 +11,7 @@ const sections = [
     ],
   },
   {
-    id: '2',
     titles: ['Bios'],
-    subtitles: [],
     texts: [
       'Contrary to popular belief, Lorem Ipsum is not simply random bodyText. ' +
       'It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ' +
@@ -22,9 +21,7 @@ const sections = [
     ],
   },
   {
-    id: '3',
     titles: ['Ambulatory Surgical Consultants'],
-    subtitles: [],
     texts: [
       'ASCendant Pharmacy Consultants provides North Texas ambulatory surgical hospitals with efficient systems to improve patient outcomes, ' +
       'operational efficiency and survey success with accrediting health care organizations. ' +
@@ -33,10 +30,9 @@ const sections = [
   },
 ];
 
-module.exports = {
+router.all('/', (req, res) =>
+  new Promise(it => it(data))
+    .then(status.check(res))
+    .catch(console.log));
 
-  all: () => new Promise(callback => callback(sections)),
-
-  get: id => new Promise(callback => callback(sections.filter(it => it.id === id)[0])),
-
-};
+module.exports = router;

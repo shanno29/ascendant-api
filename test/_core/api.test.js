@@ -12,14 +12,6 @@ mocha.describe('Express Server Test', () => {
         response.text.should.equal('Hello From Ascendant');
         done();
       });
-
-    // request(app)
-    //   .get('/')
-    //   .expect(500)
-    //   .then((response) => {
-    //     response.text.should.not.equal('Hello From Ascendant');
-    //     done();
-    //   });
   });
 });
 
