@@ -4,14 +4,13 @@
 * Node.js 9
 * NPM
 
-## Setup
+## Production
 1. Run `git clone -b master https://github.com/shanno29/ascendant-api.git`
-2. Run `npm install`
-
-## Running
-1. Run `npm start` defaults to `http://localhost:4200`
-1. Run `npm start --host http://www.exampleApi.com --port 1234`
-2. Navigate to `http://host:port/api`, you should see "Hello From Ascendant"
+2. Run `npm install` this installs all needed libraries to `/node_modules`
+1. Run `npm start` defaults to `http://localhost:3000`
+1. Or `npm start --host http://www.exampleApi.com --port 1234`
+2. Navigate to `http://host:port/api`, 
+4. you should see "Hello From Ascendant"
 
 ## Documentation
 1. Run `npm documentation`
