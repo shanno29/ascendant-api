@@ -7,19 +7,16 @@
 ## Production
 1. Run `git clone -b master https://github.com/shanno29/ascendant-api.git`
 2. Run `npm install` this installs all needed libraries to `/node_modules`
-1. Run `npm start` defaults to `http://localhost:3000`
-1. Or `npm start --host http://www.exampleApi.com --port 1234`
-2. Navigate to `http://host:port/api`, 
-4. you should see "Hello From Ascendant"
+3. Run`npm run start --host http://www.ascrxconsultants.com --port 10000`
 
 ## Documentation
 1. Run `npm documentation`
-1. Run `npm start --host http://www.exampleApi.com --port 1234`
+3. Run`npm run start --host http://www.ascrxconsultants.com --port 10000`
 3. Navigate to `http://host:port/documentation`
 
 ## Tests & Coverage
 1. Run `npm test`
-1. Run `npm start --host http://www.exampleApi.com --port 1234`
+3. Run`npm run start --host http://www.ascrxconsultants.com --port 10000`
 3. Navigate to `http://host:port/coverage`
 
 ## Changelog
